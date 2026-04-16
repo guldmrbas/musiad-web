@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "siteName": "MÜSTAKİL FUAR/ORGANİZASYON"
+  },
+  "languages": {
+    "tr": "TR",
+    "en": "EN",
+    "ar": "AR"
+  },
+  "nav": [
+    { "label": "Home", "to": "/" },
+    { "label": "About Us", "to": "/about" },
+    { "label": "Events Calendar", "to": "/events" },
+    { "label": "Exhibition Network", "to": "/connect" },
+    { "label": "Travel Information", "to": "/travel" },
+    { "label": "Contact", "to": "/contact" }
+  ],
+  "actions": {
+    "readMore": "Read more",
+    "eventsCalendar": "Events Calendar",
+    "goToCalendar": "Go to calendar",
+    "downloadReport": "Download the report now"
+  },
+  "ui": {
+    "brandLogoAlt": "MÜSTAKİL FUAR/ORGANİZASYON logo",
+    "homeAriaLabel": "MÜSTAKİL FUAR/ORGANİZASYON home",
+    "primaryNavigation": "Main navigation",
+    "changeLanguage": "Change language",
+    "openMenu": "Open menu",
+    "previous": "Previous",
+    "next": "Next",
+    "youtube": "YouTube",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "label": "Contact",
+    "title": "MÜSTAKİL FUAR/ORGANİZASYON",
+    "address": [
+      "United Arab Emirates, Al Falak Street, Dubai Media City, Office No. 2303,",
+      "23rd Floor, Aurora Tower, P.O. Box 502778"
+    ],
+    "phone": "+ 971 (0) 4 571 5700",
+    "email": "info@ite.group",
+    "socialLabel": "Social media",
+    "policies": [
+      "Cookie Policy",
+      "Terms and Conditions",
+      "Personal Data Policy"
+    ],
+    "groups": [
+      {
+        "title": "MÜSTAKİL FUAR/ ORGANİZASYON",
+        "links": [
+          { "label": "Events calendar", "to": "/events" },
+          { "label": "Exhibition Network", "to": "/connect" }
+        ]
+      },
+      {
+        "title": "Travel information",
+        "links": [
+          { "label": "Visa support", "to": "/travel" },
+          { "label": "Rules of entry to the Russian Federation", "to": "/travel" },
+          { "label": "Accommodation and transfers", "to": "/travel" },
+          { "label": "Tours", "to": "/travel" }
+        ]
+      },
+      {
+        "title": "About Us",
+        "links": [
+          { "label": "Company leadership", "to": "/about" },
+          { "label": "Business partners", "to": "/about" }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          { "label": "Contact page", "to": "/contact" },
+          { "label": "+90 (212) 395 00 00", "href": "tel:+902123950000" },
+          { "label": "satis@mustakilfuarcilik.com", "href": "mailto:satis@mustakilfuarcilik.com" },
+          { "label": "Ataköy 7-8-9-10 Mah. Çobançeşme E5 Yanyol Cad. No:4, Bakırköy / İstanbul" }
+        ]
+      }
+    ],
+    "bottom": {
+      "legal": "THIS FAIR IS ORGANIZED UNDER THE SUPERVISION OF TOBB (UNION OF CHAMBERS AND COMMODITY EXCHANGES OF TURKEY) IN ACCORDANCE WITH LAW NO. 5174.",
+      "copyright": "MÜSTAKİL FUARCILIK A.Ş. © 2026",
+      "policies": ["Privacy Policy", "Cookie Policy", "KVKK Data Notice"]
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Global fairs and business growth",
+      "title": "Conferences and Summits",
+      "bullets": [
+        "Exclusive research and insight presentations",
+        "Strong networking opportunities with top executives",
+        "Identifying key industry trends for international markets"
+      ]
+    },
+    "report": {
+      "title": "Discover new export opportunities in the CIS region!"
+    },
+    "eventsTitle": "Upcoming Events",
+    "showcaseTitle": "MÜSTAKİL FUAR/ ORGANİZASYON Fairs",
+    "showcaseHeading": "Topics",
+    "showcaseText": "We organise sector-leading fairs, summits and conferences bringing together suppliers, buyers, media and institutions across Russia, the CIS, MENA and beyond.",
+    "showcaseBullets": [
+      "Industry-specific communities and targeted audiences",
+      "Hybrid formats supported by year-round digital touchpoints",
+      "Clear visual system inspired by MÜSTAKİL FUAR/ ORGANİZASYON references you shared"
+    ],
+    "cta": "Working for your success"
+  },
+  "events": {
+    "hero": {
+      "crumb": "Home",
+      "current": "Events calendar",
+      "title": "Events calendar"
+    },
+    "cards": [
+      {
+        "logo": "EXPO\nELECTRONICA",
+        "logoColor": "#178036",
+        "title": "ExpoElectronica",
+        "description": "28th international exhibition focused on electronic components, technologies, materials, equipment, embedded systems and turnkey solutions.",
+        "date": "14 - 16 April 2026",
+        "location": "Moscow, Crocus Expo",
+        "activeBar": true
+      },
+      {
+        "logo": "EXPO\nCIFRA",
+        "logoColor": "#3264ca",
+        "title": "ExpoCifra",
+        "description": "2nd exhibition of information technology and digital transformation solutions for decision-makers and strategic buyers.",
+        "date": "14 - 16 April 2026",
+        "location": "Moscow, Crocus Expo",
+        "activeBar": false
+      },
+      {
+        "logo": "ANALITIKA\nEXPO",
+        "logoColor": "#1385ab",
+        "title": "Analitika Expo",
+        "description": "24th international exhibition of laboratory equipment and chemical reagents focused on industrial and scientific innovation.",
+        "date": "22 - 24 April 2026",
+        "location": "Moscow, Crocus Expo",
+        "activeBar": false
+      },
+      {
+        "logo": "MiningWorld\nRussia",
+        "logoColor": "#ff8a00",
+        "title": "MiningWorld Russia",
+        "description": "30th international exhibition of machinery and equipment for mining, processing and mineral transportation.",
+        "date": "22 - 24 April 2026",
+        "location": "Moscow, Crocus Expo",
+        "activeBar": false
+      },
+      {
+        "logo": "Securika\nMoscow",
+        "logoColor": "#2a64c7",
+        "title": "Securika Moscow",
+        "description": "31st international exhibition of security and fire protection equipment and products connecting global suppliers and regional integrators.",
+        "date": "22 - 24 April 2026",
+        "location": "Moscow, Crocus Expo",
+        "activeBar": false
+      },
+      {
+        "logo": "WOODEX\nMebel Summit",
+        "logoColor": "#161616",
+        "title": "Woodex Mebel Summit",
+        "description": "Summit for furniture industry professionals focused on product innovation, partnerships and access to new buyers.",
+        "date": "3 - 5 June 2026",
+        "location": "Moscow, LOTTE Hotel",
+        "activeBar": false
+      }
+    ],
+    "pagination": ["1", "2", "3", "4", "5", "6"],
+    "cta": "Working for your success"
+  },
+  "about": {
+    "hero": {
+      "crumb": "Home",
+      "current": "About Us",
+      "title": "About Us"
+    },
+    "quote": {
+      "text": "MÜSTAKİL FUAR/ ORGANİZASYON is above all a success story. Endless energy, professionalism, clear focus on the future, advanced technologies and a strong team. Our clients and business partners can count on us.",
+      "author": "Dmitry Zavgorodniy",
+      "role": "CEO, MÜSTAKİL FUAR/ORGANİZASYON"
+    },
+    "aboutUs": {
+      "title": "WHO WE ARE",
+      "paragraphs": [
+        "MÜSİAD Fair and Event Management is a powerful organisation structure that brings the business world together at national and international scale.",
+        "With years of institutional experience, we organise fairs, summits, conferences and B2B business meetings, enabling professionals from different sectors to make the right connections. At every event, we deliver a structure that accelerates participants' business development processes and builds sustainable partnerships.",
+        "By adapting to the digitalising business world, we support physical events with digital solutions and design more efficient, measurable and results-oriented experiences for participants."
+      ],
+      "statsTitle": "Our Structure Today:",
+      "stats": [
+        "Events facilitating thousands of business connections",
+        "Network of hundreds of thousands of professional visitors",
+        "Strong ecosystem with national and international participants",
+        "Sector-specific fairs, summits and private B2B meetings",
+        "Business development-focused event concepts",
+        "Digitally-supported hybrid organisation infrastructure"
+      ],
+      "closing": [
+        "Thanks to our global business network and strong organisational capability, we connect companies operating in different sectors to new markets and business opportunities."
+      ]
+    },
+    "mission": {
+      "title": "OUR MISSION",
+      "statement": "We design events that connect the business world with the right contacts, produce measurable results and ensure sustainable partnerships."
+    },
+    "values": {
+      "title": "OUR VALUES",
+      "eyebrow": "Commitment to Results",
+      "statement": "We create maximum value by ensuring every event produces tangible outcomes."
+    },
+    "leadership": {
+      "title": "Leadership",
+      "name": "Dmitry Zavgorodniy",
+      "role": "CEO, MÜSTAKİL FUAR/ORGANİZASYON",
+      "paragraphs": [
+        "Dmitry joined the company in November 2017.",
+        "He previously held senior management positions at food industry companies such as Tata Global Beverages Eastern Europe, McCain and Mars.",
+        "He holds master's degrees in international relations and in economic-political issues."
+      ]
+    },
+    "associationsTitle": "MÜSTAKİL FUAR/ ORGANİZASYON is a member of the following business associations and chambers of commerce",
+    "associations": [
+      {
+        "logo": "RUIE",
+        "logoColor": "#2380d4",
+        "title": "RUIE",
+        "description": "Russian Union of Industrialists and Entrepreneurs",
+        "link": "rspp.ru",
+        "activeBar": false
+      },
+      {
+        "logo": "RUEF",
+        "logoColor": "#2a6fcc",
+        "title": "RUEF",
+        "description": "Russian Union of Exhibitions and Fairs",
+        "link": "ruef.ru",
+        "activeBar": true
+      },
+      {
+        "logo": "AEB",
+        "logoColor": "#325bb4",
+        "title": "AEB",
+        "description": "Association of European Businesses",
+        "link": "aebrus.ru",
+        "activeBar": false
+      }
+    ],
+    "cta": "Working for your success"
+  },
+  "connect": {
+    "hero": {
+      "crumb": "Home",
+      "current": "MÜSTAKİL FUAR/ ORGANİZASYON Connect",
+      "title": "MÜSTAKİL FUAR/ ORGANİZASYON Connect"
+    },
+    "intro": {
+      "title": "MÜSTAKİL FUAR/ ORGANİZASYON Connect",
+      "text": "Connect brings together MÜSTAKİL FUAR/ ORGANİZASYON exhibitors and visitors in industry communities. Here, professionals from different sectors build business connections and stay in touch online 365 days a year."
+    },
+    "whatIs": {
+      "title": "What is Connect?",
+      "bullets": [
+        "MÜSTAKİL FUAR/ ORGANİZASYON Connect keeps our event communities active throughout the year and brings the industry together in a single hub.",
+        "Participants can share relevant content in the feed whether or not they attend the fairs.",
+        "We create additional networking opportunities for the industry through carefully curated online expert events.",
+        "The platform learns from interactions and suggests better matches and new introductions."
+      ]
+    },
+    "communitiesTitle": "Connect Communities",
+    "communities": [
+      {
+        "logo": "DairyTech\nCONNECT",
+        "logoColor": "#0f4c81",
+        "title": "DairyTech Connect",
+        "description": "Community for dairy industry professionals",
+        "link": "app.dairytech-connect.com",
+        "activeBar": false
+      },
+      {
+        "logo": "Aquaflame\nCONNECT",
+        "logoColor": "#2da5ea",
+        "title": "Aquaflame Connect",
+        "description": "Community for professionals in heat, water supply, heating equipment, engineering and pool sectors.",
+        "link": "app.aquatherm-connect.com",
+        "activeBar": false
+      },
+      {
+        "logo": "Mitt\nCONNECT",
+        "logoColor": "#123f75",
+        "title": "MITT Connect",
+        "description": "Community for tourism industry professionals",
+        "link": "app.mitt-connect.com",
+        "activeBar": false
+      },
+      {
+        "logo": "MosBuild\nCONNECT",
+        "logoColor": "#bc2338",
+        "title": "MosBuild Connect",
+        "description": "Community for architects, designers, developers and suppliers",
+        "link": "app.mosbuild-connect.com",
+        "activeBar": true
+      },
+      {
+        "logo": "TransRussia\nCONNECT",
+        "logoColor": "#2086d4",
+        "title": "TransRussia Connect",
+        "description": "Community for transport and logistics sector leaders",
+        "link": "transrussia-connect.com",
+        "activeBar": false
+      },
+      {
+        "logo": "Electronica\nCONNECT",
+        "logoColor": "#1f7d35",
+        "title": "Electronica Connect",
+        "description": "Community for electronics industry professionals",
+        "link": "electronica-connect.com",
+        "activeBar": false
+      }
+    ]
+  },
+  "travel": {
+    "hero": {
+      "crumb": "Home",
+      "current": "Russia travel guide",
+      "title": "Travel information for Russia"
+    },
+    "left": {
+      "intro": "Russian and foreign exhibitors, business partners and visitors of MÜSTAKİL FUAR/ ORGANİZASYON fairs can plan their trip with fair-specific services through our official representative Visa-Russian.ru:",
+      "services": [
+        "Official invitation for Russian visa application",
+        "Health insurance for visa application",
+        "Hotel and apartment reservations at special rates",
+        "Comprehensive transport support",
+        "VIP service at airports and train stations",
+        "Sightseeing and cultural programme",
+        "Combining business travel with leisure"
+      ],
+      "contact": "For more information, visit Visa-Russian.ru, leave a request or contact: +7 (495) 935-83-85",
+      "links": [
+        "WhatsApp",
+        "visa@visa-russian.ru",
+        "Feedback form"
+      ],
+      "guide": "Download the Moscow travel guide for fair visitors"
+    },
+    "right": {
+      "title": "Additional information:",
+      "links": [
+        "Visa support",
+        "Rules of entry to the Russian Federation",
+        "Accommodation and transfers",
+        "Tours"
+      ]
+    }
+  },
+  "contact": {
+    "hero": {
+      "crumb": "Home",
+      "current": "Contact",
+      "title": "Contact",
+      "intro": "Get in touch now and let's plan your place at MÜSİAD EXPO 2026 together."
+    },
+    "venueSectionTitle": "Address and Map",
+    "venue": {
+      "title": "Istanbul Fair Centre Contact Information",
+      "address": [
+        "Yeşilköy Mah. Atatürk Cad. İstanbul Dünya Ticaret Merkezi No:10/1 A1 Blok",
+        "K:6 No:250 Bakırköy - İstanbul"
+      ],
+      "phone": "+90 212 382 64 10",
+      "phoneRaw": "+902123826410",
+      "email": "info@musiadexpo.com",
+      "website": "www.mustakilfuarcilik.com",
+      "websiteUrl": "https://www.mustakilfuarcilik.com",
+      "mapUrl": "https://maps.google.com/?q=DTM+Istanbul+Fuar+Merkezi"
+    },
+    "mapCard": {
+      "label": "Location",
+      "title": "Istanbul Fair Centre",
+      "text": "You can open the venue location on the map and confirm your visit plan directly with directions.",
+      "action": "Open on map"
+    },
+    "sales": {
+      "title": "Stand Rental Contact",
+      "intro": "Our sales team is here to connect your brand with thousands of professional visitors, purchasing delegations and international business people at MÜSİAD EXPO 2026. Contact our sales team directly for stand rental, pricing, reservations and fair participation processes.",
+      "contacts": [
+        {
+          "name": "Selçuk Anapa",
+          "languages": "Languages: Turkish",
+          "phone": "0536 837 23 78",
+          "phoneRaw": "+905368372378",
+          "email": "selcuk.anapa@mustakilfuarcilik.com"
+        },
+        {
+          "name": "Abdurrahman Tuna",
+          "languages": "Languages: Turkish / English / Russian",
+          "phone": "0530 912 94 75",
+          "phoneRaw": "+905309129475",
+          "email": "abdurrahman.tuna@mustakilfuarcilik.com"
+        },
+        {
+          "name": "Ömer Yavuz",
+          "languages": "Languages: Turkish / English",
+          "phone": "0530 912 95 06",
+          "phoneRaw": "+905309129506",
+          "email": "omer.yavuz@mustakilfuarcilik.com"
+        },
+        {
+          "name": "Zeyd Turgut",
+          "languages": "Languages: Turkish / Arabic",
+          "phone": "0530 912 95 09",
+          "phoneRaw": "+905309129509",
+          "email": "zeyd.turgut@mustakilfuarcilik.com"
+        }
+      ]
+    },
+    "note": "Get in touch now and let's plan your place at MÜSİAD EXPO 2026 together.",
+    "offices": [
+      {
+        "name": "Moscow",
+        "address": [
+          "3 bld. 2, Verkhnyaya Krasnoselskaya st.",
+          "Moscow",
+          "Russia",
+          "107140"
+        ],
+        "phone": "+7 (495) 799-55-85"
+      },
+      {
+        "name": "Dubai",
+        "address": [
+          "Office No. 2303, Aurora Tower",
+          "Dubai Media City",
+          "United Arab Emirates",
+          "P.O. Box 502778"
+        ],
+        "phone": "+971 (0) 4 571 5700"
+      },
+      {
+        "name": "Beijing",
+        "address": [
+          "Chaoyang district office",
+          "Beijing",
+          "China",
+          "100020"
+        ],
+        "phone": "+86 10 0000 0000"
+      },
+      {
+        "name": "New Delhi",
+        "address": [
+          "Business Tower",
+          "New Delhi",
+          "India",
+          "110001"
+        ],
+        "phone": "+91 11 0000 0000"
+      }
+    ]
+  }
+}

@@ -1,0 +1,534 @@
+{
+  "meta": {
+    "siteName": "MÜSTAKİL FUAR/ORGANİZASYON"
+  },
+  "languages": {
+    "tr": "TR",
+    "en": "EN",
+    "ar": "AR"
+  },
+  "nav": [
+    {
+      "label": "Ana Sayfa",
+      "to": "/"
+    },
+    {
+      "label": "Hakkımızda",
+      "to": "/about"
+    },
+    {
+      "label": "Etkinlik Takvimi",
+      "to": "/events"
+    },
+    {
+      "label": "Fuar Ağı",
+      "to": "/connect"
+    },
+    {
+      "label": "Seyahat Bilgileri",
+      "to": "/travel"
+    },
+    {
+      "label": "İletişim",
+      "to": "/contact"
+    }
+  ],
+  "actions": {
+    "readMore": "Devamını oku",
+    "eventsCalendar": "Etkinlik Takvimi",
+    "goToCalendar": "Takvime git",
+    "downloadReport": "Raporu şimdi indir"
+  },
+  "ui": {
+    "brandLogoAlt": "MÜSTAKİL FUAR/ORGANİZASYON logosu",
+    "homeAriaLabel": "MÜSTAKİL FUAR/ORGANİZASYON ana sayfa",
+    "primaryNavigation": "Ana gezinme",
+    "changeLanguage": "Dili değiştir",
+    "openMenu": "Menüyü aç",
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "youtube": "YouTube",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "label": "İletişim",
+    "title": "MÜSTAKİL FUAR/ORGANİZASYON",
+    "address": [
+      "Birleşik Arap Emirlikleri, Al Falak Street, Dubai Media City, Ofis No. 2303,",
+      "23. Kat, Aurora Tower, P.O. Box 502778"
+    ],
+    "phone": "+ 971 (0) 4 571 5700",
+    "email": "info@ite.group",
+    "socialLabel": "Sosyal medya",
+    "policies": [
+      "Çerez politikası",
+      "Şartlar ve koşullar",
+      "Kişisel Veri Politikası"
+    ],
+    "groups": [
+      {
+        "title": "MÜSTAKİL FUAR/ ORGANİZASYON",
+        "links": [
+          {
+            "label": "Etkinlik takvimi",
+            "to": "/events"
+          },
+          {
+            "label": "MÜSTAKİL FUAR/ ORGANİZASYON Connect",
+            "to": "/connect"
+          }
+        ]
+      },
+      {
+        "title": "Seyahat bilgileri",
+        "links": [
+          {
+            "label": "Vize desteği",
+            "to": "/travel"
+          },
+          {
+            "label": "Rusya Federasyonu'na giriş kuralları",
+            "to": "/travel"
+          },
+          {
+            "label": "Konaklama ve transferler",
+            "to": "/travel"
+          },
+          {
+            "label": "Geziler",
+            "to": "/travel"
+          }
+        ]
+      },
+      {
+        "title": "Hakkımızda",
+        "links": [
+          {
+            "label": "Şirket liderliği",
+            "to": "/about"
+          },
+          {
+            "label": "İş ortakları",
+            "to": "/about"
+          }
+        ]
+      },
+      {
+        "title": "İletişim",
+        "links": [
+          {
+            "label": "İletişim Sayfası",
+            "to": "/contact"
+          },
+          {
+            "label": "+90 (212) 395 00 00",
+            "href": "tel:+902123950000"
+          },
+          {
+            "label": "satis@mustakilfuarcilik.com",
+            "href": "mailto:satis@mustakilfuarcilik.com"
+          },
+          {
+            "label": "Ataköy 7-8-9-10 Mah. Çobançeşme E5 Yanyol Cad. No:4, Bakırköy / İstanbul"
+          }
+        ]
+      }
+    ],
+    "bottom": {
+      "legal": "BU FUAR 5174 SAYILI KANUN GEREĞİNCE TOBB (TÜRKİYE ODALAR VE BORSALAR BİRLİĞİ) DENETİMİNDE DÜZENLENMEKTEDİR.",
+      "copyright": "MÜSTAKİL FUARCILIK A.Ş. © 2026",
+      "policies": [
+        "Gizlilik Politikası",
+        "Çerez Politikası",
+        "KVKK Aydınlatma Metni"
+      ]
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Global fuarlar ve iş büyümesi",
+      "title": "Konferanslar ve Zirveler",
+      "bullets": [
+        "Özel araştırma ve içgörü sunumları",
+        "Üst düzey yöneticilerle güçlü networking fırsatları",
+        "Uluslararası pazarlar için ana sektör trendlerini belirleme"
+      ]
+    },
+    "report": {
+      "title": "BDT bölgesinde yeni ihracat fırsatlarını keşfedin!"
+    },
+    "eventsTitle": "Yaklaşan Etkinlikler",
+    "showcaseTitle": "MÜSTAKİL FUAR/ ORGANİZASYON Fuarları",
+    "showcaseHeading": "Konular",
+    "showcaseText": "Rusya, BDT, MENA ve ötesinde tedarikçileri, alıcıları, medyayı ve kurumları bir araya getiren sektör lideri fuarlar, zirveler ve konferanslar düzenliyoruz.",
+    "showcaseBullets": [
+      "Sektöre özel topluluklar ve hedefli kitleler",
+      "Yıl boyu süren dijital temas noktalarıyla desteklenen hibrit formatlar",
+      "Paylaştığın MÜSTAKİL FUAR/ ORGANİZASYON referanslarından ilham alan net görsel sistem"
+    ],
+    "cta": "Başarınız için çalışıyoruz"
+  },
+  "events": {
+    "hero": {
+      "crumb": "Ana Sayfa",
+      "current": "Etkinlik takvimi",
+      "title": "Etkinlik takvimi"
+    },
+    "cards": [
+      {
+        "logo": "EXPO\nELECTRONICA",
+        "logoColor": "#178036",
+        "title": "ExpoElectronica",
+        "description": "Elektronik bileşenler, teknolojiler, malzemeler, ekipmanlar, gömülü sistemler ve anahtar teslim çözümlere odaklanan 28. uluslararası fuar.",
+        "date": "14 - 16 Nisan 2026",
+        "location": "Moskova, Crocus Expo",
+        "activeBar": true
+      },
+      {
+        "logo": "EXPO\nCIFRA",
+        "logoColor": "#3264ca",
+        "title": "ExpoCifra",
+        "description": "Karar vericiler ve stratejik alıcılar için bilgi teknolojileri ve dijital dönüşüm çözümlerine odaklanan 2. fuar.",
+        "date": "14 - 16 Nisan 2026",
+        "location": "Moskova, Crocus Expo",
+        "activeBar": false
+      },
+      {
+        "logo": "ANALITIKA\nEXPO",
+        "logoColor": "#1385ab",
+        "title": "Analitika Expo",
+        "description": "Laboratuvar ekipmanları ve kimyasal reaktifler alanında sanayi ve bilimsel inovasyona odaklanan 24. uluslararası fuar.",
+        "date": "22 - 24 Nisan 2026",
+        "location": "Moskova, Crocus Expo",
+        "activeBar": false
+      },
+      {
+        "logo": "MiningWorld\nRussia",
+        "logoColor": "#ff8a00",
+        "title": "MiningWorld Russia",
+        "description": "Madencilik, işleme ve mineral taşımacılığı makineleri ve ekipmanları için 30. uluslararası fuar.",
+        "date": "22 - 24 Nisan 2026",
+        "location": "Moskova, Crocus Expo",
+        "activeBar": false
+      },
+      {
+        "logo": "Securika\nMoscow",
+        "logoColor": "#2a64c7",
+        "title": "Securika Moscow",
+        "description": "Güvenlik, yangın koruma ekipmanları ve ürünleri için küresel tedarikçileri ve bölgesel entegratörleri buluşturan 31. uluslararası fuar.",
+        "date": "22 - 24 Nisan 2026",
+        "location": "Moskova, Crocus Expo",
+        "activeBar": false
+      },
+      {
+        "logo": "WOODEX\nMebel Summit",
+        "logoColor": "#161616",
+        "title": "Woodex Mebel Summit",
+        "description": "Mobilya sektörü profesyonelleri için ürün inovasyonu, iş birlikleri ve yeni alıcılara erişim odaklı zirve.",
+        "date": "3 - 5 Haziran 2026",
+        "location": "Moskova, LOTTE Hotel",
+        "activeBar": false
+      }
+    ],
+    "pagination": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "cta": "Başarınız için çalışıyoruz"
+  },
+  "about": {
+    "hero": {
+      "crumb": "Ana Sayfa",
+      "current": "Hakkımızda",
+      "title": "Hakkımızda"
+    },
+    "quote": {
+      "text": "MÜSTAKİL FUAR/ ORGANİZASYON her şeyden önce bir başarı hikâyesidir. Bitmeyen enerji, profesyonellik, geleceğe net odak, ileri teknolojiler ve güçlü ekip. Müşterilerimiz ve iş ortaklarımız bize güvenebilir.",
+      "author": "Dmitry Zavgorodniy",
+      "role": "CEO, MÜSTAKİL FUAR/ORGANİZASYON"
+    },
+    "aboutUs": {
+      "title": "BİZ KİMİZ",
+      "paragraphs": [
+        "MÜSİAD Fuar ve Etkinlik Yönetimi, iş dünyasını ulusal ve uluslararası ölçekte bir araya getiren güçlü bir organizasyon yapısıdır.",
+        "Yılların getirdiği kurumsal deneyimle; fuarlar, zirveler, konferanslar ve B2B iş görüşmeleri organize ederek, farklı sektörlerden profesyonellerin doğru bağlantılar kurmasını sağlıyoruz. Her etkinlikte, katılımcıların iş geliştirme süreçlerini hızlandıran ve sürdürülebilir iş birlikleri oluşturan bir yapı sunuyoruz.",
+        "Dijitalleşen iş dünyasına uyum sağlayarak, fiziksel etkinlikleri dijital çözümlerle destekliyor; katılımcılar için daha verimli, ölçülebilir ve sonuç odaklı deneyimler tasarlıyoruz."
+      ],
+      "statsTitle": "Bugünkü Yapımız:",
+      "stats": [
+        "Binlerce iş bağlantısına aracılık eden etkinlikler",
+        "Yüz binlerce profesyonel ziyaretçi ağı",
+        "Ulusal ve uluslararası katılımcılarla güçlü ekosistem",
+        "Sektörel fuarlar, zirveler ve özel iş görüşmeleri (B2B)",
+        "İş geliştirme odaklı etkinlik kurguları",
+        "Dijital destekli hibrit organizasyon altyapısı"
+      ],
+      "closing": [
+        "Küresel iş ağımız ve güçlü organizasyon kabiliyetimiz sayesinde, farklı sektörlerde faaliyet gösteren firmaları yeni pazarlara ve iş fırsatlarına ulaştırıyoruz."
+      ]
+    },
+    "mission": {
+      "title": "MİSYONUMUZ",
+      "statement": "İş dünyasını doğru bağlantılarla buluşturan, ölçülebilir sonuçlar üreten ve sürdürülebilir iş birlikleri sağlayan etkinlikler tasarlıyoruz."
+    },
+    "values": {
+      "title": "DEĞERLERİMİZ",
+      "eyebrow": "Sonuca Bağlılık",
+      "statement": "Her etkinliğin somut çıktılar üretmesini sağlayarak maksimum fayda oluştururuz."
+    },
+    "leadership": {
+      "title": "Liderlik",
+      "name": "Dmitry Zavgorodniy",
+      "role": "CEO, MÜSTAKİL FUAR/ORGANİZASYON",
+      "paragraphs": [
+        "Dmitry şirkete Kasım 2017'de katıldı.",
+        "Daha önce Tata Global Beverages Eastern Europe, McCain ve Mars gibi gıda sektörü şirketlerinde üst düzey yöneticilik yaptı.",
+        "Uluslararası ilişkiler alanında ve ekonomik-politik problemler alanında yüksek lisans derecelerine sahiptir."
+      ]
+    },
+    "associationsTitle": "MÜSTAKİL FUAR/ ORGANİZASYON aşağıdaki iş birlikleri ve ticaret odalarının üyesidir",
+    "associations": [
+      {
+        "logo": "RUIE",
+        "logoColor": "#2380d4",
+        "title": "RUIE",
+        "description": "Rus Sanayiciler ve Girişimciler Birliği",
+        "link": "rspp.ru",
+        "activeBar": false
+      },
+      {
+        "logo": "RUEF",
+        "logoColor": "#2a6fcc",
+        "title": "RUEF",
+        "description": "Rusya Fuarlar ve Sergiler Birliği",
+        "link": "ruef.ru",
+        "activeBar": true
+      },
+      {
+        "logo": "AEB",
+        "logoColor": "#325bb4",
+        "title": "AEB",
+        "description": "Avrupa İşletmeler Birliği",
+        "link": "aebrus.ru",
+        "activeBar": false
+      }
+    ],
+    "cta": "Başarınız için çalışıyoruz"
+  },
+  "connect": {
+    "hero": {
+      "crumb": "Ana Sayfa",
+      "current": "MÜSTAKİL FUAR/ ORGANİZASYON Connect",
+      "title": "MÜSTAKİL FUAR/ ORGANİZASYON Connect"
+    },
+    "intro": {
+      "title": "MÜSTAKİL FUAR/ ORGANİZASYON Connect",
+      "text": "Connect, MÜSTAKİL FUAR/ ORGANİZASYON katılımcılarını ve ziyaretçilerini sektör topluluklarında bir araya getirir. Burada farklı sektörlerden profesyoneller iş bağlantıları kurar ve yılın 365 günü çevrim içi iletişimde kalır."
+    },
+    "whatIs": {
+      "title": "Connect nedir?",
+      "bullets": [
+        "MÜSTAKİL FUAR/ ORGANİZASYON Connect, etkinlik topluluklarımızı yıl boyunca canlı tutar ve sektörü tek bir merkezde bir araya getirir.",
+        "Katılımcılar fuarlara gelsin ya da gelmesin, akış içinde ilgili içerikler paylaşabilir.",
+        "Özenle kurgulanan çevrim içi uzman etkinlikleriyle sektör için ek buluşma fırsatları yaratırız.",
+        "Platform, etkileşimlerden öğrenerek daha iyi eşleşmeler ve yeni tanışmalar önerir."
+      ]
+    },
+    "communitiesTitle": "Connect Toplulukları",
+    "communities": [
+      {
+        "logo": "DairyTech\nCONNECT",
+        "logoColor": "#0f4c81",
+        "title": "DairyTech Connect",
+        "description": "Süt endüstrisi profesyonelleri topluluğu",
+        "link": "app.dairytech-connect.com",
+        "activeBar": false
+      },
+      {
+        "logo": "Aquaflame\nCONNECT",
+        "logoColor": "#2da5ea",
+        "title": "Aquaflame Connect",
+        "description": "Isı, su temini, ısıtma ekipmanları, mühendislik ve havuz sektörleri profesyonelleri topluluğu.",
+        "link": "app.aquatherm-connect.com",
+        "activeBar": false
+      },
+      {
+        "logo": "Mitt\nCONNECT",
+        "logoColor": "#123f75",
+        "title": "MITT Connect",
+        "description": "Turizm sektörü profesyonelleri topluluğu",
+        "link": "app.mitt-connect.com",
+        "activeBar": false
+      },
+      {
+        "logo": "MosBuild\nCONNECT",
+        "logoColor": "#bc2338",
+        "title": "MosBuild Connect",
+        "description": "Mimarlar, tasarımcılar, geliştiriciler ve tedarikçiler topluluğu",
+        "link": "app.mosbuild-connect.com",
+        "activeBar": true
+      },
+      {
+        "logo": "TransRussia\nCONNECT",
+        "logoColor": "#2086d4",
+        "title": "TransRussia Connect",
+        "description": "Taşımacılık ve lojistik sektörü liderleri topluluğu",
+        "link": "transrussia-connect.com",
+        "activeBar": false
+      },
+      {
+        "logo": "Electronica\nCONNECT",
+        "logoColor": "#1f7d35",
+        "title": "Electronica Connect",
+        "description": "Elektronik sektörü profesyonelleri topluluğu",
+        "link": "electronica-connect.com",
+        "activeBar": false
+      }
+    ]
+  },
+  "travel": {
+    "hero": {
+      "crumb": "Ana Sayfa",
+      "current": "Rusya seyahat rehberi",
+      "title": "Rusya'ya seyahat için bilgiler"
+    },
+    "left": {
+      "intro": "MÜSTAKİL FUAR/ ORGANİZASYON fuarlarının Rus ve yabancı katılımcıları, iş ortakları ve ziyaretçileri; resmi temsilcimiz Visa-Russian.ru üzerinden fuara özel servislerle seyahat planlayabilir:",
+      "services": [
+        "Rusya vizesi başvurusu için resmi davetiye düzenlenmesi",
+        "Vize başvurusu için sağlık sigortası sağlanması",
+        "Özel fiyatlarla otel ve daire rezervasyonu",
+        "Kapsamlı ulaşım desteği",
+        "Havalimanı ve tren istasyonlarında VIP hizmet",
+        "Gezi ve kültürel program",
+        "İş seyahatini tatille birleştirme"
+      ],
+      "contact": "Detaylı bilgi için Visa-Russian.ru adresini ziyaret edebilir, talep bırakabilir veya şu numarayla iletişime geçebilirsin: +7 (495) 935-83-85",
+      "links": [
+        "WhatsApp",
+        "visa@visa-russian.ru",
+        "Geri bildirim formu"
+      ],
+      "guide": "Fuar ziyaretçileri için Moskova seyahat rehberini indir"
+    },
+    "right": {
+      "title": "Ek bilgiler:",
+      "links": [
+        "Vize desteği",
+        "Rusya Federasyonu'na giriş kuralları",
+        "Konaklama ve transferler",
+        "Turlar"
+      ]
+    }
+  },
+  "contact": {
+    "hero": {
+      "crumb": "Ana Sayfa",
+      "current": "İletişim",
+      "title": "İletişim",
+      "intro": "Hemen iletişime geçin, MÜSİAD EXPO 2026'da yerinizi birlikte planlayalım."
+    },
+    "venueSectionTitle": "Adres ve Harita",
+    "venue": {
+      "title": "İstanbul Fuar Merkezi İletişim Bilgileri",
+      "address": [
+        "Yeşilköy Mah. Atatürk Cad. İstanbul Dünya Ticaret Merkezi No:10/1 A1 Blok",
+        "K:6 No:250 Bakırköy - İstanbul"
+      ],
+      "phone": "+90 212 382 64 10",
+      "phoneRaw": "+902123826410",
+      "email": "info@musiadexpo.com",
+      "website": "www.mustakilfuarcilik.com",
+      "websiteUrl": "https://www.mustakilfuarcilik.com",
+      "mapUrl": "https://maps.google.com/?q=DTM+Istanbul+Fuar+Merkezi"
+    },
+    "mapCard": {
+      "label": "Konum",
+      "title": "İstanbul Fuar Merkezi",
+      "text": "Fuar alanının konumunu haritada açabilir ve ziyaret planınızı doğrudan rota ile netleştirebilirsiniz.",
+      "action": "Haritada aç"
+    },
+    "sales": {
+      "title": "Stant Kiralama İletişim",
+      "intro": "MÜSİAD EXPO 2026'da markanızı binlerce profesyonel ziyaretçi, satın alma heyeti ve uluslararası iş insanı ile buluşturmak için satış ekibimiz yanınızda. Stand alanı kiralama, fiyatlandırma, rezervasyon ve fuar katılım süreçleri için satış ekibimizle doğrudan iletişime geçebilirsiniz.",
+      "contacts": [
+        {
+          "name": "Selçuk Anapa",
+          "languages": "Diller: Türkçe",
+          "phone": "0536 837 23 78",
+          "phoneRaw": "+905368372378",
+          "email": "selcuk.anapa@mustakilfuarcilik.com"
+        },
+        {
+          "name": "Abdurrahman Tuna",
+          "languages": "Diller: Türkçe / İngilizce / Rusça",
+          "phone": "0530 912 94 75",
+          "phoneRaw": "+905309129475",
+          "email": "abdurrahman.tuna@mustakilfuarcilik.com"
+        },
+        {
+          "name": "Ömer Yavuz",
+          "languages": "Diller: Türkçe / İngilizce",
+          "phone": "0530 912 95 06",
+          "phoneRaw": "+905309129506",
+          "email": "omer.yavuz@mustakilfuarcilik.com"
+        },
+        {
+          "name": "Zeyd Turgut",
+          "languages": "Diller: Türkçe / Arapça",
+          "phone": "0530 912 95 09",
+          "phoneRaw": "+905309129509",
+          "email": "zeyd.turgut@mustakilfuarcilik.com"
+        }
+      ]
+    },
+    "note": "Hemen iletişime geçin, MÜSİAD EXPO 2026'da yerinizi birlikte planlayalım.",
+    "offices": [
+      {
+        "name": "Moskova",
+        "address": [
+          "3 bld. 2, Verkhnyaya Krasnoselskaya st.",
+          "Moscow",
+          "Russia",
+          "107140"
+        ],
+        "phone": "+7 (495) 799-55-85"
+      },
+      {
+        "name": "Dubai",
+        "address": [
+          "Office No. 2303, Aurora Tower",
+          "Dubai Media City",
+          "United Arab Emirates",
+          "P.O. Box 502778"
+        ],
+        "phone": "+971 (0) 4 571 5700"
+      },
+      {
+        "name": "Pekin",
+        "address": [
+          "Chaoyang district office",
+          "Beijing",
+          "China",
+          "100020"
+        ],
+        "phone": "+86 10 0000 0000"
+      },
+      {
+        "name": "Yeni Delhi",
+        "address": [
+          "Business Tower",
+          "New Delhi",
+          "India",
+          "110001"
+        ],
+        "phone": "+91 11 0000 0000"
+      }
+    ]
+  }
+}

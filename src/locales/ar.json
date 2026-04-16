@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "siteName": "MÜSTAKİL FUAR/ORGANİZASYON"
+  },
+  "languages": {
+    "tr": "TR",
+    "en": "EN",
+    "ar": "AR"
+  },
+  "nav": [
+    { "label": "الرئيسية", "to": "/" },
+    { "label": "من نحن", "to": "/about" },
+    { "label": "تقويم الفعاليات", "to": "/events" },
+    { "label": "شبكة المعارض", "to": "/connect" },
+    { "label": "معلومات السفر", "to": "/travel" },
+    { "label": "اتصل بنا", "to": "/contact" }
+  ],
+  "actions": {
+    "readMore": "اقرأ المزيد",
+    "eventsCalendar": "تقويم الفعاليات",
+    "goToCalendar": "اذهب إلى التقويم",
+    "downloadReport": "حمّل التقرير الآن"
+  },
+  "ui": {
+    "brandLogoAlt": "شعار MÜSTAKİL FUAR/ORGANİZASYON",
+    "homeAriaLabel": "الصفحة الرئيسية لـ MÜSTAKİL FUAR/ORGANİZASYON",
+    "primaryNavigation": "التنقل الرئيسي",
+    "changeLanguage": "تغيير اللغة",
+    "openMenu": "افتح القائمة",
+    "previous": "السابق",
+    "next": "التالي",
+    "youtube": "يوتيوب",
+    "instagram": "إنستغرام",
+    "linkedin": "لينكدإن"
+  },
+  "footer": {
+    "label": "اتصل بنا",
+    "title": "MÜSTAKİL FUAR/ORGANİZASYON",
+    "address": [
+      "الإمارات العربية المتحدة، شارع الفلك، مدينة دبي للإعلام، مكتب رقم 2303،",
+      "الطابق 23، برج أورورا، صندوق بريد 502778"
+    ],
+    "phone": "+ 971 (0) 4 571 5700",
+    "email": "info@ite.group",
+    "socialLabel": "وسائل التواصل الاجتماعي",
+    "policies": [
+      "سياسة ملفات تعريف الارتباط",
+      "الشروط والأحكام",
+      "سياسة البيانات الشخصية"
+    ],
+    "groups": [
+      {
+        "title": "MÜSTAKİL FUAR/ ORGANİZASYON",
+        "links": [
+          { "label": "تقويم الفعاليات", "to": "/events" },
+          { "label": "شبكة المعارض", "to": "/connect" }
+        ]
+      },
+      {
+        "title": "معلومات السفر",
+        "links": [
+          { "label": "دعم التأشيرة", "to": "/travel" },
+          { "label": "قواعد الدخول إلى الاتحاد الروسي", "to": "/travel" },
+          { "label": "الإقامة والتنقلات", "to": "/travel" },
+          { "label": "الجولات", "to": "/travel" }
+        ]
+      },
+      {
+        "title": "من نحن",
+        "links": [
+          { "label": "قيادة الشركة", "to": "/about" },
+          { "label": "شركاء الأعمال", "to": "/about" }
+        ]
+      },
+      {
+        "title": "اتصل بنا",
+        "links": [
+          { "label": "صفحة الاتصال", "to": "/contact" },
+          { "label": "+90 (212) 395 00 00", "href": "tel:+902123950000" },
+          { "label": "satis@mustakilfuarcilik.com", "href": "mailto:satis@mustakilfuarcilik.com" },
+          { "label": "Ataköy 7-8-9-10 Mah. Çobançeşme E5 Yanyol Cad. No:4, Bakırköy / İstanbul" }
+        ]
+      }
+    ],
+    "bottom": {
+      "legal": "يُنظَّم هذا المعرض تحت إشراف TOBB (اتحاد الغرف وبورصات السلع التركية) وفقاً للقانون رقم 5174.",
+      "copyright": "MÜSTAKİL FUARCILIK A.Ş. © 2026",
+      "policies": ["سياسة الخصوصية", "سياسة ملفات تعريف الارتباط", "إشعار KVKK"]
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "المعارض العالمية ونمو الأعمال",
+      "title": "المؤتمرات والقمم",
+      "bullets": [
+        "عروض بحثية ورؤى حصرية",
+        "فرص تواصل قوية مع كبار المديرين التنفيذيين",
+        "تحديد أبرز اتجاهات القطاع للأسواق الدولية"
+      ]
+    },
+    "report": {
+      "title": "اكتشف فرص تصدير جديدة في منطقة رابطة الدول المستقلة!"
+    },
+    "eventsTitle": "الفعاليات القادمة",
+    "showcaseTitle": "معارض MÜSTAKİL FUAR/ ORGANİZASYON",
+    "showcaseHeading": "المحاور",
+    "showcaseText": "ننظم معارض وقمماً ومؤتمرات رائدة في قطاعاتها تجمع الموردين والمشترين ووسائل الإعلام والمؤسسات عبر روسيا ورابطة الدول المستقلة ومنطقة الشرق الأوسط وشمال أفريقيا وما وراءها.",
+    "showcaseBullets": [
+      "مجتمعات متخصصة بالقطاع وجماهير مستهدفة",
+      "صيَغ هجينة مدعومة بنقاط تواصل رقمية طوال العام",
+      "نظام بصري واضح مستلهم من مراجع MÜSTAKİL FUAR/ ORGANİZASYON التي شاركتها"
+    ],
+    "cta": "نعمل من أجل نجاحك"
+  },
+  "events": {
+    "hero": {
+      "crumb": "الرئيسية",
+      "current": "تقويم الفعاليات",
+      "title": "تقويم الفعاليات"
+    },
+    "cards": [
+      {
+        "logo": "EXPO\nELECTRONICA",
+        "logoColor": "#178036",
+        "title": "ExpoElectronica",
+        "description": "المعرض الدولي الثامن والعشرون للمكونات الإلكترونية والتقنيات والمواد والمعدات والأنظمة المدمجة والحلول المتكاملة.",
+        "date": "14 - 16 أبريل 2026",
+        "location": "موسكو، Crocus Expo",
+        "activeBar": true
+      },
+      {
+        "logo": "EXPO\nCIFRA",
+        "logoColor": "#3264ca",
+        "title": "ExpoCifra",
+        "description": "المعرض الثاني لتقنيات المعلومات وحلول التحول الرقمي الموجه لصنّاع القرار والمشترين الاستراتيجيين.",
+        "date": "14 - 16 أبريل 2026",
+        "location": "موسكو، Crocus Expo",
+        "activeBar": false
+      },
+      {
+        "logo": "ANALITIKA\nEXPO",
+        "logoColor": "#1385ab",
+        "title": "Analitika Expo",
+        "description": "المعرض الدولي الرابع والعشرون لمعدات المختبرات والكواشف الكيميائية مع تركيز قوي على الابتكار الصناعي والعلمي.",
+        "date": "22 - 24 أبريل 2026",
+        "location": "موسكو، Crocus Expo",
+        "activeBar": false
+      },
+      {
+        "logo": "MiningWorld\nRussia",
+        "logoColor": "#ff8a00",
+        "title": "MiningWorld Russia",
+        "description": "المعرض الدولي الثلاثون لآلات ومعدات التعدين والمعالجة ونقل المعادن.",
+        "date": "22 - 24 أبريل 2026",
+        "location": "موسكو، Crocus Expo",
+        "activeBar": false
+      },
+      {
+        "logo": "Securika\nMoscow",
+        "logoColor": "#2a64c7",
+        "title": "Securika Moscow",
+        "description": "المعرض الدولي الحادي والثلاثون لمعدات ومنتجات الأمن والحماية من الحرائق يجمع الموردين العالميين والمكاملين الإقليميين.",
+        "date": "22 - 24 أبريل 2026",
+        "location": "موسكو، Crocus Expo",
+        "activeBar": false
+      },
+      {
+        "logo": "WOODEX\nMebel Summit",
+        "logoColor": "#161616",
+        "title": "Woodex Mebel Summit",
+        "description": "قمة لمتخصصي صناعة الأثاث تركز على ابتكار المنتجات والشراكات والوصول إلى مشترين جدد.",
+        "date": "3 - 5 يونيو 2026",
+        "location": "موسكو، LOTTE Hotel",
+        "activeBar": false
+      }
+    ],
+    "pagination": ["1", "2", "3", "4", "5", "6"],
+    "cta": "نعمل من أجل نجاحك"
+  },
+  "about": {
+    "hero": {
+      "crumb": "الرئيسية",
+      "current": "من نحن",
+      "title": "من نحن"
+    },
+    "quote": {
+      "text": "MÜSTAKİL FUAR/ ORGANİZASYON هي أولاً وقبل كل شيء قصة نجاح. طاقة لا تتوقف، احترافية، تركيز واضح على المستقبل، تقنيات متقدمة وفريق متميز. يمكن لعملائنا وشركاء أعمالنا الاعتماد علينا.",
+      "author": "Dmitry Zavgorodniy",
+      "role": "CEO, MÜSTAKİL FUAR/ORGANİZASYON"
+    },
+    "aboutUs": {
+      "title": "من نحن",
+      "paragraphs": [
+        "MÜSİAD للمعارض وإدارة الفعاليات هي منظومة تنظيمية قوية تجمع عالم الأعمال على المستويين الوطني والدولي.",
+        "بفضل سنوات من الخبرة المؤسسية، ننظم المعارض والقمم والمؤتمرات واجتماعات الأعمال B2B، مما يُمكّن المتخصصين من مختلف القطاعات من إقامة الروابط الصحيحة. في كل فعالية، نقدم بنية تُسرّع عمليات تطوير الأعمال لدى المشاركين وتبني شراكات مستدامة.",
+        "من خلال التكيف مع عالم الأعمال الرقمي المتطور، ندعم الفعاليات المادية بحلول رقمية ونصمم تجارب أكثر كفاءة وقابلة للقياس وموجهة نحو النتائج للمشاركين."
+      ],
+      "statsTitle": "هيكلنا اليوم:",
+      "stats": [
+        "فعاليات تُيسّر آلاف روابط الأعمال",
+        "شبكة من مئات الآلاف من الزوار المتخصصين",
+        "نظام بيئي قوي مع مشاركين محليين ودوليين",
+        "معارض قطاعية وقمم واجتماعات B2B خاصة",
+        "مفاهيم فعاليات موجهة نحو تطوير الأعمال",
+        "بنية تحتية هجينة مدعومة رقمياً"
+      ],
+      "closing": [
+        "بفضل شبكة أعمالنا العالمية وقدراتنا التنظيمية القوية، نُوصّل الشركات العاملة في قطاعات مختلفة بأسواق جديدة وفرص أعمال واعدة."
+      ]
+    },
+    "mission": {
+      "title": "مهمتنا",
+      "statement": "نصمم فعاليات تربط عالم الأعمال بالجهات المناسبة وتُنتج نتائج قابلة للقياس وتضمن شراكات مستدامة."
+    },
+    "values": {
+      "title": "قيمنا",
+      "eyebrow": "الالتزام بالنتائج",
+      "statement": "نُحقق أقصى قيمة بضمان أن كل فعالية تُنتج مخرجات ملموسة."
+    },
+    "leadership": {
+      "title": "القيادة",
+      "name": "Dmitry Zavgorodniy",
+      "role": "CEO, MÜSTAKİL FUAR/ORGANİZASYON",
+      "paragraphs": [
+        "انضم دميتري إلى الشركة في نوفمبر 2017.",
+        "شغل سابقاً مناصب إدارية عليا في شركات قطاع الغذاء مثل Tata Global Beverages Eastern Europe وMcCain وMars.",
+        "يحمل درجتي ماجستير في العلاقات الدولية وفي المسائل الاقتصادية والسياسية."
+      ]
+    },
+    "associationsTitle": "MÜSTAKİL FUAR/ ORGANİZASYON عضو في جمعيات الأعمال وغرف التجارة التالية",
+    "associations": [
+      {
+        "logo": "RUIE",
+        "logoColor": "#2380d4",
+        "title": "RUIE",
+        "description": "اتحاد الصناعيين ورجال الأعمال الروس",
+        "link": "rspp.ru",
+        "activeBar": false
+      },
+      {
+        "logo": "RUEF",
+        "logoColor": "#2a6fcc",
+        "title": "RUEF",
+        "description": "الاتحاد الروسي للمعارض والصالونات",
+        "link": "ruef.ru",
+        "activeBar": true
+      },
+      {
+        "logo": "AEB",
+        "logoColor": "#325bb4",
+        "title": "AEB",
+        "description": "رابطة الشركات الأوروبية",
+        "link": "aebrus.ru",
+        "activeBar": false
+      }
+    ],
+    "cta": "نعمل من أجل نجاحك"
+  },
+  "connect": {
+    "hero": {
+      "crumb": "الرئيسية",
+      "current": "MÜSTAKİL FUAR/ ORGANİZASYON Connect",
+      "title": "MÜSTAKİL FUAR/ ORGANİZASYON Connect"
+    },
+    "intro": {
+      "title": "MÜSTAKİL FUAR/ ORGANİZASYON Connect",
+      "text": "تجمع Connect عارضي وزوار MÜSTAKİL FUAR/ ORGANİZASYON في مجتمعات صناعية متخصصة. هنا يبني المتخصصون من قطاعات مختلفة روابط أعمال ويبقون على تواصل إلكتروني 365 يوماً في السنة."
+    },
+    "whatIs": {
+      "title": "ما هي Connect؟",
+      "bullets": [
+        "تُبقي MÜSTAKİL FUAR/ ORGANİZASYON Connect مجتمعات فعالياتنا نشطة طوال العام وتجمع القطاع في مركز واحد.",
+        "يمكن للمشاركين مشاركة المحتوى ذي الصلة في التدفق سواء حضروا المعارض أم لا.",
+        "نخلق فرص تواصل إضافية للقطاع من خلال فعاليات خبراء إلكترونية منتقاة بعناية.",
+        "تتعلم المنصة من التفاعلات وتقترح تطابقات أفضل وتعريفات جديدة."
+      ]
+    },
+    "communitiesTitle": "مجتمعات Connect",
+    "communities": [
+      {
+        "logo": "DairyTech\nCONNECT",
+        "logoColor": "#0f4c81",
+        "title": "DairyTech Connect",
+        "description": "مجتمع متخصصي صناعة الألبان",
+        "link": "app.dairytech-connect.com",
+        "activeBar": false
+      },
+      {
+        "logo": "Aquaflame\nCONNECT",
+        "logoColor": "#2da5ea",
+        "title": "Aquaflame Connect",
+        "description": "مجتمع متخصصي قطاعات الحرارة وإمدادات المياه ومعدات التدفئة والهندسة والمسابح.",
+        "link": "app.aquatherm-connect.com",
+        "activeBar": false
+      },
+      {
+        "logo": "Mitt\nCONNECT",
+        "logoColor": "#123f75",
+        "title": "MITT Connect",
+        "description": "مجتمع متخصصي قطاع السياحة",
+        "link": "app.mitt-connect.com",
+        "activeBar": false
+      },
+      {
+        "logo": "MosBuild\nCONNECT",
+        "logoColor": "#bc2338",
+        "title": "MosBuild Connect",
+        "description": "مجتمع المعماريين والمصممين والمطورين والموردين",
+        "link": "app.mosbuild-connect.com",
+        "activeBar": true
+      },
+      {
+        "logo": "TransRussia\nCONNECT",
+        "logoColor": "#2086d4",
+        "title": "TransRussia Connect",
+        "description": "مجتمع قادة قطاع النقل واللوجستيات",
+        "link": "transrussia-connect.com",
+        "activeBar": false
+      },
+      {
+        "logo": "Electronica\nCONNECT",
+        "logoColor": "#1f7d35",
+        "title": "Electronica Connect",
+        "description": "مجتمع متخصصي قطاع الإلكترونيات",
+        "link": "electronica-connect.com",
+        "activeBar": false
+      }
+    ]
+  },
+  "travel": {
+    "hero": {
+      "crumb": "الرئيسية",
+      "current": "دليل السفر إلى روسيا",
+      "title": "معلومات السفر إلى روسيا"
+    },
+    "left": {
+      "intro": "يمكن للعارضين الروس والأجانب وشركاء الأعمال وزوار معارض MÜSTAKİL FUAR/ ORGANİZASYON التخطيط لرحلتهم عبر خدمات مخصصة للمعرض من خلال ممثلنا الرسمي Visa-Russian.ru:",
+      "services": [
+        "إصدار دعوة رسمية لطلب تأشيرة روسيا",
+        "توفير تأمين صحي لطلب التأشيرة",
+        "حجز الفنادق والشقق بأسعار مميزة",
+        "دعم تنقل شامل",
+        "خدمة VIP في المطارات ومحطات القطار",
+        "برنامج سياحي وثقافي",
+        "الجمع بين رحلة العمل والترفيه"
+      ],
+      "contact": "لمزيد من المعلومات، قم بزيارة Visa-Russian.ru أو اترك طلباً أو تواصل على: +7 (495) 935-83-85",
+      "links": [
+        "واتساب",
+        "visa@visa-russian.ru",
+        "نموذج التعليقات"
+      ],
+      "guide": "حمّل دليل السفر إلى موسكو لزوار المعرض"
+    },
+    "right": {
+      "title": "معلومات إضافية:",
+      "links": [
+        "دعم التأشيرة",
+        "قواعد الدخول إلى الاتحاد الروسي",
+        "الإقامة والتنقلات",
+        "الجولات"
+      ]
+    }
+  },
+  "contact": {
+    "hero": {
+      "crumb": "الرئيسية",
+      "current": "اتصل بنا",
+      "title": "اتصل بنا",
+      "intro": "تواصل معنا الآن ولنخطط معاً لمكانك في MÜSİAD EXPO 2026."
+    },
+    "venueSectionTitle": "العنوان والخريطة",
+    "venue": {
+      "title": "معلومات الاتصال بمركز إسطنبول للمعارض",
+      "address": [
+        "Yeşilköy Mah. Atatürk Cad. İstanbul Dünya Ticaret Merkezi No:10/1 A1 Blok",
+        "K:6 No:250 Bakırköy - İstanbul"
+      ],
+      "phone": "+90 212 382 64 10",
+      "phoneRaw": "+902123826410",
+      "email": "info@musiadexpo.com",
+      "website": "www.mustakilfuarcilik.com",
+      "websiteUrl": "https://www.mustakilfuarcilik.com",
+      "mapUrl": "https://maps.google.com/?q=DTM+Istanbul+Fuar+Merkezi"
+    },
+    "mapCard": {
+      "label": "الموقع",
+      "title": "مركز إسطنبول للمعارض",
+      "text": "يمكنك فتح موقع مكان الفعالية على الخريطة وتحديد خطة زيارتك مباشرة عبر الاتجاهات.",
+      "action": "افتح على الخريطة"
+    },
+    "sales": {
+      "title": "التواصل لاستئجار الجناح",
+      "intro": "فريق المبيعات لدينا هنا لربط علامتك التجارية بآلاف الزوار المتخصصين ووفود الشراء ورجال الأعمال الدوليين في MÜSİAD EXPO 2026. تواصل مع فريق مبيعاتنا مباشرة لاستئجار الأجنحة والتسعير والحجوزات وعمليات المشاركة في المعرض.",
+      "contacts": [
+        {
+          "name": "Selçuk Anapa",
+          "languages": "اللغات: التركية",
+          "phone": "0536 837 23 78",
+          "phoneRaw": "+905368372378",
+          "email": "selcuk.anapa@mustakilfuarcilik.com"
+        },
+        {
+          "name": "Abdurrahman Tuna",
+          "languages": "اللغات: التركية / الإنجليزية / الروسية",
+          "phone": "0530 912 94 75",
+          "phoneRaw": "+905309129475",
+          "email": "abdurrahman.tuna@mustakilfuarcilik.com"
+        },
+        {
+          "name": "Ömer Yavuz",
+          "languages": "اللغات: التركية / الإنجليزية",
+          "phone": "0530 912 95 06",
+          "phoneRaw": "+905309129506",
+          "email": "omer.yavuz@mustakilfuarcilik.com"
+        },
+        {
+          "name": "Zeyd Turgut",
+          "languages": "اللغات: التركية / العربية",
+          "phone": "0530 912 95 09",
+          "phoneRaw": "+905309129509",
+          "email": "zeyd.turgut@mustakilfuarcilik.com"
+        }
+      ]
+    },
+    "note": "تواصل معنا الآن ولنخطط معاً لمكانك في MÜSİAD EXPO 2026.",
+    "offices": [
+      {
+        "name": "موسكو",
+        "address": [
+          "3 bld. 2, Verkhnyaya Krasnoselskaya st.",
+          "موسكو",
+          "روسيا",
+          "107140"
+        ],
+        "phone": "+7 (495) 799-55-85"
+      },
+      {
+        "name": "دبي",
+        "address": [
+          "مكتب رقم 2303، برج أورورا",
+          "مدينة دبي للإعلام",
+          "الإمارات العربية المتحدة",
+          "صندوق بريد 502778"
+        ],
+        "phone": "+971 (0) 4 571 5700"
+      },
+      {
+        "name": "بكين",
+        "address": [
+          "مكتب منطقة تشاويانغ",
+          "بكين",
+          "الصين",
+          "100020"
+        ],
+        "phone": "+86 10 0000 0000"
+      },
+      {
+        "name": "نيودلهي",
+        "address": [
+          "برج الأعمال",
+          "نيودلهي",
+          "الهند",
+          "110001"
+        ],
+        "phone": "+91 11 0000 0000"
+      }
+    ]
+  }
+}
