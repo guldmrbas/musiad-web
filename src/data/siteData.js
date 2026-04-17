@@ -1,17 +1,17 @@
 export const navItems = [
-  { label: "About ITE", to: "/about" },
+  { label: "About Müstakil", to: "/about" },
   { label: "Events Calendar", to: "/events" },
-  { label: "ITE Connect", to: "/connect" },
+  { label: "Müstakil Connect", to: "/connect" },
   { label: "Travel Advice", to: "/travel" },
   { label: "Contact Us", to: "/contact" },
 ];
 
 export const footerGroups = [
   {
-    title: "ITE",
+    title: "Müstakil",
     links: [
       { label: "Events calendar", to: "/events" },
-      { label: "ITE Connect", to: "/connect" },
+      { label: "Müstakil Connect", to: "/connect" },
     ],
   },
   {
@@ -24,7 +24,7 @@ export const footerGroups = [
     ],
   },
   {
-    title: "About ITE",
+    title: "About Müstakil",
     links: [
       { label: "Company leadership", to: "/about" },
       { label: "Partners", to: "/about" },
