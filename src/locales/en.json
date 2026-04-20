@@ -351,56 +351,56 @@
         "name": "Blue Mosque",
         "district": "Sultanahmet, Fatih",
         "description": "Built in the 17th century with its rare six minarets, the Blue Mosque is an architectural masterpiece adorned with over 20,000 İznik tiles. It remains one of Istanbul's most iconic landmarks.",
-        "photo": "/images/sultanahmet.jpg",
+        "photo": "/images/sultanahmet.webp",
         "photoPosition": "center"
       },
       {
         "name": "Hagia Sophia",
         "district": "Ayasofya Square, Fatih",
         "description": "Originally built as a church in 537 AD, later converted into a mosque and museum, Hagia Sophia is a breathtaking synthesis of Byzantine and Ottoman architecture. Its massive dome and majestic interior earned it a place on the UNESCO World Heritage List.",
-        "photo": "/images/ayasofya.jpg",
+        "photo": "/images/ayasofya.webp",
         "photoPosition": "center"
       },
       {
         "name": "Topkapi Palace",
         "district": "Sarayburnu, Fatih",
         "description": "Home to the Ottoman sultans for 400 years, Topkapi Palace houses one of Istanbul's richest museums — featuring the treasury, harem quarters, and gardens with sweeping views of the Bosphorus.",
-        "photo": "/images/topkapi.jpg",
+        "photo": "/images/topkapi.webp",
         "photoPosition": "center top"
       },
       {
         "name": "Grand Bazaar",
         "district": "Beyazıt, Fatih",
         "description": "One of the world's largest and oldest covered markets. With over 4,000 shops and 60 streets, this centuries-old trading tradition offers every visitor a unique labyrinthine experience.",
-        "photo": "/images/kapalıcarsi.jpg",
+        "photo": "/images/kapalıcarsi.webp",
         "photoPosition": "center"
       },
       {
         "name": "Galata Tower",
         "district": "Galata, Beyoğlu",
         "description": "Built by the Genoese in 1348 and an indispensable part of Istanbul's skyline, the Galata Tower offers a stunning 360-degree panoramic view of the city from its summit.",
-        "photo": "/images/galata.jpg",
+        "photo": "/images/galata.webp",
         "photoPosition": "center top"
       },
       {
         "name": "Bosphorus Cruise",
         "district": "Eminönü · Üsküdar",
         "description": "Seeing Istanbul from the water is an experience like no other. A Bosphorus cruise past waterfront mansions, bridges, and ancient fortresses stretching along both the European and Asian shores captures the true spirit of the city.",
-        "photo": "/images/bogazturu.jpg",
+        "photo": "/images/bogazturu.webp",
         "photoPosition": "center"
       },
       {
         "name": "Dolmabahçe Palace",
         "district": "Beşiktaş",
         "description": "Built during the Ottoman modernization era in the 19th century, Dolmabahçe Palace is a magnificent fusion of European Baroque architecture and traditional Ottoman artistry — elegantly positioned along the Bosphorus shore.",
-        "photo": "/images/dolmabahce.jpg",
+        "photo": "/images/dolmabahce.webp",
         "photoPosition": "center"
       },
       {
         "name": "Princes' Islands",
         "district": "Adalar, Sea of Marmara",
         "description": "Far from Istanbul's urban noise, these islands are free of motorcycles and cars. Explore by horse-drawn carriage among historic wooden mansions and peaceful coves — a perfect day-trip escape.",
-        "photo": "/images/adalar.jpg",
+        "photo": "/images/adalar.webp",
         "photoPosition": "center"
       }
     ],

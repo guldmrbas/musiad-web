@@ -1611,7 +1611,7 @@ a.card-location:hover {
 .about-page .page-hero::before {
   background:
     linear-gradient(180deg, rgba(9, 16, 34, 0.28), rgba(9, 16, 34, 0.28)),
-    url("/images/MÜSİAD Genel Merkez_5066.jpg.jpeg") center center / cover no-repeat;
+    url("/images/MÜSİAD Genel Merkez_5066.jpg.webp") center center / cover no-repeat;
 }
 
 .about-page .photo-block {
@@ -1684,7 +1684,7 @@ a.card-location:hover {
 .about-page .cta-media {
   background:
     linear-gradient(0deg, rgba(8, 16, 36, 0.18), rgba(8, 16, 36, 0.18)),
-    url("/images/musiad_foto.jpeg") center center / cover no-repeat;
+    url("/images/musiad_foto.webp") center center / cover no-repeat;
 }
 
 .about-page .cta-media::before,
@@ -1745,7 +1745,7 @@ a.card-location:hover {
 .events-page .page-hero::before {
   background:
     linear-gradient(180deg, rgba(8, 16, 36, 0.34), rgba(8, 16, 36, 0.34)),
-    url("/images/msiad.jpeg") center center / cover no-repeat;
+    url("/images/msiad.webp") center center / cover no-repeat;
 }
 
 .events-page .event-card {
@@ -1843,7 +1843,7 @@ a.card-location:hover {
 .travel-page .page-hero::before {
   background:
     linear-gradient(0deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)),
-    url('/images/turkiye.jpg') center 30% / cover no-repeat;
+    url('/images/turkiye.webp') center 30% / cover no-repeat;
 }
 
 .travel-intro-section {
@@ -2218,7 +2218,7 @@ a.card-location:hover {
 }
 
 .contact-page .page-hero::before {
-  background: url('/images/genel.jpeg') center center / cover no-repeat;
+  background: url('/images/genel.webp') center center / cover no-repeat;
 }
 
 @media (max-width: 1180px) {

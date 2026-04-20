@@ -21,7 +21,7 @@ function Header() {
     <header className="site-header">
       <div className="container nav-row">
         <NavLink className="brand-mark" to="/" aria-label={messages.ui?.homeAriaLabel ?? `${siteName} home`}>
-          <img src="/logo.jpeg" alt={messages.ui?.brandLogoAlt ?? siteName} className="brand-logo" />
+          <img src="/logo.webp" alt={messages.ui?.brandLogoAlt ?? siteName} className="brand-logo" />
         </NavLink>
 
         <nav className="nav-links" aria-label={messages.ui?.primaryNavigation ?? "Primary navigation"}>

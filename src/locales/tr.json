@@ -351,56 +351,56 @@
         "name": "Sultanahmet Camii",
         "district": "Sultanahmet, Fatih",
         "description": "17. yüzyılda inşa edilen ve altı minaresiyle dünyada eşine az rastlanan mimari bir şaheser. İçindeki 20.000'den fazla İznik çinisiyle de büyüleyici olan cami, İstanbul'un simgesi olmaya devam etmektedir.",
-        "photo": "/images/sultanahmet.jpg",
+        "photo": "/images/sultanahmet.webp",
         "photoPosition": "center"
       },
       {
         "name": "Ayasofya",
         "district": "Ayasofya Meydanı, Fatih",
         "description": "537 yılında kilise olarak inşa edilen, ardından camiye ve müzeye dönüştürülen Ayasofya; Bizans ve Osmanlı mimarisinin muhteşem bir sentezidir. Devasa kubbesi ve görkemli iç mekânıyla UNESCO Dünya Mirası listesindedir.",
-        "photo": "/images/ayasofya.jpg",
+        "photo": "/images/ayasofya.webp",
         "photoPosition": "center"
       },
       {
         "name": "Topkapı Sarayı",
         "district": "Sarayburnu, Fatih",
         "description": "400 yıl boyunca Osmanlı sultanlarına ev sahipliği yapan bu saray; hazine dairesi, harem bölümü ve Boğaz'a nazır büyüleyici bahçeleriyle İstanbul'un en zengin müzelerinden birini sunmaktadır.",
-        "photo": "/images/topkapi.jpg",
+        "photo": "/images/topkapi.webp",
         "photoPosition": "center top"
       },
       {
         "name": "Kapalıçarşı",
         "district": "Beyazıt, Fatih",
         "description": "Dünyanın en büyük ve en eski kapalı çarşılarından biri. 4.000'den fazla dükkan, 60 sokak ve yüzyıllık ticaret geleneğiyle her ziyaretçiye farklı bir deneyim sunan eşsiz bir pazar labirenti.",
-        "photo": "/images/kapalıcarsi.jpg",
+        "photo": "/images/kapalıcarsi.webp",
         "photoPosition": "center"
       },
       {
         "name": "Galata Kulesi",
         "district": "Galata, Beyoğlu",
         "description": "1348 yılında Cenevizliler tarafından inşa edilen ve İstanbul siluetinin vazgeçilmez parçası olan Galata Kulesi'nin tepesinden şehrin 360 derecelik panoramik manzarasının keyfini çıkarabilirsiniz.",
-        "photo": "/images/galata.jpg",
+        "photo": "/images/galata.webp",
         "photoPosition": "center top"
       },
       {
         "name": "Boğaz Turu",
         "district": "Eminönü · Üsküdar",
         "description": "İstanbul'u denizden görmek ayrı bir deneyim. Avrupa ve Asya kıyılarını boyunca uzanan yalılar, köprüler ve kaleler eşliğinde yapılan Boğaz turu, şehrin ruhunu en iyi şekilde hissettirir.",
-        "photo": "/images/bogazturu.jpg",
+        "photo": "/images/bogazturu.webp",
         "photoPosition": "center"
       },
       {
         "name": "Dolmabahçe Sarayı",
         "district": "Beşiktaş",
         "description": "19. yüzyılda Osmanlı'nın modernleşme döneminde inşa edilen bu saray; Avrupa Barok mimarisi ile geleneksel Osmanlı sanat anlayışının buluştuğu görkemli bir yapıdır. Boğaz kıyısındaki konumuyla da ayrı bir zarafet taşır.",
-        "photo": "/images/dolmabahce.jpg",
+        "photo": "/images/dolmabahce.webp",
         "photoPosition": "center"
       },
       {
         "name": "Prens Adaları",
         "district": "Adalar, Marmara Denizi",
         "description": "İstanbul'un gürültüsünden uzak, motosiklet ve araçların yasak olduğu bu adalar; at arabalarıyla dolaşabileceğiniz, tarihi ahşap köşkleri ve sakin koylarıyla nefes alacağınız bir gün günübirlik kaçamak sunar.",
-        "photo": "/images/adalar.jpg",
+        "photo": "/images/adalar.webp",
         "photoPosition": "center"
       }
     ],

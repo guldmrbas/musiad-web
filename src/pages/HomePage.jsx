@@ -88,7 +88,7 @@ export default function HomePage() {
           onMouseUp={onMouseUp}
           onMouseMove={onMouseMove}
         >
-          {["1.JPG","2.JPG","3.jpeg","4.jpeg","5.jpeg","6.jpeg","7.JPG"].map((img, i) => (
+          {["1.webp", "2.webp", "3.webp", "4.webp", "5.webp", "6.webp", "7.webp"].map((img, i) => (
             <div className="photo-gallery-slide" key={img}>
               <img src={`/images/${img}`} alt={`Etkinlik ${i + 1}`} draggable={false} />
             </div>
