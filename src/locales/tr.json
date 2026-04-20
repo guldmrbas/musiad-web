@@ -147,27 +147,19 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "Global fuarlar ve iş büyümesi",
-      "title": "Konferanslar ve Zirveler",
+      "eyebrow": "Küresel Ticaret ve İş Birlikleri",
+      "title": "İş Dünyasını Buluşturan Zirveler",
       "bullets": [
-        "Özel araştırma ve içgörü sunumları",
-        "Üst düzey yöneticilerle güçlü networking fırsatları",
-        "Uluslararası pazarlar için ana sektör trendlerini belirleme"
+        "İhracat, yatırım ve iş birliği odaklı oturumlar",
+        "Karar vericilerle doğrudan temas ve güçlü networking imkanları",
+        "Yeni pazarlara açılım için güncel sektör içgörüleri"
       ]
     },
     "report": {
       "title": "BDT bölgesinde yeni ihracat fırsatlarını keşfedin!"
     },
     "eventsTitle": "Yaklaşan Etkinlikler",
-    "showcaseTitle": "MÜSTAKİL FUAR/ ORGANİZASYON Fuarları",
-    "showcaseHeading": "Konular",
-    "showcaseText": "Rusya, BDT, MENA ve ötesinde tedarikçileri, alıcıları, medyayı ve kurumları bir araya getiren sektör lideri fuarlar, zirveler ve konferanslar düzenliyoruz.",
-    "showcaseBullets": [
-      "Sektöre özel topluluklar ve hedefli kitleler",
-      "Yıl boyu süren dijital temas noktalarıyla desteklenen hibrit formatlar",
-      "Paylaştığın MÜSTAKİL FUAR/ ORGANİZASYON referanslarından ilham alan net görsel sistem"
-    ],
-    "cta": "Başarınız için çalışıyoruz"
+    "cta": "İşinizi Büyüten Güçlü Bağlantılar"
   },
   "events": {
     "hero": {
@@ -184,60 +176,10 @@
         "date": "23–26 Eylül 2026",
         "location": "İstanbul, İstanbul Fuar Merkezi",
         "activeBar": true
-      },
-      {
-        "logo": "EXPO\nCIFRA",
-        "logoColor": "#3264ca",
-        "title": "ExpoCifra",
-        "description": "Karar vericiler ve stratejik alıcılar için bilgi teknolojileri ve dijital dönüşüm çözümlerine odaklanan 2. fuar.",
-        "date": "14 - 16 Nisan 2026",
-        "location": "Moskova, Crocus Expo",
-        "activeBar": false
-      },
-      {
-        "logo": "ANALITIKA\nEXPO",
-        "logoColor": "#1385ab",
-        "title": "Analitika Expo",
-        "description": "Laboratuvar ekipmanları ve kimyasal reaktifler alanında sanayi ve bilimsel inovasyona odaklanan 24. uluslararası fuar.",
-        "date": "22 - 24 Nisan 2026",
-        "location": "Moskova, Crocus Expo",
-        "activeBar": false
-      },
-      {
-        "logo": "MiningWorld\nRussia",
-        "logoColor": "#ff8a00",
-        "title": "MiningWorld Russia",
-        "description": "Madencilik, işleme ve mineral taşımacılığı makineleri ve ekipmanları için 30. uluslararası fuar.",
-        "date": "22 - 24 Nisan 2026",
-        "location": "Moskova, Crocus Expo",
-        "activeBar": false
-      },
-      {
-        "logo": "Securika\nMoscow",
-        "logoColor": "#2a64c7",
-        "title": "Securika Moscow",
-        "description": "Güvenlik, yangın koruma ekipmanları ve ürünleri için küresel tedarikçileri ve bölgesel entegratörleri buluşturan 31. uluslararası fuar.",
-        "date": "22 - 24 Nisan 2026",
-        "location": "Moskova, Crocus Expo",
-        "activeBar": false
-      },
-      {
-        "logo": "WOODEX\nMebel Summit",
-        "logoColor": "#161616",
-        "title": "Woodex Mebel Summit",
-        "description": "Mobilya sektörü profesyonelleri için ürün inovasyonu, iş birlikleri ve yeni alıcılara erişim odaklı zirve.",
-        "date": "3 - 5 Haziran 2026",
-        "location": "Moskova, LOTTE Hotel",
-        "activeBar": false
       }
     ],
     "pagination": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
+      "1"
     ],
     "cta": "Fuarlar, Zirveler ve\nYeni İş Bağlantıları"
   },
@@ -381,38 +323,126 @@
   },
   "travel": {
     "hero": {
-      "crumb": "Ana Sayfa",
-      "current": "Rusya seyahat rehberi",
-      "title": "Rusya'ya seyahat için bilgiler"
+      "title": "Türkiye için Seyahat Bilgileri"
     },
-    "left": {
-      "intro": "MÜSTAKİL FUAR/ ORGANİZASYON fuarlarının Rus ve yabancı katılımcıları, iş ortakları ve ziyaretçileri; resmi temsilcimiz Visa-Russian.ru üzerinden fuara özel servislerle seyahat planlayabilir:",
-      "services": [
-        "Rusya vizesi başvurusu için resmi davetiye düzenlenmesi",
-        "Vize başvurusu için sağlık sigortası sağlanması",
-        "Özel fiyatlarla otel ve daire rezervasyonu",
-        "Kapsamlı ulaşım desteği",
-        "Havalimanı ve tren istasyonlarında VIP hizmet",
-        "Gezi ve kültürel program",
-        "İş seyahatini tatille birleştirme"
-      ],
-      "contact": "Detaylı bilgi için Visa-Russian.ru adresini ziyaret edebilir, talep bırakabilir veya şu numarayla iletişime geçebilirsin: +7 (495) 935-83-85",
-      "links": [
-        "WhatsApp",
-        "visa@visa-russian.ru",
-        "Geri bildirim formu"
-      ],
-      "guide": "Fuar ziyaretçileri için Moskova seyahat rehberini indir"
-    },
-    "right": {
-      "title": "Ek bilgiler:",
-      "links": [
-        "Vize desteği",
-        "Rusya Federasyonu'na giriş kuralları",
-        "Konaklama ve transferler",
-        "Turlar"
-      ]
-    }
+    "badge": "Seyahat Rehberi",
+    "intro": "Türkiye, Avrupa ile Asya'yı birbirine bağlayan stratejik konumu, modern altyapısı ve köklü misafirperverlik geleneğiyle iş dünyasının en gözde destinasyonlarından biridir. MÜSİAD EXPO ve diğer uluslararası organizasyonlar için İstanbul'a gelen katılımcılara yönelik kapsamlı seyahat bilgileri ve Türkiye'yi yakından tanımanızı sağlayacak içerikler bu sayfada bir araya getirilmiştir.",
+    "infoCards": [
+      {
+        "number": "01",
+        "title": "Vize ve Giriş",
+        "text": "Türkiye, 90'dan fazla ülke vatandaşına vize muafiyeti tanımaktadır. Vize gerektiren ülkelerden gelenler için pratik ve hızlı e-Vize sistemi mevcuttur. Başvurular evisa.gov.tr üzerinden çevrimiçi olarak yapılabilir."
+      },
+      {
+        "number": "02",
+        "title": "Ulaşım",
+        "text": "İstanbul Havalimanı, Avrupa'nın en büyük havalimanları arasında yer almakta olup 120'den fazla ülkeye direkt uçuş sunmaktadır. Şehir içinde metro, tramvay ve Marmaray hattı fuar alanlarına kolay erişim sağlamaktadır."
+      },
+      {
+        "number": "03",
+        "title": "Konaklama",
+        "text": "İstanbul, her bütçeye hitap eden binlerce konaklama seçeneğine sahiptir. İstanbul Fuar Merkezi'ne yakın Bakırköy, Zeytinburnu ve Şişli bölgelerinde uluslararası zincir otellerden butik tesislere kadar geniş bir yelpazeyi bulabilirsiniz."
+      }
+    ],
+    "placesTitle": "İstanbul'da Gezilecek Yerler",
+    "placesIntro": "Fuar ziyaretinizin ardından ya da öncesinde İstanbul'un eşsiz güzelliklerini keşfetmek için önerilen başlıca noktalar.",
+    "places": [
+      {
+        "name": "Sultanahmet Camii",
+        "district": "Sultanahmet, Fatih",
+        "description": "17. yüzyılda inşa edilen ve altı minaresiyle dünyada eşine az rastlanan mimari bir şaheser. İçindeki 20.000'den fazla İznik çinisiyle de büyüleyici olan cami, İstanbul'un simgesi olmaya devam etmektedir.",
+        "photo": "/images/sultanahmet.jpg",
+        "photoPosition": "center"
+      },
+      {
+        "name": "Ayasofya",
+        "district": "Ayasofya Meydanı, Fatih",
+        "description": "537 yılında kilise olarak inşa edilen, ardından camiye ve müzeye dönüştürülen Ayasofya; Bizans ve Osmanlı mimarisinin muhteşem bir sentezidir. Devasa kubbesi ve görkemli iç mekânıyla UNESCO Dünya Mirası listesindedir.",
+        "photo": "/images/ayasofya.jpg",
+        "photoPosition": "center"
+      },
+      {
+        "name": "Topkapı Sarayı",
+        "district": "Sarayburnu, Fatih",
+        "description": "400 yıl boyunca Osmanlı sultanlarına ev sahipliği yapan bu saray; hazine dairesi, harem bölümü ve Boğaz'a nazır büyüleyici bahçeleriyle İstanbul'un en zengin müzelerinden birini sunmaktadır.",
+        "photo": "/images/topkapi.jpg",
+        "photoPosition": "center top"
+      },
+      {
+        "name": "Kapalıçarşı",
+        "district": "Beyazıt, Fatih",
+        "description": "Dünyanın en büyük ve en eski kapalı çarşılarından biri. 4.000'den fazla dükkan, 60 sokak ve yüzyıllık ticaret geleneğiyle her ziyaretçiye farklı bir deneyim sunan eşsiz bir pazar labirenti.",
+        "photo": "/images/kapalıcarsi.jpg",
+        "photoPosition": "center"
+      },
+      {
+        "name": "Galata Kulesi",
+        "district": "Galata, Beyoğlu",
+        "description": "1348 yılında Cenevizliler tarafından inşa edilen ve İstanbul siluetinin vazgeçilmez parçası olan Galata Kulesi'nin tepesinden şehrin 360 derecelik panoramik manzarasının keyfini çıkarabilirsiniz.",
+        "photo": "/images/galata.jpg",
+        "photoPosition": "center top"
+      },
+      {
+        "name": "Boğaz Turu",
+        "district": "Eminönü · Üsküdar",
+        "description": "İstanbul'u denizden görmek ayrı bir deneyim. Avrupa ve Asya kıyılarını boyunca uzanan yalılar, köprüler ve kaleler eşliğinde yapılan Boğaz turu, şehrin ruhunu en iyi şekilde hissettirir.",
+        "photo": "/images/bogazturu.jpg",
+        "photoPosition": "center"
+      },
+      {
+        "name": "Dolmabahçe Sarayı",
+        "district": "Beşiktaş",
+        "description": "19. yüzyılda Osmanlı'nın modernleşme döneminde inşa edilen bu saray; Avrupa Barok mimarisi ile geleneksel Osmanlı sanat anlayışının buluştuğu görkemli bir yapıdır. Boğaz kıyısındaki konumuyla da ayrı bir zarafet taşır.",
+        "photo": "/images/dolmabahce.jpg",
+        "photoPosition": "center"
+      },
+      {
+        "name": "Prens Adaları",
+        "district": "Adalar, Marmara Denizi",
+        "description": "İstanbul'un gürültüsünden uzak, motosiklet ve araçların yasak olduğu bu adalar; at arabalarıyla dolaşabileceğiniz, tarihi ahşap köşkleri ve sakin koylarıyla nefes alacağınız bir gün günübirlik kaçamak sunar.",
+        "photo": "/images/adalar.jpg",
+        "photoPosition": "center"
+      }
+    ],
+    "blogTitle": "Blog Türkiye",
+    "blogPosts": [
+      {
+        "tag": "Şehir Rehberi",
+        "title": "İstanbul: Fuar Ziyaretçisi İçin Pratik Şehir Rehberi",
+        "excerpt": "İstanbul Fuar Merkezi (İFM), Yeşilköy-Bakırköy hattında yer alır. Resmi ulaşım seçenekleri arasında metro, Marmaray, metrobüs bağlantısı ve taksi bulunur. Toplu taşımada İstanbulkart veya İstanbulkart Mobil pratik çözüm sunar. Konaklama planında fuar alanına yakın bölgelerle ana ulaşım aksları tercih edilebilir. Güncel güzergah ve sefer bilgileri için İFM ve ilgili ulaşım kurumlarının resmi sayfaları kontrol edilmelidir.",
+        "readTime": "3 dk okuma"
+      },
+      {
+        "tag": "İş Dünyası",
+        "title": "Türkiye ile İş Yaparken Dikkat Edilmesi Gerekenler",
+        "excerpt": "Toplantı saatini ve konumunu önceden teyit edin. Kurum tanıtımı, kartvizit ve kısa bir gündem hazırlayın. Hitapta saygılı ve profesyonel bir dil kullanın. Kıyafette ölçülü ve kurumsal çizgi tercih edin. Karar süreçlerinin kurumdan kuruma değişebileceğini dikkate alın. Görüşme sonrası mutabakatları e-posta ile yazılı teyit edin. Fuar sonrasında hızlı geri dönüş yapmak güven oluşturur.",
+        "readTime": "4 dk okuma"
+      },
+      {
+        "tag": "Kültür",
+        "title": "İstanbul'da Ne Yenir? Fuar Ziyaretçisi İçin Yemek Rehberi",
+        "excerpt": "Fuar günlerinde kahvaltı salonları, ev yemekleri, ızgara-kebap restoranları ve aile dostu işletmeler güvenli seçenekler sunar. Öğle için çorba, pide, köfte, döner veya zeytinyağlı menüler tercih edilebilir. Akşam buluşmalarında sakin, rezervasyon kabul eden ve kurumsal misafir ağırlamaya uygun mekanlar öne çıkar. Helal hassasiyeti, menü içeriği ve ödeme seçeneklerini ziyaret öncesinde kontrol etmek faydalıdır.",
+        "readTime": "4 dk okuma"
+      },
+      {
+        "tag": "Pratik Bilgi",
+        "title": "Türkiye'ye Giriş: Vize, Para ve Telefon",
+        "excerpt": "Vize koşulları ülkeye ve pasaport türüne göre değişir; uygunluk ve başvuru bilgileri resmi e-Vize sistemi üzerinden kontrol edilmelidir. Türkiye'nin para birimi Türk Lirası'dır (TRY). Kartlı ödeme yaygın olsa da küçük harcamalar için bir miktar nakit bulundurmak faydalıdır. Kısa süreli kullanım için eSIM veya yerel operatör paketleri değerlendirilebilir. Türkiye saati yıl boyunca UTC+3'tür.",
+        "readTime": "3 dk okuma"
+      },
+      {
+        "tag": "Keşfet",
+        "title": "İstanbul'da 1 Günlük Kültür Rotası",
+        "excerpt": "Sabah saatlerinde Sultanahmet Camii ve Ayasofya Camii çevresiyle başlayıp Gülhane ve Topkapı Sarayı dış avlusu üzerinden devam eden bir rota planlanabilir. Öğle bölümünde Mısır Çarşısı ve Eminönü hattı pratik bir durak sunar. Öğleden sonra Kapalıçarşı, Beyazıt ve Süleymaniye çevresi birlikte gezilebilir. Ziyaret öncesinde ibadet saatleri, biletli alanlar ve resmi ziyaret saatleri mutlaka kontrol edilmelidir.",
+        "readTime": "5 dk okuma"
+      },
+      {
+        "tag": "Ekonomi",
+        "title": "Türkiye'de Hangi Sektörler Fırsat Sunuyor?",
+        "excerpt": "Türkiye'de yatırım ve iş birliği gündeminde öne çıkan alanlar arasında makine ve imalat, agrofood, lojistik ve taşımacılık, bilgi ve iletişim teknolojileri, enerji ve altyapı yer alır. Sektör öncelikleri proje türüne, bölgeye ve teşvik yapısına göre değişebilir. Güncel yatırım başlıkları, teşvikler ve bölgesel avantajlar için Invest in Türkiye kaynakları üzerinden doğrulama yapılması önerilir.",
+        "readTime": "4 dk okuma"
+      }
+    ]
   },
   "contact": {
     "hero": {

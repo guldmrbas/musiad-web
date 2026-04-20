@@ -159,8 +159,8 @@ function Footer() {
 function FloatRail() {
   return (
     <div className="float-rail" aria-hidden="true">
-      <NavLink to="/contact">✉</NavLink>
-      <NavLink to="/contact">✆</NavLink>
+      <a href="mailto:satis@mustakilfuarcilik.com">✉</a>
+      <a href="tel:+905309129475">✆</a>
     </div>
   );
 }

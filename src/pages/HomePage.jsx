@@ -1,10 +1,28 @@
 import { Link } from "react-router-dom";
+import { useRef } from "react";
 import SectionHeading from "../components/SectionHeading";
 import { EventCard } from "../components/CardGrid";
 import { useI18n } from "../i18n/I18nProvider";
 
 export default function HomePage() {
   const { messages, t } = useI18n();
+  const trackRef = useRef(null);
+
+  function onMouseDown(e) {
+    const el = trackRef.current;
+    el.dataset.down = "1";
+    el.dataset.startX = e.pageX - el.offsetLeft;
+    el.dataset.scrollLeft = el.scrollLeft;
+  }
+  function onMouseLeave() { trackRef.current.dataset.down = "0"; }
+  function onMouseUp() { trackRef.current.dataset.down = "0"; }
+  function onMouseMove(e) {
+    const el = trackRef.current;
+    if (el.dataset.down !== "1") return;
+    e.preventDefault();
+    const x = e.pageX - el.offsetLeft;
+    el.scrollLeft = Number(el.dataset.scrollLeft) - (x - Number(el.dataset.startX)) * 1.5;
+  }
   const home = messages.home;
   const eventCards = messages.events.cards;
 
@@ -38,35 +56,16 @@ export default function HomePage() {
           </div>
           <div className="visual-panel">
             <div className="visual-figure"></div>
-            <div className="rail-arrows" aria-hidden="true">
-              <button type="button">‹</button>
-              <button type="button">›</button>
-            </div>
           </div>
         </div>
       </section>
 
-      <section className="section">
-        <div className="container">
-          <div className="report-banner">
-            <div className="report-copy">
-              <div className="mini-brand"><img src="/logo.jpeg" alt={messages.ui?.brandLogoAlt ?? messages.meta?.siteName ?? "MÜSTAKİL FUAR/ORGANİZASYON"} /></div>
-              <h3>{home.report.title}</h3>
-              <Link className="report-action" to="/about">
-                ↗ {t("actions.downloadReport")}
-              </Link>
-            </div>
-            <div className="report-visual">
-              <div className="book-stack"></div>
-              <div className="book-mock"></div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="section">
         <div className="container">
-          <SectionHeading title={home.eventsTitle} />
+          <Link to="/events" className="section-heading-link">
+            <SectionHeading title={home.eventsTitle} />
+          </Link>
           <div className="cards-grid">
             {eventCards.map((item, index) => (
               <EventCard key={item.title} item={item} mutedLink={index !== 0} />
@@ -80,28 +79,20 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section">
-        <div className="container">
-          <SectionHeading title={home.showcaseTitle} />
-          <div className="showcase">
-            <div className="showcase-side"></div>
-            <div className="showcase-center">
-              <h3>{home.showcaseHeading}</h3>
-              <p className="lead-copy">{home.showcaseText}</p>
-              <ul className="bullet-list">
-                {home.showcaseBullets.map((bullet) => (
-                  <li key={bullet}>{bullet}</li>
-                ))}
-              </ul>
+      <section className="photo-gallery-section">
+        <div
+          className="photo-gallery-track"
+          ref={trackRef}
+          onMouseDown={onMouseDown}
+          onMouseLeave={onMouseLeave}
+          onMouseUp={onMouseUp}
+          onMouseMove={onMouseMove}
+        >
+          {["1.JPG","2.JPG","3.jpeg","4.jpeg","5.jpeg","6.jpeg","7.JPG"].map((img, i) => (
+            <div className="photo-gallery-slide" key={img}>
+              <img src={`/images/${img}`} alt={`Etkinlik ${i + 1}`} draggable={false} />
             </div>
-            <div className="showcase-side right"></div>
-          </div>
-          <div className="slider-nav slider-dots" aria-hidden="true" style={{ color: "var(--brand)" }}>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span className="active"></span>
-          </div>
+          ))}
         </div>
       </section>
 

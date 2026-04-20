@@ -313,7 +313,7 @@ img {
   display: grid;
   grid-template-columns: 50px 1fr;
   gap: 14px;
-  align-items: start;
+  align-items: center;
 }
 
 .hero-bullet i {
@@ -328,7 +328,9 @@ img {
 }
 
 .hero-bullet strong {
-  display: block;
+  display: flex;
+  align-items: center;
+  min-height: 50px;
   font-size: 14px;
   line-height: 1.38;
 }
@@ -398,20 +400,14 @@ img {
 }
 
 .visual-panel::after {
-  width: 260px;
-  height: 260px;
-  left: 46px;
-  bottom: 150px;
-  background: rgba(100, 140, 220, 0.42);
+  display: none;
 }
 
 .visual-figure {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, transparent 0 52%, rgba(255, 255, 255, 0.05) 52% 53%, transparent 53%),
-    linear-gradient(transparent 0 40%, rgba(255, 255, 255, 0.07) 40% 41%, transparent 41%),
-    linear-gradient(120deg, rgba(13, 17, 24, 0.82) 14%, rgba(38, 44, 58, 0.66) 38%, rgba(255, 255, 255, 0) 65%),
+    linear-gradient(90deg, rgba(10, 18, 50, 0.35) 0%, transparent 28%),
     url('/images/musiad-expo-kuresel-ticaret-burada-13.webp') center / cover no-repeat;
 }
 
@@ -434,6 +430,20 @@ img {
 
 .section {
   padding: 32px 0 42px;
+}
+
+.section-heading-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.section-heading-link:hover h2 {
+  color: var(--brand);
+}
+
+.section-heading-link:hover .flag {
+  background: var(--brand-strong);
 }
 
 .section-heading {
@@ -681,6 +691,29 @@ img {
   font-size: 16px;
   font-weight: 900;
   margin-bottom: 6px;
+}
+
+a.card-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--brand);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: rgba(26, 47, 107, 0.4);
+  text-underline-offset: 3px;
+  transition: color 0.2s, text-decoration-color 0.2s;
+}
+
+a.card-location::after {
+  content: "↗";
+  font-size: 12px;
+}
+
+a.card-location:hover {
+  color: var(--plum);
+  text-decoration-color: var(--plum);
 }
 
 .card-link {
@@ -1642,7 +1675,9 @@ img {
   margin-top: auto;
 }
 
-.about-page .cta-copy {
+.about-page .cta-copy,
+.events-page .cta-copy,
+.home-page .cta-copy {
   overflow: hidden;
 }
 
@@ -1653,11 +1688,17 @@ img {
 }
 
 .about-page .cta-media::before,
-.about-page .cta-media::after {
+.about-page .cta-media::after,
+.events-page .cta-media::before,
+.events-page .cta-media::after,
+.home-page .cta-media::before,
+.home-page .cta-media::after {
   display: none;
 }
 
-.about-page .cta-copy::before {
+.about-page .cta-copy::before,
+.events-page .cta-copy::before,
+.home-page .cta-copy::before {
   inset: auto;
   left: 56px;
   top: 50%;
@@ -1669,7 +1710,9 @@ img {
   transform: translateY(-50%);
 }
 
-.about-page .cta-copy::after {
+.about-page .cta-copy::after,
+.events-page .cta-copy::after,
+.home-page .cta-copy::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -1684,7 +1727,9 @@ img {
   pointer-events: none;
 }
 
-.about-page .cta-copy h3 {
+.about-page .cta-copy h3,
+.events-page .cta-copy h3,
+.home-page .cta-copy h3 {
   white-space: nowrap;
   font-size: clamp(24px, 2.55vw, 40px);
   line-height: 1;
@@ -1743,42 +1788,6 @@ img {
     url('/images/musiad-expo-kuresel-ticaret-burada-14.webp') center / cover no-repeat;
 }
 
-.events-page .cta-media::before,
-.events-page .cta-media::after {
-  display: none;
-}
-
-.events-page .cta-copy {
-  overflow: hidden;
-}
-
-.events-page .cta-copy::before {
-  inset: auto;
-  left: 56px;
-  top: 50%;
-  width: 8px;
-  height: 96px;
-  border: 0;
-  border-radius: 999px;
-  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.48) 100%);
-  transform: translateY(-50%);
-}
-
-.events-page .cta-copy::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(circle at 26% 36%, rgba(255, 255, 255, 0.16) 0 4px, transparent 5px),
-    radial-gradient(circle at 40% 58%, rgba(255, 255, 255, 0.12) 0 3px, transparent 4px),
-    radial-gradient(circle at 62% 34%, rgba(255, 255, 255, 0.14) 0 4px, transparent 5px),
-    radial-gradient(circle at 76% 62%, rgba(255, 255, 255, 0.12) 0 3px, transparent 4px),
-    linear-gradient(115deg, transparent 31%, rgba(255, 255, 255, 0.1) 31.5%, transparent 32.2%),
-    linear-gradient(140deg, transparent 53%, rgba(255, 255, 255, 0.08) 53.5%, transparent 54.2%);
-  opacity: 0.9;
-  pointer-events: none;
-}
-
 .events-page .cta-copy h3 {
   white-space: pre-line;
   font-size: clamp(24px, 2.55vw, 40px);
@@ -1790,6 +1799,27 @@ img {
   background:
     linear-gradient(0deg, rgba(14, 24, 64, 0.45), rgba(14, 24, 64, 0.45)),
     url('/images/musiad-expo-kuresel-ticaret-burada-22.webp') center / cover no-repeat;
+}
+
+.home-page .cta-copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.home-page .cta-copy::before {
+  position: static;
+  transform: none;
+  flex-shrink: 0;
+}
+
+.home-page .cta-copy h3 {
+  white-space: normal;
+  max-width: 16ch;
+  padding-left: 0;
+  text-align: left;
+  line-height: 1.04;
 }
 
 .connect-page .page-hero::before {
@@ -1810,22 +1840,338 @@ img {
   width: 0;
 }
 
-.travel-page .two-col {
-  align-items: start;
-}
-
-.travel-page .page-copy:last-child {
-  padding-left: 8px;
-}
-
 .travel-page .page-hero::before {
   background:
-    linear-gradient(90deg, rgba(26, 47, 107, 0.84), rgba(61, 100, 204, 0.68)),
-    linear-gradient(135deg, #8fa5d0 0%, #5a7ab8 100%);
+    linear-gradient(0deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)),
+    url('/images/turkiye.jpg') center 30% / cover no-repeat;
+}
+
+.travel-intro-section {
+  padding: 48px 0 32px;
+  background: linear-gradient(180deg, #ffffff 0%, #f6f7fb 100%);
+}
+
+.travel-intro-inner {
+  max-width: 860px;
+}
+
+.travel-intro-badge {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 6px 16px;
+  background: var(--brand);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.travel-intro-text {
+  font-size: 17px;
+  line-height: 1.65;
+  color: #2c3340;
+  margin: 0;
+}
+
+.travel-info-section {
+  padding: 40px 0 48px;
+}
+
+.travel-info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.travel-info-card {
+  background: #fff;
+  padding: 32px 28px 28px;
+  border-radius: 16px;
+  border: 1px solid rgba(17, 25, 35, 0.06);
+  box-shadow:
+    0 4px 6px rgba(17, 25, 35, 0.04),
+    0 12px 32px rgba(17, 25, 35, 0.09),
+    0 28px 60px rgba(17, 25, 35, 0.10);
+  border-top: 4px solid var(--brand);
+}
+
+.travel-info-number {
+  font-size: 13px;
+  font-weight: 900;
+  color: var(--brand);
+  letter-spacing: 0.06em;
+  margin-bottom: 14px;
+  opacity: 0.6;
+}
+
+.travel-info-card h3 {
+  margin: 0 0 12px;
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--ink);
+}
+
+.travel-info-card p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444c5a;
+}
+
+.travel-places-section {
+  padding: 16px 0 56px;
+  background: linear-gradient(180deg, #f6f7fb 0%, #ffffff 100%);
+}
+
+.travel-places-intro {
+  margin: 0 0 32px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #5a606e;
+  max-width: 720px;
+}
+
+.travel-places-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.travel-place-card {
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid rgba(17, 25, 35, 0.06);
+  box-shadow:
+    0 4px 6px rgba(17, 25, 35, 0.04),
+    0 12px 32px rgba(17, 25, 35, 0.09),
+    0 28px 60px rgba(17, 25, 35, 0.10);
+  overflow: hidden;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.travel-place-card:hover {
+  box-shadow:
+    0 8px 16px rgba(17, 25, 35, 0.06),
+    0 24px 52px rgba(17, 25, 35, 0.14),
+    0 48px 96px rgba(17, 25, 35, 0.16);
+  transform: translateY(-4px);
+}
+
+.travel-place-photo {
+  height: 200px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #c8d6f0 0%, #8aaad4 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.travel-place-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.travel-place-photo-label {
+  font-size: 13px;
+  font-weight: 800;
+  color: rgba(255,255,255,0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.travel-place-body {
+  padding: 18px 18px 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.travel-place-district {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--brand);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.travel-place-body h3 {
+  margin: 0 0 10px;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: var(--ink);
+}
+
+.travel-place-body p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #505763;
+  flex: 1;
+}
+
+.travel-blog-section {
+  padding: 16px 0 64px;
+}
+
+.travel-blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 28px;
+}
+
+.travel-blog-card {
+  background: #fff;
+  padding: 28px 26px 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(17, 25, 35, 0.06);
+  box-shadow:
+    0 4px 6px rgba(17, 25, 35, 0.04),
+    0 12px 32px rgba(17, 25, 35, 0.09),
+    0 28px 60px rgba(17, 25, 35, 0.10);
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.travel-blog-card:hover {
+  box-shadow:
+    0 8px 16px rgba(17, 25, 35, 0.06),
+    0 24px 52px rgba(17, 25, 35, 0.14),
+    0 48px 96px rgba(17, 25, 35, 0.16);
+  transform: translateY(-4px);
+}
+
+.travel-blog-tag {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 4px 12px;
+  background: var(--surface-soft);
+  color: var(--brand);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+.travel-blog-card h3 {
+  margin: 0 0 12px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1.25;
+  color: var(--ink);
+}
+
+.travel-blog-card p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444c5a;
+  flex: 1;
+}
+
+.travel-blog-footer {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+.travel-blog-readtime {
+  font-size: 12px;
+  font-weight: 700;
+  color: #8a909c;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1180px) {
+  .travel-info-grid,
+  .travel-blog-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .travel-places-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .travel-info-grid,
+  .travel-blog-grid,
+  .travel-places-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .travel-intro-section {
+    padding: 32px 0 22px;
+  }
+
+  .travel-intro-text {
+    font-size: 15px;
+  }
 }
 
 .contact-page .site-header {
   box-shadow: 0 14px 28px rgba(16, 24, 35, 0.08);
+}
+
+.photo-gallery-section {
+  overflow: hidden;
+  padding: 0 0 48px;
+  background: linear-gradient(180deg, #f8f8f6 0%, var(--bg) 100%);
+}
+
+.photo-gallery-track {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding: 0 clamp(16px, 3.6vw, 52px);
+  cursor: grab;
+}
+
+.photo-gallery-track::-webkit-scrollbar {
+  display: none;
+}
+
+.photo-gallery-track:active {
+  cursor: grabbing;
+}
+
+.photo-gallery-slide {
+  flex: 0 0 clamp(260px, 38vw, 560px);
+  height: clamp(200px, 28vw, 400px);
+  scroll-snap-align: start;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(17, 25, 35, 0.12);
+}
+
+.photo-gallery-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.photo-gallery-slide:hover img {
+  transform: scale(1.04);
 }
 
 .home-page .report-banner {
@@ -1869,6 +2215,10 @@ img {
 
 .contact-page .site-header {
   box-shadow: 0 14px 28px rgba(16, 24, 35, 0.08);
+}
+
+.contact-page .page-hero::before {
+  background: url('/images/genel.jpeg') center center / cover no-repeat;
 }
 
 @media (max-width: 1180px) {
@@ -2111,25 +2461,21 @@ img {
     border-width: 6px;
   }
 
-  .about-page .cta-copy::before {
-    left: 22px;
-    width: 6px;
-    height: 58px;
-  }
-
+  .about-page .cta-copy::before,
   .events-page .cta-copy::before {
     left: 22px;
     width: 6px;
     height: 58px;
   }
 
-  .about-page .cta-copy h3 {
-    white-space: normal;
-    font-size: clamp(22px, 8vw, 30px);
-    line-height: 1.05;
+  .home-page .cta-copy::before {
+    width: 6px;
+    height: 58px;
   }
 
-  .events-page .cta-copy h3 {
+  .about-page .cta-copy h3,
+  .events-page .cta-copy h3,
+  .home-page .cta-copy h3 {
     white-space: normal;
     font-size: clamp(22px, 8vw, 30px);
     line-height: 1.05;

@@ -16,32 +16,73 @@ export default function TravelPage() {
 
   return (
     <main>
-      <PageHero {...travel.hero} className="travel" />
-      <section className="page-layout">
-        <div className="container travel-grid">
-          <div className="page-copy">
-            <p>{travel.left.intro}</p>
-            <ul className="bullet-list">
-              {travel.left.services.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-            <p>{travel.left.contact}</p>
-            <div className="stacked-links">
-              {travel.left.links.map((item) => (
-                <a key={item} href="#">{item}</a>
-              ))}
-            </div>
-            <a className="guide-link" href="#">{travel.left.guide}</a>
+      <PageHero title={travel.hero.title} className="travel" />
+
+      <section className="travel-intro-section">
+        <div className="container">
+          <div className="travel-intro-inner">
+            <span className="travel-intro-badge">{travel.badge}</span>
+            <p className="travel-intro-text">{travel.intro}</p>
           </div>
-          <aside className="info-panel">
-            <h2>{travel.right.title}</h2>
-            <ul className="bullet-list compact">
-              {travel.right.links.map((item) => (
-                <li key={item}><a href="#">{item}</a></li>
-              ))}
-            </ul>
-          </aside>
+        </div>
+      </section>
+
+      <section className="travel-info-section">
+        <div className="container">
+          <div className="travel-info-grid">
+            {travel.infoCards.map((card) => (
+              <div key={card.title} className="travel-info-card">
+                <div className="travel-info-number">{card.number}</div>
+                <h3>{card.title}</h3>
+                <p>{card.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="travel-places-section">
+        <div className="container">
+          <div className="section-heading">
+            <div className="flag"></div>
+            <h2>{travel.placesTitle}</h2>
+          </div>
+          <p className="travel-places-intro">{travel.placesIntro}</p>
+          <div className="travel-places-grid">
+            {travel.places.map((place) => (
+              <article key={place.name} className="travel-place-card">
+                <div className="travel-place-photo">
+                  {place.photo
+                    ? <img src={place.photo} alt={place.name} style={{ objectPosition: place.photoPosition || "center" }} />
+                    : <span className="travel-place-photo-label">{place.name}</span>
+                  }
+                </div>
+                <div className="travel-place-body">
+                  <span className="travel-place-district">{place.district}</span>
+                  <h3>{place.name}</h3>
+                  <p>{place.description}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="travel-blog-section">
+        <div className="container">
+          <div className="section-heading">
+            <div className="flag"></div>
+            <h2>{travel.blogTitle}</h2>
+          </div>
+          <div className="travel-blog-grid">
+            {travel.blogPosts.map((post) => (
+              <article key={post.title} className="travel-blog-card">
+                <span className="travel-blog-tag">{post.tag}</span>
+                <h3>{post.title}</h3>
+                <p>{post.excerpt}</p>
+              </article>
+            ))}
+          </div>
         </div>
       </section>
     </main>

@@ -8,12 +8,30 @@
     "ar": "AR"
   },
   "nav": [
-    { "label": "Home", "to": "/" },
-    { "label": "About Us", "to": "/about" },
-    { "label": "Events Calendar", "to": "/events" },
-    { "label": "Exhibition Network", "to": "/connect" },
-    { "label": "Travel Information", "to": "/travel" },
-    { "label": "Contact", "to": "/contact" }
+    {
+      "label": "Home",
+      "to": "/"
+    },
+    {
+      "label": "About Us",
+      "to": "/about"
+    },
+    {
+      "label": "Events Calendar",
+      "to": "/events"
+    },
+    {
+      "label": "Exhibition Network",
+      "to": "/connect"
+    },
+    {
+      "label": "Travel Information",
+      "to": "/travel"
+    },
+    {
+      "label": "Contact",
+      "to": "/contact"
+    }
   ],
   "actions": {
     "readMore": "Read more",
@@ -52,65 +70,96 @@
       {
         "title": "MÜSTAKİL FUAR/ ORGANİZASYON",
         "links": [
-          { "label": "Events calendar", "to": "/events" },
-          { "label": "Exhibition Network", "to": "/connect" }
+          {
+            "label": "Events calendar",
+            "to": "/events"
+          },
+          {
+            "label": "Exhibition Network",
+            "to": "/connect"
+          }
         ]
       },
       {
         "title": "Travel information",
         "links": [
-          { "label": "Visa support", "to": "/travel" },
-          { "label": "Rules of entry to the Russian Federation", "to": "/travel" },
-          { "label": "Accommodation and transfers", "to": "/travel" },
-          { "label": "Tours", "to": "/travel" }
+          {
+            "label": "Visa support",
+            "to": "/travel"
+          },
+          {
+            "label": "Rules of entry to the Russian Federation",
+            "to": "/travel"
+          },
+          {
+            "label": "Accommodation and transfers",
+            "to": "/travel"
+          },
+          {
+            "label": "Tours",
+            "to": "/travel"
+          }
         ]
       },
       {
         "title": "About Us",
         "links": [
-          { "label": "Company leadership", "to": "/about" },
-          { "label": "Business partners", "to": "/about" }
+          {
+            "label": "Company leadership",
+            "to": "/about"
+          },
+          {
+            "label": "Business partners",
+            "to": "/about"
+          }
         ]
       },
       {
         "title": "Contact",
         "links": [
-          { "label": "Contact page", "to": "/contact" },
-          { "label": "+90 (212) 395 00 00", "href": "tel:+902123950000" },
-          { "label": "satis@mustakilfuarcilik.com", "href": "mailto:satis@mustakilfuarcilik.com" },
-          { "label": "Ataköy 7-8-9-10 Mah. Çobançeşme E5 Yanyol Cad. No:4, Bakırköy / İstanbul" }
+          {
+            "label": "Contact page",
+            "to": "/contact"
+          },
+          {
+            "label": "+90 (212) 395 00 00",
+            "href": "tel:+902123950000"
+          },
+          {
+            "label": "satis@mustakilfuarcilik.com",
+            "href": "mailto:satis@mustakilfuarcilik.com"
+          },
+          {
+            "label": "Ataköy 7-8-9-10 Mah. Çobançeşme E5 Yanyol Cad. No:4, Bakırköy / İstanbul"
+          }
         ]
       }
     ],
     "bottom": {
       "legal": "THIS FAIR IS ORGANIZED UNDER THE SUPERVISION OF TOBB (UNION OF CHAMBERS AND COMMODITY EXCHANGES OF TURKEY) IN ACCORDANCE WITH LAW NO. 5174.",
       "copyright": "MÜSTAKİL FUARCILIK A.Ş. © 2026",
-      "policies": ["Privacy Policy", "Cookie Policy", "KVKK Data Notice"]
+      "policies": [
+        "Privacy Policy",
+        "Cookie Policy",
+        "KVKK Data Notice"
+      ]
     }
   },
   "home": {
     "hero": {
-      "eyebrow": "Global fairs and business growth",
-      "title": "Conferences and Summits",
+      "eyebrow": "Global Trade and Business Partnerships",
+      "title": "Summits That Bring the Business World Together",
       "bullets": [
-        "Exclusive research and insight presentations",
-        "Strong networking opportunities with top executives",
-        "Identifying key industry trends for international markets"
+        "Sessions focused on exports, investment, and business cooperation",
+        "Direct access to decision-makers and strong networking opportunities",
+        "Current sector insights for expansion into new markets"
       ]
     },
     "report": {
       "title": "Discover new export opportunities in the CIS region!"
     },
     "eventsTitle": "Upcoming Events",
-    "showcaseTitle": "MÜSTAKİL FUAR/ ORGANİZASYON Fairs",
-    "showcaseHeading": "Topics",
-    "showcaseText": "We organise sector-leading fairs, summits and conferences bringing together suppliers, buyers, media and institutions across Russia, the CIS, MENA and beyond.",
-    "showcaseBullets": [
-      "Industry-specific communities and targeted audiences",
-      "Hybrid formats supported by year-round digital touchpoints",
-      "Clear visual system inspired by MÜSTAKİL FUAR/ ORGANİZASYON references you shared"
-    ],
-    "cta": "Working for your success"
+    "cta": "Strong Connections That Grow Your Business"
   },
   "events": {
     "hero": {
@@ -127,54 +176,11 @@
         "date": "23–26 September 2026",
         "location": "Istanbul, Istanbul Fair Center",
         "activeBar": true
-      },
-      {
-        "logo": "EXPO\nCIFRA",
-        "logoColor": "#3264ca",
-        "title": "ExpoCifra",
-        "description": "2nd exhibition of information technology and digital transformation solutions for decision-makers and strategic buyers.",
-        "date": "14 - 16 April 2026",
-        "location": "Moscow, Crocus Expo",
-        "activeBar": false
-      },
-      {
-        "logo": "ANALITIKA\nEXPO",
-        "logoColor": "#1385ab",
-        "title": "Analitika Expo",
-        "description": "24th international exhibition of laboratory equipment and chemical reagents focused on industrial and scientific innovation.",
-        "date": "22 - 24 April 2026",
-        "location": "Moscow, Crocus Expo",
-        "activeBar": false
-      },
-      {
-        "logo": "MiningWorld\nRussia",
-        "logoColor": "#ff8a00",
-        "title": "MiningWorld Russia",
-        "description": "30th international exhibition of machinery and equipment for mining, processing and mineral transportation.",
-        "date": "22 - 24 April 2026",
-        "location": "Moscow, Crocus Expo",
-        "activeBar": false
-      },
-      {
-        "logo": "Securika\nMoscow",
-        "logoColor": "#2a64c7",
-        "title": "Securika Moscow",
-        "description": "31st international exhibition of security and fire protection equipment and products connecting global suppliers and regional integrators.",
-        "date": "22 - 24 April 2026",
-        "location": "Moscow, Crocus Expo",
-        "activeBar": false
-      },
-      {
-        "logo": "WOODEX\nMebel Summit",
-        "logoColor": "#161616",
-        "title": "Woodex Mebel Summit",
-        "description": "Summit for furniture industry professionals focused on product innovation, partnerships and access to new buyers.",
-        "date": "3 - 5 June 2026",
-        "location": "Moscow, LOTTE Hotel",
-        "activeBar": false
       }
     ],
-    "pagination": ["1", "2", "3", "4", "5", "6"],
+    "pagination": [
+      "1"
+    ],
     "cta": "Fairs, Summits and\nNew Business Connections"
   },
   "about": {
@@ -317,38 +323,126 @@
   },
   "travel": {
     "hero": {
-      "crumb": "Home",
-      "current": "Russia travel guide",
-      "title": "Travel information for Russia"
+      "title": "Travel Information for Turkey"
     },
-    "left": {
-      "intro": "Russian and foreign exhibitors, business partners and visitors of MÜSTAKİL FUAR/ ORGANİZASYON fairs can plan their trip with fair-specific services through our official representative Visa-Russian.ru:",
-      "services": [
-        "Official invitation for Russian visa application",
-        "Health insurance for visa application",
-        "Hotel and apartment reservations at special rates",
-        "Comprehensive transport support",
-        "VIP service at airports and train stations",
-        "Sightseeing and cultural programme",
-        "Combining business travel with leisure"
-      ],
-      "contact": "For more information, visit Visa-Russian.ru, leave a request or contact: +7 (495) 935-83-85",
-      "links": [
-        "WhatsApp",
-        "visa@visa-russian.ru",
-        "Feedback form"
-      ],
-      "guide": "Download the Moscow travel guide for fair visitors"
-    },
-    "right": {
-      "title": "Additional information:",
-      "links": [
-        "Visa support",
-        "Rules of entry to the Russian Federation",
-        "Accommodation and transfers",
-        "Tours"
-      ]
-    }
+    "badge": "Travel Guide",
+    "intro": "Turkey, positioned at the crossroads of Europe and Asia, is one of the most sought-after business destinations in the world, thanks to its strategic location, modern infrastructure, and deep-rooted hospitality tradition. This page brings together comprehensive travel information for participants attending MÜSIAD EXPO and other international events in Istanbul, along with engaging content to help you discover Turkey.",
+    "infoCards": [
+      {
+        "number": "01",
+        "title": "Visa & Entry",
+        "text": "Turkey grants visa exemptions to citizens of more than 90 countries. For those who require a visa, the fast and convenient e-Visa system is available. Applications can be submitted online at evisa.gov.tr."
+      },
+      {
+        "number": "02",
+        "title": "Transportation",
+        "text": "Istanbul Airport is one of Europe's largest airports, offering direct flights to over 120 countries. Within the city, the metro, tram, and Marmaray rail lines provide easy access to exhibition venues."
+      },
+      {
+        "number": "03",
+        "title": "Accommodation",
+        "text": "Istanbul offers thousands of accommodation options for every budget. Near the Istanbul Expo Center, you'll find a wide range of choices in the Bakırköy, Zeytinburnu, and Şişli districts — from international chain hotels to boutique properties."
+      }
+    ],
+    "placesTitle": "Places to Visit in Istanbul",
+    "placesIntro": "Key highlights recommended for exploring Istanbul before or after your fair visit.",
+    "places": [
+      {
+        "name": "Blue Mosque",
+        "district": "Sultanahmet, Fatih",
+        "description": "Built in the 17th century with its rare six minarets, the Blue Mosque is an architectural masterpiece adorned with over 20,000 İznik tiles. It remains one of Istanbul's most iconic landmarks.",
+        "photo": "/images/sultanahmet.jpg",
+        "photoPosition": "center"
+      },
+      {
+        "name": "Hagia Sophia",
+        "district": "Ayasofya Square, Fatih",
+        "description": "Originally built as a church in 537 AD, later converted into a mosque and museum, Hagia Sophia is a breathtaking synthesis of Byzantine and Ottoman architecture. Its massive dome and majestic interior earned it a place on the UNESCO World Heritage List.",
+        "photo": "/images/ayasofya.jpg",
+        "photoPosition": "center"
+      },
+      {
+        "name": "Topkapi Palace",
+        "district": "Sarayburnu, Fatih",
+        "description": "Home to the Ottoman sultans for 400 years, Topkapi Palace houses one of Istanbul's richest museums — featuring the treasury, harem quarters, and gardens with sweeping views of the Bosphorus.",
+        "photo": "/images/topkapi.jpg",
+        "photoPosition": "center top"
+      },
+      {
+        "name": "Grand Bazaar",
+        "district": "Beyazıt, Fatih",
+        "description": "One of the world's largest and oldest covered markets. With over 4,000 shops and 60 streets, this centuries-old trading tradition offers every visitor a unique labyrinthine experience.",
+        "photo": "/images/kapalıcarsi.jpg",
+        "photoPosition": "center"
+      },
+      {
+        "name": "Galata Tower",
+        "district": "Galata, Beyoğlu",
+        "description": "Built by the Genoese in 1348 and an indispensable part of Istanbul's skyline, the Galata Tower offers a stunning 360-degree panoramic view of the city from its summit.",
+        "photo": "/images/galata.jpg",
+        "photoPosition": "center top"
+      },
+      {
+        "name": "Bosphorus Cruise",
+        "district": "Eminönü · Üsküdar",
+        "description": "Seeing Istanbul from the water is an experience like no other. A Bosphorus cruise past waterfront mansions, bridges, and ancient fortresses stretching along both the European and Asian shores captures the true spirit of the city.",
+        "photo": "/images/bogazturu.jpg",
+        "photoPosition": "center"
+      },
+      {
+        "name": "Dolmabahçe Palace",
+        "district": "Beşiktaş",
+        "description": "Built during the Ottoman modernization era in the 19th century, Dolmabahçe Palace is a magnificent fusion of European Baroque architecture and traditional Ottoman artistry — elegantly positioned along the Bosphorus shore.",
+        "photo": "/images/dolmabahce.jpg",
+        "photoPosition": "center"
+      },
+      {
+        "name": "Princes' Islands",
+        "district": "Adalar, Sea of Marmara",
+        "description": "Far from Istanbul's urban noise, these islands are free of motorcycles and cars. Explore by horse-drawn carriage among historic wooden mansions and peaceful coves — a perfect day-trip escape.",
+        "photo": "/images/adalar.jpg",
+        "photoPosition": "center"
+      }
+    ],
+    "blogTitle": "Blog Turkey",
+    "blogPosts": [
+      {
+        "tag": "City Guide",
+        "title": "Istanbul for Fair Visitors: A Practical City Guide",
+        "excerpt": "The Istanbul Expo Center (IFM) is on the Yeşilköy-Bakırköy corridor. Official access options include metro, Marmaray connections, Metrobus connections, and taxis. Istanbulkart and Istanbulkart Mobile are practical for public transport use. For accommodation, visitors can prioritize areas close to the venue or on main transport corridors. For current routes and service updates, official IFM and transport operator pages should be checked.",
+        "readTime": "3 min read"
+      },
+      {
+        "tag": "Business",
+        "title": "What to Keep in Mind When Doing Business in Türkiye",
+        "excerpt": "Confirm the meeting time and location in advance. Prepare a short company introduction, business cards, and a concise agenda. Use respectful and professional forms of address. Choose modest, business-appropriate attire. Keep in mind that approval and decision processes vary by institution. After the meeting, confirm key points in writing by email. Prompt follow-up after the fair helps build trust.",
+        "readTime": "4 min read"
+      },
+      {
+        "tag": "Culture",
+        "title": "What to Eat in Istanbul: A Food Guide for Fair Visitors",
+        "excerpt": "During fair days, breakfast halls, home-style restaurants, grill and kebab venues, and family-friendly businesses offer reliable options. For lunch, soup, pide, kofte, doner, and olive oil dishes are practical choices. For evening meetings, quieter venues that accept reservations and are suitable for hosting business guests are preferable. It is useful to check menu content, halal suitability, and payment options before visiting.",
+        "readTime": "4 min read"
+      },
+      {
+        "tag": "Practical Info",
+        "title": "Entering Turkey: Visa, Currency and Phone",
+        "excerpt": "Visa requirements vary by nationality and passport type, so eligibility and application details should be checked through the official e-Visa system. The local currency is the Turkish Lira (TRY). Card payments are common, but carrying some cash for small purchases is still helpful. For short stays, visitors may consider eSIM options or local operator packages. Türkiye remains on UTC+3 throughout the year.",
+        "readTime": "3 min read"
+      },
+      {
+        "tag": "Explore",
+        "title": "A One-Day Cultural Route in Istanbul",
+        "excerpt": "A practical route can begin in the morning around the Blue Mosque and Hagia Sophia, then continue through Gulhane and the outer court of Topkapi Palace. Around midday, the Spice Bazaar and Eminonu area offer an easy stop. In the afternoon, the Grand Bazaar, Beyazit, and the surroundings of Suleymaniye can be covered together. Before visiting, prayer times, ticketed areas, and official visiting hours should be checked.",
+        "readTime": "5 min read"
+      },
+      {
+        "tag": "Economy",
+        "title": "Which Sectors Offer Opportunity in Turkey?",
+        "excerpt": "Key areas highlighted for investment and business cooperation in Türkiye include machinery and manufacturing, agrofood, logistics and transportation, information and communication technologies, energy, and infrastructure. Sector priorities can vary by project type, region, and incentive framework. For current opportunity areas, incentives, and regional advantages, visitors should verify details through Invest in Türkiye resources.",
+        "readTime": "4 min read"
+      }
+    ]
   },
   "contact": {
     "hero": {
