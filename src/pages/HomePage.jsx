@@ -88,7 +88,7 @@ export default function HomePage() {
           onMouseUp={onMouseUp}
           onMouseMove={onMouseMove}
         >
-          {["1.webp", "2.webp", "3.webp", "4.webp", "5.webp", "6.webp", "7.webp"].map((img, i) => (
+          {["mustakil-1.webp", "mustakil-2.webp", "mustakil-3.webp", "mustakil-4.webp", "mustakil-5.webp", "mustakil-6.webp", "mustakil-7.webp"].map((img, i) => (
             <div className="photo-gallery-slide" key={img}>
               <img src={`/images/${img}`} alt={`Etkinlik ${i + 1}`} draggable={false} />
             </div>
