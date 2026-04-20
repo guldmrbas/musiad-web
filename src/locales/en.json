@@ -120,12 +120,12 @@
     },
     "cards": [
       {
-        "logo": "EXPO\nELECTRONICA",
-        "logoColor": "#178036",
-        "title": "ExpoElectronica",
-        "description": "28th international exhibition focused on electronic components, technologies, materials, equipment, embedded systems and turnkey solutions.",
-        "date": "14 - 16 April 2026",
-        "location": "Moscow, Crocus Expo",
+        "logo": "MÜSİAD EXPO",
+        "logoColor": "#2a64c7",
+        "title": "",
+        "description": "Through the programmes to be organised as part of MÜSİAD EXPO, we bring together thousands of business people and shape the present and future of trade by hosting a broad range of events from commercial diplomacy and B2B meetings to buyer delegations and international business forums.",
+        "date": "23–26 September 2026",
+        "location": "Istanbul, Istanbul Fair Center",
         "activeBar": true
       },
       {
@@ -175,7 +175,7 @@
       }
     ],
     "pagination": ["1", "2", "3", "4", "5", "6"],
-    "cta": "Working for your success"
+    "cta": "Fairs, Summits and\nNew Business Connections"
   },
   "about": {
     "hero": {
@@ -183,78 +183,66 @@
       "current": "About Us",
       "title": "About Us"
     },
-    "quote": {
-      "text": "MÜSTAKİL FUAR/ ORGANİZASYON is above all a success story. Endless energy, professionalism, clear focus on the future, advanced technologies and a strong team. Our clients and business partners can count on us.",
-      "author": "Dmitry Zavgorodniy",
-      "role": "CEO, MÜSTAKİL FUAR/ORGANİZASYON"
-    },
     "aboutUs": {
-      "title": "WHO WE ARE",
+      "title": "About Us",
       "paragraphs": [
-        "MÜSİAD Fair and Event Management is a powerful organisation structure that brings the business world together at national and international scale.",
-        "With years of institutional experience, we organise fairs, summits, conferences and B2B business meetings, enabling professionals from different sectors to make the right connections. At every event, we deliver a structure that accelerates participants' business development processes and builds sustainable partnerships.",
-        "By adapting to the digitalising business world, we support physical events with digital solutions and design more efficient, measurable and results-oriented experiences for participants."
+        "As Müstakil Fuarcılık, we deliver strong organisations that contribute to the development of the business world, bring sectors together and pave the way for new collaborations. For us, exhibition organisation is not simply about hosting an event; it is about creating a strategic platform that supports companies' growth, expansion into new markets and the establishment of lasting commercial relationships.",
+        "Müstakil Fuarcılık has been built on a deep-rooted vision and a strong business network infrastructure as a subsidiary of the Independent Industrialists' and Businessmen's Association (MÜSİAD). MÜSİAD's years of experience, its reputation in national and international business circles and its extensive member network form the core strength behind all the organisations we deliver. Thanks to this foundation, our fairs are not only spaces where participants showcase their products, but also meeting points where real business opportunities emerge, strategic partnerships are formed and trade finds direction.",
+        "In every organisation we undertake, we adopt an innovative and results-oriented approach that accurately analyses sector needs and prioritises participant and visitor experience. Through fairs we organise across a broad spectrum from agriculture and food to industry, technology and service sectors, we aim to contribute both to the Turkish economy and to global trade."
       ],
-      "statsTitle": "Our Structure Today:",
+      "statsTitle": "Our International Exhibition Capability:",
       "stats": [
-        "Events facilitating thousands of business connections",
-        "Network of hundreds of thousands of professional visitors",
-        "Strong ecosystem with national and international participants",
-        "Sector-specific fairs, summits and private B2B meetings",
-        "Business development-focused event concepts",
-        "Digitally-supported hybrid organisation infrastructure"
+        "We also possess strong expertise in the field of international exhibition organisation.",
+        "To help Turkish companies reach global markets, we organise national participation programmes for major fairs held in different regions of the world.",
+        "Within this scope, we offer our companies not only stand space but also end-to-end services such as target market analysis, the right fair selection, logistics support, promotion and B2B meetings.",
+        "Our aim is to ensure that our participants achieve maximum benefit from international fairs and are represented strongly on the global stage."
       ],
       "closing": [
-        "Thanks to our global business network and strong organisational capability, we connect companies operating in different sectors to new markets and business opportunities."
+        "Thanks to our international exhibition capabilities, we make it easier for our companies to enter new markets and support their export-oriented growth. We position every organisation not merely as a fair experience for our participants, but also as the starting point of sustainable international business partnerships.",
+        "We are a team that has made it its mission to bring together companies that want to grow with the right business partners. We act with the principles of trust, sustainability and efficiency, and we work to transform every fair into an investment opportunity that generates tangible value for our participants.",
+        "As Müstakil Fuarcılık, we believe that a connection established at the right time on the right platform can turn into the strongest partnerships of the future. With this understanding, we continue to bring the business world together and to be the starting point of new success stories."
       ]
     },
-    "mission": {
-      "title": "OUR MISSION",
-      "statement": "We design events that connect the business world with the right contacts, produce measurable results and ensure sustainable partnerships."
-    },
-    "values": {
-      "title": "OUR VALUES",
-      "eyebrow": "Commitment to Results",
-      "statement": "We create maximum value by ensuring every event produces tangible outcomes."
-    },
-    "leadership": {
-      "title": "Leadership",
-      "name": "Dmitry Zavgorodniy",
-      "role": "CEO, MÜSTAKİL FUAR/ORGANİZASYON",
-      "paragraphs": [
-        "Dmitry joined the company in November 2017.",
-        "He previously held senior management positions at food industry companies such as Tata Global Beverages Eastern Europe, McCain and Mars.",
-        "He holds master's degrees in international relations and in economic-political issues."
-      ]
-    },
-    "associationsTitle": "MÜSTAKİL FUAR/ ORGANİZASYON is a member of the following business associations and chambers of commerce",
+    "associationsTitle": "Global Network & Strategic Partners",
     "associations": [
       {
-        "logo": "RUIE",
+        "logo": "MÜSİAD",
         "logoColor": "#2380d4",
-        "title": "RUIE",
-        "description": "Russian Union of Industrialists and Entrepreneurs",
-        "link": "rspp.ru",
+        "title": "MÜSİAD – Independent Industrialists' and Businessmen's Association",
+        "description": [
+          "With more than 14,000 members, a structure representing 60,000 businesses and an employment capacity of approximately 1.8 million people, MÜSİAD is one of Turkey's most influential business organisations. Through its organisational network reaching 81 provinces across Turkey and 100 points in 85 countries abroad, it offers a strong global trade ecosystem.",
+          "Standing out through its close cooperation with public institutions and its contributions to policy development processes, MÜSİAD actively continues its mission of being the voice of the business world. Müstakil Fuarcılık deepens its activities at national and international scale through the network and sphere of influence provided by this strong structure."
+        ],
+        "link": "musiad.org.tr",
+        "linkUrl": "https://musiad.org.tr",
         "activeBar": false
       },
       {
-        "logo": "RUEF",
+        "logo": "MÜSİAD\nExpo",
         "logoColor": "#2a6fcc",
-        "title": "RUEF",
-        "description": "Russian Union of Exhibitions and Fairs",
-        "link": "ruef.ru",
+        "title": "MÜSİAD Expo",
+        "description": [
+          "MÜSİAD Expo is one of Turkey's most prestigious multi-sector trade fairs, bringing together business people, investors and decision-makers from different sectors. The 2024 edition was opened in the presence of the President of the Republic of Türkiye, Mr Recep Tayyip Erdogan, and hosted more than 50,000 visitors from 114 countries, including 8,000 international visitors.",
+          "With its high-profile participant structure, international visitor network and the trade volume it generates, MÜSİAD Expo is not only a fair but also a powerful B2B and B2G business development platform. This organisational accumulation adds direct value to all projects of Müstakil Fuarcılık."
+        ],
+        "link": "musiadexpo.com",
+        "linkUrl": "https://musiadexpo.com",
         "activeBar": true
       },
       {
-        "logo": "AEB",
+        "logo": "IBF",
         "logoColor": "#325bb4",
-        "title": "AEB",
-        "description": "Association of European Businesses",
-        "link": "aebrus.ru",
+        "title": "IBF – International Business Forum",
+        "description": [
+          "The International Business Forum (IBF) is a globally effective business development platform that brings together business people, investors and public representatives from around the world. With its B2B and B2G-oriented structure, it contributes to the development of cross-border trade relations and the establishment of new partnerships.",
+          "Thanks to the international connection network offered by IBF, Müstakil Fuarcılık organisations gain a structure integrated not only with local markets but also with the global business world, creating sustainable and high value-added business opportunities for participating companies."
+        ],
+        "link": "ibforum.org",
+        "linkUrl": "https://ibforum.org",
         "activeBar": false
       }
     ],
-    "cta": "Working for your success"
+    "cta": "Strong Networks, Lasting Partnerships"
   },
   "connect": {
     "hero": {
@@ -367,7 +355,7 @@
       "crumb": "Home",
       "current": "Contact",
       "title": "Contact",
-      "intro": "Get in touch now and let's plan your place at MÜSİAD EXPO 2026 together."
+      "intro": ""
     },
     "venueSectionTitle": "Address and Map",
     "venue": {
@@ -390,7 +378,7 @@
       "action": "Open on map"
     },
     "sales": {
-      "title": "Stand Rental Contact",
+      "title": "Marketing and Development",
       "intro": "Our sales team is here to connect your brand with thousands of professional visitors, purchasing delegations and international business people at MÜSİAD EXPO 2026. Contact our sales team directly for stand rental, pricing, reservations and fair participation processes.",
       "contacts": [
         {
@@ -423,7 +411,7 @@
         }
       ]
     },
-    "note": "Get in touch now and let's plan your place at MÜSİAD EXPO 2026 together.",
+    "note": "",
     "offices": [
       {
         "name": "Moscow",

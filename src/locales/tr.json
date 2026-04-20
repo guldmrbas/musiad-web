@@ -172,17 +172,17 @@
   "events": {
     "hero": {
       "crumb": "Ana Sayfa",
-      "current": "Etkinlik takvimi",
-      "title": "Etkinlik takvimi"
+      "current": "Etkinlik Takvimi",
+      "title": "Etkinlik Takvimi"
     },
     "cards": [
       {
-        "logo": "EXPO\nELECTRONICA",
-        "logoColor": "#178036",
-        "title": "ExpoElectronica",
-        "description": "Elektronik bileşenler, teknolojiler, malzemeler, ekipmanlar, gömülü sistemler ve anahtar teslim çözümlere odaklanan 28. uluslararası fuar.",
-        "date": "14 - 16 Nisan 2026",
-        "location": "Moskova, Crocus Expo",
+        "logo": "MÜSİAD EXPO",
+        "logoColor": "#2a64c7",
+        "title": "",
+        "description": "MÜSİAD EXPO kapsamında düzenlenecek programlarla, ticari diplomasiden B2B görüşmelere, alım heyetlerinden uluslararası iş forumlarına kadar geniş bir yelpazede etkinlikler düzenleyerek, binlerce iş insanını bir araya getiriyor ve ticaretin bugünü ile geleceğini şekillendiriyoruz.",
+        "date": "23–26 Eylül 2026",
+        "location": "İstanbul, İstanbul Fuar Merkezi",
         "activeBar": true
       },
       {
@@ -239,7 +239,7 @@
       "5",
       "6"
     ],
-    "cta": "Başarınız için çalışıyoruz"
+    "cta": "Fuarlar, Zirveler ve\nYeni İş Bağlantıları"
   },
   "about": {
     "hero": {
@@ -247,78 +247,66 @@
       "current": "Hakkımızda",
       "title": "Hakkımızda"
     },
-    "quote": {
-      "text": "MÜSTAKİL FUAR/ ORGANİZASYON her şeyden önce bir başarı hikâyesidir. Bitmeyen enerji, profesyonellik, geleceğe net odak, ileri teknolojiler ve güçlü ekip. Müşterilerimiz ve iş ortaklarımız bize güvenebilir.",
-      "author": "Dmitry Zavgorodniy",
-      "role": "CEO, MÜSTAKİL FUAR/ORGANİZASYON"
-    },
     "aboutUs": {
-      "title": "BİZ KİMİZ",
+      "title": "Hakkımızda",
       "paragraphs": [
-        "MÜSİAD Fuar ve Etkinlik Yönetimi, iş dünyasını ulusal ve uluslararası ölçekte bir araya getiren güçlü bir organizasyon yapısıdır.",
-        "Yılların getirdiği kurumsal deneyimle; fuarlar, zirveler, konferanslar ve B2B iş görüşmeleri organize ederek, farklı sektörlerden profesyonellerin doğru bağlantılar kurmasını sağlıyoruz. Her etkinlikte, katılımcıların iş geliştirme süreçlerini hızlandıran ve sürdürülebilir iş birlikleri oluşturan bir yapı sunuyoruz.",
-        "Dijitalleşen iş dünyasına uyum sağlayarak, fiziksel etkinlikleri dijital çözümlerle destekliyor; katılımcılar için daha verimli, ölçülebilir ve sonuç odaklı deneyimler tasarlıyoruz."
+        "Müstakil Fuarcılık olarak, iş dünyasının gelişimine katkı sağlayan, sektörleri bir araya getiren ve yeni iş birliklerinin önünü açan güçlü organizasyonlara imza atıyoruz. Bizim için fuarcılık sadece bir etkinlik düzenlemek değil; firmaların büyümesine, yeni pazarlara açılmasına ve kalıcı ticari ilişkiler kurmasına zemin hazırlayan stratejik bir platform oluşturmaktır.",
+        "Müstakil Fuarcılık, Müstakil Sanayici ve İşadamları Derneği (MÜSİAD) iştiraki olarak, köklü bir vizyonun ve güçlü bir iş ağı altyapısının üzerine inşa edilmiştir. MÜSİAD'ın yıllara dayanan tecrübesi, ulusal ve uluslararası iş dünyasındaki itibarı ve geniş üye ağı, gerçekleştirdiğimiz tüm organizasyonların temel gücünü oluşturmaktadır. Bu sayede fuarlarımız, yalnızca katılımcıların ürünlerini sergilediği alanlar değil; aynı zamanda gerçek iş fırsatlarının doğduğu, stratejik ortaklıkların kurulduğu ve ticaretin yön bulduğu buluşma noktaları haline gelmektedir.",
+        "Her bir organizasyonumuzda; sektörün ihtiyaçlarını doğru analiz eden, katılımcı ve ziyaretçi deneyimini ön planda tutan, yenilikçi ve sonuç odaklı bir yaklaşım benimsiyoruz. Tarım ve gıdadan sanayiye, teknolojiden hizmet sektörlerine kadar geniş bir yelpazede düzenlediğimiz fuarlarla, hem Türkiye ekonomisine hem de küresel ticarete katkı sağlamayı hedefliyoruz."
       ],
-      "statsTitle": "Bugünkü Yapımız:",
+      "statsTitle": "Uluslararası Fuarcılık Yetkinliğimiz:",
       "stats": [
-        "Binlerce iş bağlantısına aracılık eden etkinlikler",
-        "Yüz binlerce profesyonel ziyaretçi ağı",
-        "Ulusal ve uluslararası katılımcılarla güçlü ekosistem",
-        "Sektörel fuarlar, zirveler ve özel iş görüşmeleri (B2B)",
-        "İş geliştirme odaklı etkinlik kurguları",
-        "Dijital destekli hibrit organizasyon altyapısı"
+        "Uluslararası fuarcılık alanında da güçlü bir yetkinliğe sahibiz.",
+        "Türkiye'deki firmalarımızı global pazarlara taşımak amacıyla dünyanın farklı coğrafyalarında düzenlenen önemli fuarlara milli katılım organizasyonları gerçekleştiriyoruz.",
+        "Bu kapsamda, firmalarımıza sadece stant alanı sağlamakla kalmıyor; hedef pazar analizi, doğru fuar seçimi, lojistik destek, tanıtım ve B2B görüşmeler gibi uçtan uca bir hizmet sunuyoruz.",
+        "Amacımız, katılımcılarımızın yurt dışı fuarlardan maksimum verim elde etmesini sağlamak ve onları uluslararası arenada güçlü bir şekilde temsil etmektir."
       ],
       "closing": [
-        "Küresel iş ağımız ve güçlü organizasyon kabiliyetimiz sayesinde, farklı sektörlerde faaliyet gösteren firmaları yeni pazarlara ve iş fırsatlarına ulaştırıyoruz."
+        "Yurt dışı fuarcılık kabiliyetlerimiz sayesinde, firmalarımızın yeni pazarlara giriş süreçlerini kolaylaştırıyor, ihracat odaklı büyümelerine katkı sağlıyoruz. Her organizasyonumuzu, katılımcılarımız için sadece bir fuar deneyimi değil; aynı zamanda sürdürülebilir uluslararası iş birliklerinin başlangıcı olarak konumlandırıyoruz.",
+        "Biz, işini büyütmek isteyen firmalar ile doğru iş ortaklarını buluşturmayı kendine misyon edinmiş bir ekibiz. Güven, sürdürülebilirlik ve verimlilik ilkeleriyle hareket ediyor; her fuarı, katılımcılarımız için somut fayda üreten bir yatırım fırsatına dönüştürmek için çalışıyoruz.",
+        "Müstakil Fuarcılık olarak inanıyoruz ki; doğru zamanda, doğru platformda kurulan bir bağlantı, geleceğin en güçlü iş birliklerine dönüşebilir. Bu anlayışla, iş dünyasını bir araya getirmeye ve yeni başarı hikayelerinin başlangıç noktası olmaya devam ediyoruz."
       ]
     },
-    "mission": {
-      "title": "MİSYONUMUZ",
-      "statement": "İş dünyasını doğru bağlantılarla buluşturan, ölçülebilir sonuçlar üreten ve sürdürülebilir iş birlikleri sağlayan etkinlikler tasarlıyoruz."
-    },
-    "values": {
-      "title": "DEĞERLERİMİZ",
-      "eyebrow": "Sonuca Bağlılık",
-      "statement": "Her etkinliğin somut çıktılar üretmesini sağlayarak maksimum fayda oluştururuz."
-    },
-    "leadership": {
-      "title": "Liderlik",
-      "name": "Dmitry Zavgorodniy",
-      "role": "CEO, MÜSTAKİL FUAR/ORGANİZASYON",
-      "paragraphs": [
-        "Dmitry şirkete Kasım 2017'de katıldı.",
-        "Daha önce Tata Global Beverages Eastern Europe, McCain ve Mars gibi gıda sektörü şirketlerinde üst düzey yöneticilik yaptı.",
-        "Uluslararası ilişkiler alanında ve ekonomik-politik problemler alanında yüksek lisans derecelerine sahiptir."
-      ]
-    },
-    "associationsTitle": "MÜSTAKİL FUAR/ ORGANİZASYON aşağıdaki iş birlikleri ve ticaret odalarının üyesidir",
+    "associationsTitle": "Küresel Ağ ve Stratejik Ortaklar",
     "associations": [
       {
-        "logo": "RUIE",
+        "logo": "MÜSİAD",
         "logoColor": "#2380d4",
-        "title": "RUIE",
-        "description": "Rus Sanayiciler ve Girişimciler Birliği",
-        "link": "rspp.ru",
+        "title": "MÜSİAD – Müstakil Sanayici ve İşadamları Derneği",
+        "description": [
+          "MÜSİAD, 14.000'i aşkın üyesi, 60.000 işletmeyi temsil eden yapısı ve yaklaşık 1.8 milyon kişilik istihdam gücüyle Türkiye'nin en etkili iş dünyası organizasyonlarından biridir. Türkiye genelinde 81 ilde ve yurt dışında 85 ülkede 100 noktaya ulaşan teşkilat ağıyla, güçlü bir küresel ticaret ekosistemi sunmaktadır.",
+          "Kamu kurumlarıyla kurduğu yakın iş birlikleri ve politika geliştirme süreçlerine sunduğu katkılarla öne çıkan MÜSİAD, iş dünyasının sesi olma misyonunu aktif şekilde sürdürmektedir. Müstakil Fuarcılık, bu güçlü yapının sağladığı network ve etki alanı ile faaliyetlerini ulusal ve uluslararası ölçekte derinleştirmektedir."
+        ],
+        "link": "musiad.org.tr",
+        "linkUrl": "https://musiad.org.tr",
         "activeBar": false
       },
       {
-        "logo": "RUEF",
+        "logo": "MÜSİAD\nExpo",
         "logoColor": "#2a6fcc",
-        "title": "RUEF",
-        "description": "Rusya Fuarlar ve Sergiler Birliği",
-        "link": "ruef.ru",
+        "title": "MÜSİAD Expo",
+        "description": [
+          "MÜSİAD Expo, farklı sektörlerden iş insanlarını, yatırımcıları ve karar vericileri bir araya getiren, Türkiye'nin en prestijli çok sektörlü ticaret fuarlarından biridir. 2024 yılında gerçekleştirilen organizasyon; T.C. Cumhurbaşkanı Sayın Recep Tayyip Erdoğan'ın teşrifleriyle açılmış, 114 ülkeden, 8.000'i yabancı olmak üzere 50.000'in üzerinde ziyaretçiye ev sahipliği yapmıştır.",
+          "Yüksek profilli katılımcı yapısı, uluslararası ziyaretçi ağı ve oluşturduğu ticaret hacmiyle MÜSİAD Expo, yalnızca bir fuar değil; aynı zamanda güçlü bir B2B ve B2G iş geliştirme platformudur. Bu organizasyonel birikim, Müstakil Fuarcılık'ın tüm projelerine doğrudan değer katmaktadır."
+        ],
+        "link": "musiadexpo.com",
+        "linkUrl": "https://musiadexpo.com",
         "activeBar": true
       },
       {
-        "logo": "AEB",
+        "logo": "IBF",
         "logoColor": "#325bb4",
-        "title": "AEB",
-        "description": "Avrupa İşletmeler Birliği",
-        "link": "aebrus.ru",
+        "title": "IBF – International Business Forum",
+        "description": [
+          "International Business Forum (IBF), dünya genelinden iş insanlarını, yatırımcıları ve kamu temsilcilerini bir araya getiren, küresel ölçekte etkili bir iş geliştirme platformudur. B2B ve B2G odaklı yapısıyla, ülkeler arası ticari ilişkilerin geliştirilmesine ve yeni iş birliklerinin kurulmasına katkı sağlamaktadır.",
+          "IBF'in sunduğu uluslararası bağlantı ağı sayesinde, Müstakil Fuarcılık organizasyonları yalnızca yerel pazarlara değil, küresel iş dünyasına entegre bir yapı kazanmakta; katılımcı firmalar için sürdürülebilir ve yüksek katma değerli iş fırsatları oluşturulmaktadır."
+        ],
+        "link": "ibforum.org",
+        "linkUrl": "https://ibforum.org",
         "activeBar": false
       }
     ],
-    "cta": "Başarınız için çalışıyoruz"
+    "cta": "Güçlü Ağlar, Kalıcı İş Birlikleri"
   },
   "connect": {
     "hero": {
@@ -431,7 +419,7 @@
       "crumb": "Ana Sayfa",
       "current": "İletişim",
       "title": "İletişim",
-      "intro": "Hemen iletişime geçin, MÜSİAD EXPO 2026'da yerinizi birlikte planlayalım."
+      "intro": ""
     },
     "venueSectionTitle": "Adres ve Harita",
     "venue": {
@@ -454,7 +442,7 @@
       "action": "Haritada aç"
     },
     "sales": {
-      "title": "Stant Kiralama İletişim",
+      "title": "Pazarlama ve Geliştirme",
       "intro": "MÜSİAD EXPO 2026'da markanızı binlerce profesyonel ziyaretçi, satın alma heyeti ve uluslararası iş insanı ile buluşturmak için satış ekibimiz yanınızda. Stand alanı kiralama, fiyatlandırma, rezervasyon ve fuar katılım süreçleri için satış ekibimizle doğrudan iletişime geçebilirsiniz.",
       "contacts": [
         {
@@ -487,7 +475,7 @@
         }
       ]
     },
-    "note": "Hemen iletişime geçin, MÜSİAD EXPO 2026'da yerinizi birlikte planlayalım.",
+    "note": "",
     "offices": [
       {
         "name": "Moskova",

@@ -1,12 +1,9 @@
 import { useI18n } from "../i18n/I18nProvider";
 
-function PageHero({ crumb, current, title, className = "" }) {
+function PageHero({ title, className = "" }) {
   return (
     <section className={`page-hero ${className}`.trim()}>
       <div className="container">
-        <div className="breadcrumbs">
-          {crumb} › {current}
-        </div>
         <h1>{title}</h1>
       </div>
     </section>
@@ -24,7 +21,9 @@ export default function ContactPage() {
       <PageHero {...contact.hero} className="contact office" />
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="container">
-          <p className="contact-intro">{contact.hero.intro}</p>
+          {contact.hero.intro ? (
+            <p className="contact-intro">{contact.hero.intro}</p>
+          ) : null}
         </div>
       </section>
 
@@ -84,7 +83,7 @@ export default function ContactPage() {
               ))}
             </div>
 
-            <p className="contact-note">{contact.note}</p>
+            {contact.note ? <p className="contact-note">{contact.note}</p> : null}
           </div>
         </div>
       </section>

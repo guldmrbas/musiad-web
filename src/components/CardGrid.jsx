@@ -15,6 +15,12 @@ function CardLink({ mutedLink, to = "#", text }) {
 
 function BaseCard({ item, mutedLink, linkTarget = "#" }) {
   const { t } = useI18n();
+  const descriptions = Array.isArray(item.description)
+    ? item.description
+    : item.description
+      ? [item.description]
+      : [];
+  const externalLink = item.linkUrl || (item.link ? `https://${item.link}` : null);
 
   return (
     <article className="event-card">
@@ -24,18 +30,31 @@ function BaseCard({ item, mutedLink, linkTarget = "#" }) {
         ))}
       </div>
       <div className={`card-divider${item.activeBar ? " active" : ""}`}></div>
-      <h3>{item.title}</h3>
-      <p>{item.description}</p>
+      {item.title ? <h3>{item.title}</h3> : null}
+      {descriptions.map((paragraph) => (
+        <p key={paragraph}>{paragraph}</p>
+      ))}
       {item.date ? <div className="card-date">{item.date}</div> : null}
       {item.location ? <div className="card-location">{item.location}</div> : null}
-      {item.link ? <div className="card-location">{item.link}</div> : null}
-      <CardLink mutedLink={mutedLink} to={linkTarget} text={t("actions.readMore")} />
+      {item.link ? (
+        <a
+          className="card-location"
+          href={externalLink}
+          target="_blank"
+          rel="noreferrer"
+        >
+          {item.link}
+        </a>
+      ) : null}
+      {item.hideReadMore ? null : (
+        <CardLink mutedLink={mutedLink} to={linkTarget} text={t("actions.readMore")} />
+      )}
     </article>
   );
 }
 
 export function EventCard({ item, mutedLink }) {
-  return <BaseCard item={item} mutedLink={mutedLink} linkTarget="/events" />;
+  return <BaseCard item={{ ...item, hideReadMore: true }} mutedLink={mutedLink} linkTarget="/events" />;
 }
 
 export function CommunityCard({ item, mutedLink }) {
@@ -43,5 +62,5 @@ export function CommunityCard({ item, mutedLink }) {
 }
 
 export function AssociationCard({ item, mutedLink }) {
-  return <BaseCard item={item} mutedLink={mutedLink} linkTarget="/about" />;
+  return <BaseCard item={{ ...item, hideReadMore: true }} mutedLink={mutedLink} linkTarget="#" />;
 }

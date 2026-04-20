@@ -2,13 +2,10 @@ import SectionHeading from "../components/SectionHeading";
 import { CommunityCard } from "../components/CardGrid";
 import { useI18n } from "../i18n/I18nProvider";
 
-function PageHero({ crumb, current, title, className = "" }) {
+function PageHero({ title, className = "" }) {
   return (
     <section className={`page-hero ${className}`.trim()}>
       <div className="container">
-        <div className="breadcrumbs">
-          {crumb} › {current}
-        </div>
         <h1>{title}</h1>
       </div>
     </section>

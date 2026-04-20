@@ -595,13 +595,30 @@ img {
   background: #fff;
   padding: 22px 22px 24px;
   min-height: 392px;
-  box-shadow: var(--shadow);
+  border-radius: 16px;
+  border: 1px solid rgba(17, 25, 35, 0.06);
+  box-shadow:
+    0 4px 6px rgba(17, 25, 35, 0.04),
+    0 12px 32px rgba(17, 25, 35, 0.10),
+    0 32px 72px rgba(17, 25, 35, 0.12);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
   display: flex;
   flex-direction: column;
 }
 
+.event-card:hover,
+.community-card:hover,
+.association-card:hover {
+  box-shadow:
+    0 8px 16px rgba(17, 25, 35, 0.06),
+    0 24px 52px rgba(17, 25, 35, 0.14),
+    0 48px 96px rgba(17, 25, 35, 0.16);
+  transform: translateY(-4px);
+}
+
 .card-logo {
-  height: 64px;
+  height: auto;
+  margin-bottom: 12px;
   display: flex;
   align-items: flex-start;
   font-size: 17px;
@@ -1209,7 +1226,7 @@ img {
 
 .community-card .card-logo,
 .association-card .card-logo {
-  height: 60px;
+  height: auto;
 }
 
 .community-card strong,
@@ -1560,8 +1577,8 @@ img {
 
 .about-page .page-hero::before {
   background:
-    linear-gradient(90deg, rgba(26, 47, 107, 0.86), rgba(61, 100, 204, 0.76)),
-    linear-gradient(135deg, #8fa5d0 0%, #5a7ab8 100%);
+    linear-gradient(180deg, rgba(9, 16, 34, 0.28), rgba(9, 16, 34, 0.28)),
+    url("/images/MÜSİAD Genel Merkez_5066.jpg.jpeg") center center / cover no-repeat;
 }
 
 .about-page .photo-block {
@@ -1597,8 +1614,81 @@ img {
 }
 
 .about-page .association-card .card-logo {
-  height: 52px;
+  height: auto;
   font-size: 16px;
+}
+
+.about-page .association-card {
+  min-height: 560px;
+}
+
+.about-page .association-card h3 {
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.about-page .association-card p {
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.about-page .association-card .card-location {
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+.about-page .association-card .card-link {
+  margin-top: auto;
+}
+
+.about-page .cta-copy {
+  overflow: hidden;
+}
+
+.about-page .cta-media {
+  background:
+    linear-gradient(0deg, rgba(8, 16, 36, 0.18), rgba(8, 16, 36, 0.18)),
+    url("/images/musiad_foto.jpeg") center center / cover no-repeat;
+}
+
+.about-page .cta-media::before,
+.about-page .cta-media::after {
+  display: none;
+}
+
+.about-page .cta-copy::before {
+  inset: auto;
+  left: 56px;
+  top: 50%;
+  width: 8px;
+  height: 96px;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.48) 100%);
+  transform: translateY(-50%);
+}
+
+.about-page .cta-copy::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 26% 36%, rgba(255, 255, 255, 0.16) 0 4px, transparent 5px),
+    radial-gradient(circle at 40% 58%, rgba(255, 255, 255, 0.12) 0 3px, transparent 4px),
+    radial-gradient(circle at 62% 34%, rgba(255, 255, 255, 0.14) 0 4px, transparent 5px),
+    radial-gradient(circle at 76% 62%, rgba(255, 255, 255, 0.12) 0 3px, transparent 4px),
+    linear-gradient(115deg, transparent 31%, rgba(255, 255, 255, 0.1) 31.5%, transparent 32.2%),
+    linear-gradient(140deg, transparent 53%, rgba(255, 255, 255, 0.08) 53.5%, transparent 54.2%);
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.about-page .cta-copy h3 {
+  white-space: nowrap;
+  font-size: clamp(24px, 2.55vw, 40px);
+  line-height: 1;
+  letter-spacing: -0.03em;
 }
 
 .events-page .page-hero,
@@ -1609,12 +1699,34 @@ img {
 
 .events-page .page-hero::before {
   background:
-    linear-gradient(90deg, rgba(26, 47, 107, 0.86), rgba(61, 100, 204, 0.74)),
-    linear-gradient(135deg, #8fa5d0 0%, #5a7ab8 100%);
+    linear-gradient(180deg, rgba(8, 16, 36, 0.34), rgba(8, 16, 36, 0.34)),
+    url("/images/msiad.jpeg") center center / cover no-repeat;
 }
 
 .events-page .event-card {
   min-height: 382px;
+}
+
+.events-page .event-card .card-logo {
+  height: auto;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.events-page .event-card p {
+  font-size: 16px;
+  line-height: 1.55;
+  margin: 0 0 14px;
+}
+
+.events-page .event-card .card-date {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.events-page .event-card .card-location {
+  font-size: 16px;
 }
 
 .events-page .cards-grid .event-card:nth-child(odd) .card-bar::before {
@@ -1629,6 +1741,49 @@ img {
   background:
     linear-gradient(0deg, rgba(14, 24, 64, 0.45), rgba(14, 24, 64, 0.45)),
     url('/images/musiad-expo-kuresel-ticaret-burada-14.webp') center / cover no-repeat;
+}
+
+.events-page .cta-media::before,
+.events-page .cta-media::after {
+  display: none;
+}
+
+.events-page .cta-copy {
+  overflow: hidden;
+}
+
+.events-page .cta-copy::before {
+  inset: auto;
+  left: 56px;
+  top: 50%;
+  width: 8px;
+  height: 96px;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.48) 100%);
+  transform: translateY(-50%);
+}
+
+.events-page .cta-copy::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 26% 36%, rgba(255, 255, 255, 0.16) 0 4px, transparent 5px),
+    radial-gradient(circle at 40% 58%, rgba(255, 255, 255, 0.12) 0 3px, transparent 4px),
+    radial-gradient(circle at 62% 34%, rgba(255, 255, 255, 0.14) 0 4px, transparent 5px),
+    radial-gradient(circle at 76% 62%, rgba(255, 255, 255, 0.12) 0 3px, transparent 4px),
+    linear-gradient(115deg, transparent 31%, rgba(255, 255, 255, 0.1) 31.5%, transparent 32.2%),
+    linear-gradient(140deg, transparent 53%, rgba(255, 255, 255, 0.08) 53.5%, transparent 54.2%);
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.events-page .cta-copy h3 {
+  white-space: pre-line;
+  font-size: clamp(24px, 2.55vw, 40px);
+  line-height: 1.04;
+  letter-spacing: -0.03em;
 }
 
 .home-page .cta-media {
@@ -1767,6 +1922,26 @@ img {
 
   .cta-copy::before {
     inset: 44px 38px;
+  }
+
+  .about-page .cta-copy::before {
+    left: 40px;
+    width: 7px;
+    height: 78px;
+  }
+
+  .events-page .cta-copy::before {
+    left: 40px;
+    width: 7px;
+    height: 78px;
+  }
+
+  .about-page .cta-copy h3 {
+    font-size: clamp(22px, 3vw, 34px);
+  }
+
+  .events-page .cta-copy h3 {
+    font-size: clamp(22px, 3vw, 34px);
   }
 
   .cards-grid {
@@ -1914,7 +2089,7 @@ img {
   .card-logo,
   .community-card .card-logo,
   .association-card .card-logo {
-    height: 48px;
+    height: auto;
     font-size: 15px;
   }
 
@@ -1934,6 +2109,30 @@ img {
   .cta-copy::before {
     inset: 24px 18px;
     border-width: 6px;
+  }
+
+  .about-page .cta-copy::before {
+    left: 22px;
+    width: 6px;
+    height: 58px;
+  }
+
+  .events-page .cta-copy::before {
+    left: 22px;
+    width: 6px;
+    height: 58px;
+  }
+
+  .about-page .cta-copy h3 {
+    white-space: normal;
+    font-size: clamp(22px, 8vw, 30px);
+    line-height: 1.05;
+  }
+
+  .events-page .cta-copy h3 {
+    white-space: normal;
+    font-size: clamp(22px, 8vw, 30px);
+    line-height: 1.05;
   }
 
   .page-hero {

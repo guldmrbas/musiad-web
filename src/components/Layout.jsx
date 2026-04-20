@@ -88,6 +88,12 @@ function Footer() {
   const { messages } = useI18n();
   const footer = messages.footer;
   const bottom = footer.bottom;
+  const socialLinks = {
+    linkedin: "https://www.linkedin.com/company/m%C3%BCstakilfuarc%C4%B1l%C4%B1k/",
+    x: "https://x.com/MUSIADEXPO",
+    instagram: "https://www.instagram.com/musiadexpo/",
+    youtube: "https://www.youtube.com/@MUSIADTV",
+  };
 
   return (
     <footer className="site-footer">
@@ -127,10 +133,10 @@ function Footer() {
         <div className="footer-bottom">
           <div className="container footer-bottom-inner">
             <div className="footer-bottom-social">
-              <a href="#" aria-label={messages.ui?.linkedin ?? "LinkedIn"} className="footer-bottom-icon">in</a>
-              <a href="#" aria-label="Twitter / X" className="footer-bottom-icon">𝕏</a>
-              <a href="#" aria-label={messages.ui?.instagram ?? "Instagram"} className="footer-bottom-icon">⌘</a>
-              <a href="#" aria-label={messages.ui?.youtube ?? "YouTube"} className="footer-bottom-icon">▶</a>
+              <a href={socialLinks.linkedin} target="_blank" rel="noreferrer" aria-label={messages.ui?.linkedin ?? "LinkedIn"} className="footer-bottom-icon">in</a>
+              <a href={socialLinks.x} target="_blank" rel="noreferrer" aria-label="Twitter / X" className="footer-bottom-icon">𝕏</a>
+              <a href={socialLinks.instagram} target="_blank" rel="noreferrer" aria-label={messages.ui?.instagram ?? "Instagram"} className="footer-bottom-icon">⌘</a>
+              <a href={socialLinks.youtube} target="_blank" rel="noreferrer" aria-label={messages.ui?.youtube ?? "YouTube"} className="footer-bottom-icon">▶</a>
             </div>
             <div className="footer-bottom-brand">{messages.meta?.siteName ?? "MÜSTAKİL FUAR/ORGANİZASYON"}</div>
             <div className="footer-bottom-legal">{bottom.legal}</div>

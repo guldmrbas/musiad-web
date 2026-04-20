@@ -1,13 +1,10 @@
 import { EventCard } from "../components/CardGrid";
 import { useI18n } from "../i18n/I18nProvider";
 
-function PageHero({ crumb, current, title, className = "" }) {
+function PageHero({ title, className = "" }) {
   return (
     <section className={`page-hero ${className}`.trim()}>
       <div className="container">
-        <div className="breadcrumbs">
-          {crumb} › {current}
-        </div>
         <h1>{title}</h1>
       </div>
     </section>
@@ -20,20 +17,13 @@ export default function EventsPage() {
 
   return (
     <main>
-      <PageHero {...events.hero} className="events" />
+      <PageHero title={events.hero.title} className="events" />
       <section className="section">
         <div className="container">
           <div className="cards-grid">
-            {events.cards.map((item, index) => (
-              <EventCard key={item.title} item={item} mutedLink={index !== 0} />
+            {events.cards.slice(0, 1).map((item) => (
+              <EventCard key={item.title} item={item} mutedLink={false} />
             ))}
-          </div>
-          <div className="pagination-row">
-            <button type="button" aria-label={messages.ui?.previous ?? "Previous"}>‹</button>
-            {events.pagination.map((item, index) => (
-              <button key={item} className={index === 0 ? "active" : ""} type="button">{item}</button>
-            ))}
-            <button type="button" aria-label={messages.ui?.next ?? "Next"}>›</button>
           </div>
         </div>
       </section>
