@@ -214,6 +214,7 @@
       {
         "logo": "MÜSİAD",
         "logoColor": "#2380d4",
+        "logoImage": "/images/logo.webp",
         "title": "MÜSİAD – Independent Industrialists' and Businessmen's Association",
         "description": [
           "With more than 14,000 members, a structure representing 60,000 businesses and an employment capacity of approximately 1.8 million people, MÜSİAD is one of Turkey's most influential business organisations. Through its organisational network reaching 81 provinces across Turkey and 100 points in 85 countries abroad, it offers a strong global trade ecosystem.",
@@ -226,6 +227,7 @@
       {
         "logo": "MÜSİAD\nExpo",
         "logoColor": "#2a6fcc",
+        "logoImage": "/images/MUSIAD_EXPO_2026_Logo.webp",
         "title": "MÜSİAD Expo",
         "description": [
           "MÜSİAD Expo is one of Turkey's most prestigious multi-sector trade fairs, bringing together business people, investors and decision-makers from different sectors. The 2024 edition was opened in the presence of the President of the Republic of Türkiye, Mr Recep Tayyip Erdogan, and hosted more than 50,000 visitors from 114 countries, including 8,000 international visitors.",
@@ -238,6 +240,7 @@
       {
         "logo": "IBF",
         "logoColor": "#325bb4",
+        "logoImage": "/images/ibf.webp",
         "title": "IBF – International Business Forum",
         "description": [
           "The International Business Forum (IBF) is a globally effective business development platform that brings together business people, investors and public representatives from around the world. With its B2B and B2G-oriented structure, it contributes to the development of cross-border trade relations and the establishment of new partnerships.",

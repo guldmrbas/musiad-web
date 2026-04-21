@@ -30,6 +30,17 @@ function BaseCard({ item, mutedLink, linkTarget = "#" }) {
         ))}
       </div>
       <div className={`card-divider${item.activeBar ? " active" : ""}`}></div>
+      {item.logoImage ? (
+        <div className="card-logo-image-wrap">
+          <a href={externalLink} target="_blank" rel="noreferrer">
+            <img
+              src={item.logoImage}
+              alt={item.title}
+              className="card-logo-image"
+            />
+          </a>
+        </div>
+      ) : null}
       {item.title ? <h3>{item.title}</h3> : null}
       {descriptions.map((paragraph) => (
         <p key={paragraph}>{paragraph}</p>

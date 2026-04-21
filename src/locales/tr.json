@@ -214,6 +214,7 @@
       {
         "logo": "MÜSİAD",
         "logoColor": "#2380d4",
+        "logoImage": "/images/logo.webp",
         "title": "MÜSİAD – Müstakil Sanayici ve İşadamları Derneği",
         "description": [
           "MÜSİAD, 14.000'i aşkın üyesi, 60.000 işletmeyi temsil eden yapısı ve yaklaşık 1.8 milyon kişilik istihdam gücüyle Türkiye'nin en etkili iş dünyası organizasyonlarından biridir. Türkiye genelinde 81 ilde ve yurt dışında 85 ülkede 100 noktaya ulaşan teşkilat ağıyla, güçlü bir küresel ticaret ekosistemi sunmaktadır.",
@@ -226,6 +227,7 @@
       {
         "logo": "MÜSİAD\nExpo",
         "logoColor": "#2a6fcc",
+        "logoImage": "/images/MUSIAD_EXPO_2026_Logo.webp",
         "title": "MÜSİAD Expo",
         "description": [
           "MÜSİAD Expo, farklı sektörlerden iş insanlarını, yatırımcıları ve karar vericileri bir araya getiren, Türkiye'nin en prestijli çok sektörlü ticaret fuarlarından biridir. 2024 yılında gerçekleştirilen organizasyon; T.C. Cumhurbaşkanı Sayın Recep Tayyip Erdoğan'ın teşrifleriyle açılmış, 114 ülkeden, 8.000'i yabancı olmak üzere 50.000'in üzerinde ziyaretçiye ev sahipliği yapmıştır.",
@@ -238,6 +240,7 @@
       {
         "logo": "IBF",
         "logoColor": "#325bb4",
+        "logoImage": "/images/ibf.webp",
         "title": "IBF – International Business Forum",
         "description": [
           "International Business Forum (IBF), dünya genelinden iş insanlarını, yatırımcıları ve kamu temsilcilerini bir araya getiren, küresel ölçekte etkili bir iş geliştirme platformudur. B2B ve B2G odaklı yapısıyla, ülkeler arası ticari ilişkilerin geliştirilmesine ve yeni iş birliklerinin kurulmasına katkı sağlamaktadır.",
