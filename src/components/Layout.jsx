@@ -18,69 +18,83 @@ function Header() {
   }, [language]);
 
   return (
-    <header className="site-header">
-      <div className="container nav-row">
-        <NavLink className="brand-mark" to="/" aria-label={messages.ui?.homeAriaLabel ?? `${siteName} home`}>
-          <img src="/logo.webp" alt={messages.ui?.brandLogoAlt ?? siteName} className="brand-logo" />
-        </NavLink>
+    <>
+      <header className="site-header">
+        <div className="container nav-row">
+          <NavLink className="brand-mark" to="/" aria-label={messages.ui?.homeAriaLabel ?? `${siteName} home`}>
+            <img src="/logo.webp" alt={messages.ui?.brandLogoAlt ?? siteName} className="brand-logo" />
+          </NavLink>
 
-        <nav className="nav-links" aria-label={messages.ui?.primaryNavigation ?? "Primary navigation"}>
+          <nav className="nav-links" aria-label={messages.ui?.primaryNavigation ?? "Primary navigation"}>
+            {navItems.map((item) => (
+              <NavLink key={item.to} to={item.to} className={({ isActive }) => (isActive ? "active" : "")}>
+                {item.label}
+              </NavLink>
+            ))}
+          </nav>
+
+          <div className="nav-tools">
+            <div className={`lang-switch${langOpen ? " open" : ""}`}>
+              <button
+                aria-label={messages.ui?.changeLanguage ?? "Change language"}
+                className="lang-button"
+                onClick={() => setLangOpen((v) => !v)}
+                type="button"
+              >
+                <span>🌐</span>
+                <span>{messages.languages?.[language] ?? language.toUpperCase()}</span>
+                <span>▾</span>
+              </button>
+              <div className="lang-menu">
+                {languageOrder.map((code) => (
+                  <button
+                    key={code}
+                    className={code === language ? "active" : ""}
+                    onClick={() => {
+                      setLanguage(code);
+                      setLangOpen(false);
+                    }}
+                    type="button"
+                  >
+                    {messages.languages?.[code] ?? code.toUpperCase()}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <button
+              className="menu-button"
+              aria-expanded={menuOpen}
+              aria-label={messages.ui?.openMenu ?? "Open menu"}
+              onClick={() => setMenuOpen((v) => !v)}
+              type="button"
+            >
+              ☰
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <div className={`mobile-overlay${menuOpen ? " open" : ""}`} onClick={() => setMenuOpen(false)} />
+      <div className={`mobile-panel${menuOpen ? " open" : ""}`}>
+        <div className="mobile-panel-head">
+          <button className="mobile-panel-close" onClick={() => setMenuOpen(false)} aria-label="Menüyü kapat" type="button">✕</button>
+        </div>
+        <nav className="mobile-panel-nav">
           {navItems.map((item) => (
-            <NavLink key={item.to} to={item.to} className={({ isActive }) => (isActive ? "active" : "")}>
+            <NavLink key={item.to} to={item.to} onClick={() => setMenuOpen(false)} className={({ isActive }) => isActive ? "active" : ""}>
               {item.label}
             </NavLink>
           ))}
         </nav>
-
-        <div className="nav-tools">
-          <div className={`lang-switch${langOpen ? " open" : ""}`}>
-            <button
-              aria-label={messages.ui?.changeLanguage ?? "Change language"}
-              className="lang-button"
-              onClick={() => setLangOpen((v) => !v)}
-              type="button"
-            >
-              <span>🌐</span>
-              <span>{messages.languages?.[language] ?? language.toUpperCase()}</span>
-              <span>▾</span>
-            </button>
-            <div className="lang-menu">
-              {languageOrder.map((code) => (
-                <button
-                  key={code}
-                  className={code === language ? "active" : ""}
-                  onClick={() => {
-                    setLanguage(code);
-                    setLangOpen(false);
-                  }}
-                  type="button"
-                >
-                  {messages.languages?.[code] ?? code.toUpperCase()}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          <button
-            className="menu-button"
-            aria-expanded={menuOpen}
-            aria-label={messages.ui?.openMenu ?? "Open menu"}
-            onClick={() => setMenuOpen((v) => !v)}
-            type="button"
-          >
-            ☰
-          </button>
+        <div className="mobile-panel-footer">
+          <a href="https://www.linkedin.com/company/m%C3%BCstakilfuarc%C4%B1l%C4%B1k/" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+          <a href="https://x.com/MUSIADEXPO" target="_blank" rel="noreferrer" aria-label="X">𝕏</a>
+          <a href="https://www.instagram.com/musiadexpo/" target="_blank" rel="noreferrer" aria-label="Instagram">⌘</a>
+          <a href="https://www.youtube.com/@MUSIADTV" target="_blank" rel="noreferrer" aria-label="YouTube">▶</a>
         </div>
       </div>
-
-      <div className={`mobile-panel${menuOpen ? " open" : ""}`}>
-        {navItems.map((item) => (
-          <NavLink key={item.to} to={item.to} onClick={() => setMenuOpen(false)}>
-            {item.label}
-          </NavLink>
-        ))}
-      </div>
-    </header>
+    </>
   );
 }
 
