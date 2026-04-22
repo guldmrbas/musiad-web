@@ -21,7 +21,7 @@
       "to": "/events"
     },
     {
-      "label": "Exhibition Network",
+      "label": "Müstakil Connect",
       "to": "/connect"
     },
     {
@@ -75,7 +75,7 @@
             "to": "/events"
           },
           {
-            "label": "Exhibition Network",
+            "label": "Müstakil Connect",
             "to": "/connect"
           }
         ]
@@ -171,6 +171,8 @@
       {
         "logo": "MÜSİAD EXPO",
         "logoColor": "#2a64c7",
+        "logoImage": "/images/MUSIAD_EXPO_2026_Logo.webp",
+        "linkUrl": "https://musiadexpo.com",
         "title": "",
         "description": "Through the programmes to be organised as part of MÜSİAD EXPO, we bring together thousands of business people and shape the present and future of trade by hosting a broad range of events from commercial diplomacy and B2B meetings to buyer delegations and international business forums.",
         "date": "23–26 September 2026",
@@ -255,22 +257,144 @@
   },
   "connect": {
     "hero": {
-      "crumb": "Home",
-      "current": "MÜSTAKİL FUAR/ ORGANİZASYON Connect",
-      "title": "MÜSTAKİL FUAR/ ORGANİZASYON Connect"
-    },
-    "intro": {
-      "title": "MÜSTAKİL FUAR/ ORGANİZASYON Connect",
-      "text": "Connect brings together MÜSTAKİL FUAR/ ORGANİZASYON exhibitors and visitors in industry communities. Here, professionals from different sectors build business connections and stay in touch online 365 days a year."
-    },
-    "whatIs": {
-      "title": "What is Connect?",
-      "bullets": [
-        "MÜSTAKİL FUAR/ ORGANİZASYON Connect keeps our event communities active throughout the year and brings the industry together in a single hub.",
-        "Participants can share relevant content in the feed whether or not they attend the fairs.",
-        "We create additional networking opportunities for the industry through carefully curated online expert events.",
-        "The platform learns from interactions and suggests better matches and new introductions."
+      "badge": "A fair-focused digital solution for companies using MÜSİAD",
+      "title": "Plan, manage and convert your fair meetings into profit",
+      "desc": "Müstakil Connect is a smart fair management application that helps plan, track and convert all B2B meeting processes before, during and after the fair into sustainable business relationships.",
+      "ctaPrimary": "Request a Demo",
+      "ctaSecondary": "Explore Details",
+      "featureCard": {
+        "title": "With Müstakil Connect",
+        "bullets": [
+          "Plan your meetings in advance",
+          "Make your fair programme visible and trackable",
+          "Record all B2B contacts",
+          "Manage post-fair actions without delay",
+          "Convert connections into sustainable business relationships"
+        ]
+      },
+      "infoCards": [
+        "Plan your meetings with Müstakil Connect, set your fair programme and easily track your B2B meetings.",
+        "Our sole aim is to help you earn back your time and budget investment in the fair many times over."
       ]
+    },
+    "why": {
+      "badge": "WHY IS IT NEEDED?",
+      "title": "Fairs are not just for visibility — they are for results",
+      "desc": "Attending a fair is a significant investment in terms of time, team and budget. However, without the right planning and tracking system, most contacts made during the fair remain scattered and are lost before converting into commercial value.",
+      "problems": {
+        "title": "Most common post-fair problems",
+        "bullets": [
+          "Who was met with remains disorganised",
+          "What each company requested is forgotten",
+          "Priority follow-ups are delayed",
+          "Potential business opportunities are lost",
+          "The real output of the investment cannot be measured"
+        ]
+      },
+      "solution": {
+        "title": "What does Müstakil Connect provide?",
+        "text": "Müstakil Connect is a digital application that provides meeting planning, B2B appointment tracking, meeting notes, task management and post-fair relationship continuity. Before the fair you know who you will meet, during the fair all contacts are recorded, and after the fair meetings are tracked in a controlled manner and converted into commercial results."
+      }
+    },
+    "features": {
+      "badge": "FEATURES",
+      "title": "What can you do with Müstakil Connect?",
+      "desc": "The application offers a simple, fast and results-oriented usage structure to make the fair experience more efficient.",
+      "items": [
+        {
+          "title": "Plan meetings in advance",
+          "text": "Before going to the fair, identify your target companies, create your meeting schedule and clarify who you will meet, when and for what purpose."
+        },
+        {
+          "title": "Make your fair programme visible",
+          "text": "Create an organised, trackable and controlled fair flow for the whole team. Act strategically rather than without a plan."
+        },
+        {
+          "title": "Record your B2B meetings",
+          "text": "Manage every meeting in a single place with company information, contact details, needs and notes. Don't let important details get lost."
+        },
+        {
+          "title": "Manage actions",
+          "text": "Advance proposal sending, callbacks, meeting planning, sample sending and collaboration tracking with task logic."
+        },
+        {
+          "title": "Continue the process after the fair",
+          "text": "After the fair, continue your communication with companies you connected with and convert relationships into business opportunities."
+        },
+        {
+          "title": "Corporate yet practical",
+          "text": "Bring your teams together on the same goal with a simple interface that is quick to learn, easy to adopt and works well under fair intensity."
+        }
+      ]
+    },
+    "process": {
+      "badge": "PROCESS MANAGEMENT",
+      "title": "By your side at every stage of the fair process",
+      "desc": "Müstakil Connect enables you to manage the entire process from before the fair to after the fair through a single system.",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Before the Fair",
+          "text": "Make strong preparations with target company identification, meeting planning, schedule creation and team organisation."
+        },
+        {
+          "number": "2",
+          "title": "During the Fair",
+          "text": "Manage all contacts systematically with B2B meeting tracking, company and contact notes, request recording and prioritisation."
+        },
+        {
+          "number": "3",
+          "title": "After the Fair",
+          "text": "Make the fair value sustainable with proposal and response plans, task assignments, relationship tracking and management of business opportunities."
+        }
+      ]
+    },
+    "benefits": {
+      "badge": "BENEFITS",
+      "title": "Why Müstakil Connect?",
+      "desc": "Because the value of meetings made at a fair emerges not just in the moment, but when followed up correctly.",
+      "contribution": {
+        "title": "Contribution to the organisation",
+        "bullets": [
+          "Provides a more planned fair process",
+          "Offers more disciplined team management",
+          "Creates more organised B2B meeting tracking",
+          "Helps build stronger customer and business partner relationships",
+          "Creates higher return and sales potential"
+        ]
+      },
+      "approach": {
+        "title": "Our core approach",
+        "text": "Every meeting at a fair is valuable. But the real success is converting that meeting into a sustainable business relationship. Müstakil Connect is not just a fair note-taking tool; it is a management tool that converts your fair investment into productivity, business connections into opportunities and meetings into results."
+      }
+    },
+    "scenario": {
+      "badge": "USE CASE",
+      "title": "Don't just experience the fair — manage it",
+      "desc": "With Müstakil Connect, your fair process is freed from scattered notes, lost business cards and forgotten follow-ups.",
+      "flow": {
+        "title": "Example flow",
+        "bullets": [
+          "You identify the companies you want to meet in advance",
+          "You create your meeting plan through Müstakil Connect",
+          "On fair day, team members clearly know who they will meet",
+          "Every meeting made is entered into the system",
+          "Requests, notes and actions are recorded",
+          "When the fair ends, you have a trackable work list",
+          "Afterwards you continue communication with companies and convert opportunities into profit"
+        ]
+      },
+      "result": {
+        "title": "Result",
+        "text": "With Müstakil Connect, your fair process proceeds more organised, your teams know what to do more clearly, important meetings are not lost, post-fair actions are not delayed and more opportunities are evaluated with a strong follow-up structure.",
+        "bold": "In short, you don't just attend the fair — you manage it."
+      }
+    },
+    "cta": {
+      "title": "Grow your fair investment with Müstakil Connect",
+      "desc": "Plan your meetings, clarify your programme, track your B2B meetings and continue the commercial process after the fair. Our sole goal is to help you earn back your time and budget investment in the fair many times over.",
+      "primary": "Request a Demo",
+      "secondary": "Contact Us"
     },
     "communitiesTitle": "Connect Communities",
     "communities": [

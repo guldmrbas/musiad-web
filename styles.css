@@ -1652,21 +1652,20 @@ a.card-location:hover {
 }
 
 .card-logo-image-wrap {
-  height: 72px;
+  height: auto;
   display: flex;
-  align-items: center;
-  margin-bottom: 16px;
+  align-items: flex-start;
+  margin-bottom: 8px;
 }
 
 .card-logo-image-wrap a {
   display: flex;
-  align-items: center;
-  height: 100%;
+  align-items: flex-start;
 }
 
 .card-logo-image {
   display: block;
-  height: 100%;
+  height: 120px;
   width: auto;
   max-width: 200px;
   object-fit: contain;
@@ -1774,25 +1773,34 @@ a.card-location:hover {
   min-height: 382px;
 }
 
-.events-page .event-card .card-logo {
+.events-page .event-card .card-logo,
+.home-page .event-card .card-logo {
   height: auto;
   font-size: 20px;
-  margin-bottom: 18px;
+  margin-bottom: 8px;
 }
 
-.events-page .event-card p {
+.events-page .event-card .card-logo-image-wrap,
+.home-page .event-card .card-logo-image-wrap {
+  margin-bottom: 10px;
+}
+
+.events-page .event-card p,
+.home-page .event-card p {
   font-size: 16px;
   line-height: 1.55;
   margin: 0 0 14px;
 }
 
-.events-page .event-card .card-date {
+.events-page .event-card .card-date,
+.home-page .event-card .card-date {
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 8px;
 }
 
-.events-page .event-card .card-location {
+.events-page .event-card .card-location,
+.home-page .event-card .card-location {
   font-size: 16px;
 }
 
@@ -2643,4 +2651,395 @@ a.card-location:hover {
   .sales-card {
     border-radius: 20px;
   }
+}
+
+/* ===== MÜSTAKIL CONNECT PAGE ===== */
+
+.mc-page {
+  background: var(--bg);
+}
+
+.mc-hero {
+  padding: 72px 0 60px;
+  background: linear-gradient(180deg, #ffffff 0%, var(--bg) 100%);
+}
+
+.mc-hero-inner {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 56px;
+  align-items: start;
+}
+
+.mc-badge-pill {
+  display: inline-block;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 8px 20px;
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 22px;
+}
+
+.mc-hero-title {
+  font-size: clamp(34px, 4.5vw, 58px);
+  font-weight: 900;
+  color: var(--brand);
+  line-height: 1.05;
+  margin: 0 0 20px;
+  letter-spacing: -0.025em;
+}
+
+.mc-hero-desc {
+  font-size: 17px;
+  color: var(--muted);
+  line-height: 1.7;
+  margin: 0 0 28px;
+  max-width: 540px;
+}
+
+.mc-hero-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.mc-btn-primary {
+  background: var(--brand);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 15px 32px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: -0.01em;
+  font-family: inherit;
+}
+
+.mc-btn-outline {
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  color: var(--brand);
+  border: 2px solid var(--brand);
+  border-radius: 999px;
+  padding: 13px 30px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: -0.01em;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.mc-hero-info-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.mc-info-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px 22px;
+  font-size: 15px;
+  color: var(--ink);
+  line-height: 1.65;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.mc-hero-feature-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 34px 38px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.mc-hero-feature-card h3 {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--brand);
+  margin: 0 0 20px;
+}
+
+/* Section common */
+.mc-section {
+  padding: 80px 0;
+  background: var(--bg);
+}
+
+.mc-section-light {
+  background: #ffffff;
+}
+
+.mc-section-label {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--plum);
+  margin: 0 0 14px;
+}
+
+.mc-section-title {
+  font-size: clamp(30px, 3.2vw, 44px);
+  font-weight: 900;
+  color: var(--brand);
+  line-height: 1.06;
+  margin: 0 0 16px;
+  letter-spacing: -0.02em;
+}
+
+.mc-section-desc {
+  font-size: 17px;
+  color: var(--muted);
+  line-height: 1.65;
+  margin: 0 0 44px;
+  max-width: 620px;
+}
+
+/* Two column */
+.mc-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+/* Cards */
+.mc-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 34px 38px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+}
+
+.mc-card h3 {
+  font-size: 19px;
+  font-weight: 800;
+  color: var(--brand);
+  margin: 0 0 18px;
+}
+
+.mc-card p {
+  font-size: 15px;
+  color: var(--muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Bullet list with amber dots */
+.mc-bullet-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.mc-bullet-list li {
+  position: relative;
+  padding-left: 20px;
+  font-size: 15px;
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+.mc-bullet-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--brand);
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+/* Feature grid — 3 columns */
+.mc-features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Step cards */
+.mc-steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.mc-step-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 34px 30px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+}
+
+.mc-step-number {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--surface-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--brand);
+  margin-bottom: 26px;
+}
+
+.mc-step-card h3 {
+  font-size: 19px;
+  font-weight: 800;
+  color: var(--brand);
+  margin: 0 0 14px;
+}
+
+.mc-step-card p {
+  font-size: 15px;
+  color: var(--muted);
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* Result bold line */
+.mc-result-bold {
+  margin-top: 16px !important;
+  font-weight: 700;
+  color: var(--brand) !important;
+}
+
+/* CTA Section */
+.mc-cta-section {
+  padding: 0 0 80px;
+  background: var(--bg);
+}
+
+.mc-cta {
+  background: var(--brand);
+  border-radius: 20px;
+  padding: 72px 60px;
+  text-align: center;
+}
+
+.mc-cta h2 {
+  font-size: clamp(28px, 3.2vw, 42px);
+  font-weight: 900;
+  color: #ffffff;
+  margin: 0 0 18px;
+  letter-spacing: -0.02em;
+}
+
+.mc-cta p {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.82);
+  line-height: 1.65;
+  margin: 0 0 36px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mc-cta-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mc-cta-btn-primary {
+  background: #ffffff;
+  color: var(--brand);
+  border: none;
+  border-radius: 999px;
+  padding: 15px 32px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: -0.01em;
+  font-family: inherit;
+}
+
+.mc-cta-btn-outline {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 999px;
+  padding: 13px 30px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: -0.01em;
+  font-family: inherit;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .mc-hero-inner {
+    grid-template-columns: 1fr 340px;
+    gap: 40px;
+  }
+
+  .mc-features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .mc-hero {
+    padding: 48px 0 44px;
+  }
+
+  .mc-hero-inner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .mc-hero-info-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .mc-section {
+    padding: 52px 0;
+  }
+
+  .mc-two-col,
+  .mc-features-grid,
+  .mc-steps-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mc-cta {
+    padding: 48px 28px;
+  }
+
+  .mc-card {
+    padding: 24px 22px;
+  }
+}
+
+/* RTL support */
+.rtl .mc-hero-inner,
+.rtl .mc-two-col,
+.rtl .mc-features-grid,
+.rtl .mc-steps-grid {
+  direction: rtl;
+}
+
+.rtl .mc-bullet-list li {
+  padding-left: 0;
+  padding-right: 18px;
+}
+
+.rtl .mc-bullet-list li::before {
+  left: auto;
+  right: 0;
+}
+
+.rtl .mc-hero-desc,
+.rtl .mc-section-desc {
+  text-align: right;
 }

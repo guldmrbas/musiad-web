@@ -21,7 +21,7 @@
       "to": "/events"
     },
     {
-      "label": "Fuar Ağı",
+      "label": "Müstakil Connect",
       "to": "/connect"
     },
     {
@@ -171,6 +171,8 @@
       {
         "logo": "MÜSİAD EXPO",
         "logoColor": "#2a64c7",
+        "logoImage": "/images/MUSIAD_EXPO_2026_Logo.webp",
+        "linkUrl": "https://musiadexpo.com",
         "title": "",
         "description": "MÜSİAD EXPO kapsamında düzenlenecek programlarla, ticari diplomasiden B2B görüşmelere, alım heyetlerinden uluslararası iş forumlarına kadar geniş bir yelpazede etkinlikler düzenleyerek, binlerce iş insanını bir araya getiriyor ve ticaretin bugünü ile geleceğini şekillendiriyoruz.",
         "date": "23–26 Eylül 2026",
@@ -255,74 +257,145 @@
   },
   "connect": {
     "hero": {
-      "crumb": "Ana Sayfa",
-      "current": "MÜSTAKİL FUAR/ ORGANİZASYON Connect",
-      "title": "MÜSTAKİL FUAR/ ORGANİZASYON Connect"
-    },
-    "intro": {
-      "title": "MÜSTAKİL FUAR/ ORGANİZASYON Connect",
-      "text": "Connect, MÜSTAKİL FUAR/ ORGANİZASYON katılımcılarını ve ziyaretçilerini sektör topluluklarında bir araya getirir. Burada farklı sektörlerden profesyoneller iş bağlantıları kurar ve yılın 365 günü çevrim içi iletişimde kalır."
-    },
-    "whatIs": {
-      "title": "Connect nedir?",
-      "bullets": [
-        "MÜSTAKİL FUAR/ ORGANİZASYON Connect, etkinlik topluluklarımızı yıl boyunca canlı tutar ve sektörü tek bir merkezde bir araya getirir.",
-        "Katılımcılar fuarlara gelsin ya da gelmesin, akış içinde ilgili içerikler paylaşabilir.",
-        "Özenle kurgulanan çevrim içi uzman etkinlikleriyle sektör için ek buluşma fırsatları yaratırız.",
-        "Platform, etkileşimlerden öğrenerek daha iyi eşleşmeler ve yeni tanışmalar önerir."
+      "badge": "MÜSİAD kullanacak firmalar için fuar odaklı dijital çözüm",
+      "title": "Fuar görüşmelerinizi planlayın, yönetin ve fuar sonrasında da kazanca dönüştürün",
+      "desc": "Müstakil Connect, fuar öncesi, fuar sırası ve fuar sonrasında tüm B2B görüşme süreçlerini planlamaya, takip etmeye ve sürdürülebilir iş ilişkilerine dönüştürmeye yardımcı olan akıllı bir fuar yönetim uygulamasıdır.",
+      "ctaPrimary": "Demo Talep Et",
+      "ctaSecondary": "Detayları İncele",
+      "featureCard": {
+        "title": "Müstakil Connect ile",
+        "bullets": [
+          "Görüşmelerinizi önceden planlayın",
+          "Fuar programınızı görünür ve takip edilebilir hale getirin",
+          "Tüm B2B temasları kayıt altına alın",
+          "Fuar sonrası aksiyonları gecikmeden yönetin",
+          "Bağlantıları sürdürülebilir ticari ilişkiye dönüştürün"
+        ]
+      },
+      "infoCards": [
+        "Görüşme planlarınızı Müstakil Connect ile yapın, fuar programınız belli olsun ve B2B görüşmelerinizi kolayca takip edin.",
+        "Tek amacımız, fuar için yaptığınız zaman ve bütçe yatırımını kat be kat fazlasıyla kazanmanıza destek olmaktır."
       ]
     },
-    "communitiesTitle": "Connect Toplulukları",
-    "communities": [
-      {
-        "logo": "DairyTech\nCONNECT",
-        "logoColor": "#0f4c81",
-        "title": "DairyTech Connect",
-        "description": "Süt endüstrisi profesyonelleri topluluğu",
-        "link": "app.dairytech-connect.com",
-        "activeBar": false
+    "why": {
+      "badge": "NEDEN GEREKLİ?",
+      "title": "Fuarlar sadece görünür olmak için değil, sonuç almak içindir",
+      "desc": "Bir fuara katılmak; zaman, ekip ve bütçe açısından önemli bir yatırımdır. Ancak doğru planlama ve takip sistemi olmazsa, fuar boyunca kurulan temasların büyük kısmı dağınık kalır ve ticari değere dönüşmeden kaybolur.",
+      "problems": {
+        "title": "Fuar sonrasında en sık yaşanan sorunlar",
+        "bullets": [
+          "Kimlerle görüşüldüğü dağınık kalır",
+          "Hangi firmanın ne talep ettiği unutulur",
+          "Öncelikli geri dönüşler gecikir",
+          "Potansiyel iş fırsatları kaybedilir",
+          "Yapılan yatırımın gerçek çıktısı ölçülemez"
+        ]
       },
-      {
-        "logo": "Aquaflame\nCONNECT",
-        "logoColor": "#2da5ea",
-        "title": "Aquaflame Connect",
-        "description": "Isı, su temini, ısıtma ekipmanları, mühendislik ve havuz sektörleri profesyonelleri topluluğu.",
-        "link": "app.aquatherm-connect.com",
-        "activeBar": false
-      },
-      {
-        "logo": "Mitt\nCONNECT",
-        "logoColor": "#123f75",
-        "title": "MITT Connect",
-        "description": "Turizm sektörü profesyonelleri topluluğu",
-        "link": "app.mitt-connect.com",
-        "activeBar": false
-      },
-      {
-        "logo": "MosBuild\nCONNECT",
-        "logoColor": "#bc2338",
-        "title": "MosBuild Connect",
-        "description": "Mimarlar, tasarımcılar, geliştiriciler ve tedarikçiler topluluğu",
-        "link": "app.mosbuild-connect.com",
-        "activeBar": true
-      },
-      {
-        "logo": "TransRussia\nCONNECT",
-        "logoColor": "#2086d4",
-        "title": "TransRussia Connect",
-        "description": "Taşımacılık ve lojistik sektörü liderleri topluluğu",
-        "link": "transrussia-connect.com",
-        "activeBar": false
-      },
-      {
-        "logo": "Electronica\nCONNECT",
-        "logoColor": "#1f7d35",
-        "title": "Electronica Connect",
-        "description": "Elektronik sektörü profesyonelleri topluluğu",
-        "link": "electronica-connect.com",
-        "activeBar": false
+      "solution": {
+        "title": "Müstakil Connect ne sağlar?",
+        "text": "Müstakil Connect; görüşme planlama, B2B randevu takibi, görüşme notları, görev yönetimi ve fuar sonrası ilişki devamlılığı sağlayan dijital bir uygulamadır. Fuardan önce kiminle görüşeceğiniz belli olur, fuar sırasında tüm temaslar kayıt altına alınır, fuar sonrasında ise görüşmeler kontrollü şekilde takip edilerek ticari sonuca dönüştürülür."
       }
-    ]
+    },
+    "features": {
+      "badge": "ÖZELLİKLER",
+      "title": "Müstakil Connect ile neler yapabilirsiniz?",
+      "desc": "Uygulama, fuar deneyimini daha verimli hale getirmek için sade, hızlı ve sonuç odaklı bir kullanım yapısı sunar.",
+      "items": [
+        {
+          "title": "Görüşmeleri önceden planlayın",
+          "text": "Fuara gitmeden önce hedef firmalarınızı belirleyin, görüşme takviminizi oluşturun ve kiminle, ne zaman, hangi amaçla görüşeceğinizi netleştirin."
+        },
+        {
+          "title": "Fuar programınızı görünür hale getirin",
+          "text": "Tüm ekip için düzenli, takip edilebilir ve kontrollü bir fuar akışı oluşturun. Plansızlık yerine stratejik hareket edin."
+        },
+        {
+          "title": "B2B görüşmelerinizi kayıt altına alın",
+          "text": "Her görüşmeyi firma bilgileri, kişi bilgileri, ihtiyaçlar ve notlarla birlikte tek noktada yönetin. Önemli detaylar kaybolmasın."
+        },
+        {
+          "title": "Aksiyonları yönetin",
+          "text": "Teklif gönderimi, geri arama, toplantı planlama, numune gönderimi ve iş birliği takibini görev mantığıyla ilerletin."
+        },
+        {
+          "title": "Fuar sonrasında süreci sürdürün",
+          "text": "Fuar bittikten sonra da temas kurduğunuz firmalarla iletişiminizi devam ettirin ve ilişkileri ticari fırsata dönüştürün."
+        },
+        {
+          "title": "Kurumsal ama pratik kullanım",
+          "text": "Hızlı öğrenilen, kolay adapte edilen ve fuar yoğunluğuna uygun çalışan sade bir arayüz ile ekiplerinizi aynı hedefte buluşturun."
+        }
+      ]
+    },
+    "process": {
+      "badge": "SÜREÇ YÖNETİMİ",
+      "title": "Fuar sürecinin her aşamasında yanınızda",
+      "desc": "Müstakil Connect, fuar öncesinden fuar sonrasına kadar tüm süreci tek bir sistem üzerinden yönetmenizi sağlar.",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Fuar Öncesi",
+          "text": "Hedef firma belirleme, görüşme planlama, takvim oluşturma ve ekip organizasyonu ile güçlü bir hazırlık yapın."
+        },
+        {
+          "number": "2",
+          "title": "Fuar Sırası",
+          "text": "B2B görüşme takibi, firma ve kişi notları, taleplerin kaydı ve önceliklendirme ile tüm temasları sistemli şekilde yönetin."
+        },
+        {
+          "number": "3",
+          "title": "Fuar Sonrası",
+          "text": "Teklif ve dönüş planı, görev atamaları, ilişki takibi ve ticari fırsatların yönetimi ile fuar değerini sürdürülebilir hale getirin."
+        }
+      ]
+    },
+    "benefits": {
+      "badge": "FAYDALAR",
+      "title": "Neden Müstakil Connect?",
+      "desc": "Çünkü fuarda yapılan görüşmelerin değeri, yalnızca o anda değil; doğru takip edildiğinde ortaya çıkar.",
+      "contribution": {
+        "title": "Kuruma sağladığı katkı",
+        "bullets": [
+          "Daha planlı bir fuar süreci sağlar",
+          "Daha disiplinli ekip yönetimi sunar",
+          "Daha düzenli B2B görüşme takibi oluşturur",
+          "Daha güçlü müşteri ve iş ortağı ilişkileri kurulmasına yardımcı olur",
+          "Daha yüksek geri dönüş ve satış potansiyeli yaratır"
+        ]
+      },
+      "approach": {
+        "title": "Temel yaklaşımımız",
+        "text": "Fuarda yapılan her görüşme değerlidir. Ancak asıl başarı, o görüşmeyi sürdürülebilir bir iş ilişkisine dönüştürmektir. Müstakil Connect yalnızca bir fuar not alma aracı değil; fuar yatırımınızı verime, iş bağlantılarını fırsata ve görüşmeleri sonuçlara dönüştüren bir yönetim aracıdır."
+      }
+    },
+    "scenario": {
+      "badge": "KULLANIM SENARYOSU",
+      "title": "Fuarı sadece yaşamayın, yönetin",
+      "desc": "Müstakil Connect ile fuar süreciniz dağınık notlardan, kaybolan kartvizitlerden ve unutulan geri dönüşlerden kurtulur.",
+      "flow": {
+        "title": "Örnek akış",
+        "bullets": [
+          "Görüşmek istediğiniz firmaları önceden belirlersiniz",
+          "Toplantı planınızı Müstakil Connect üzerinden oluşturursunuz",
+          "Fuar günü ekip üyeleriniz kiminle görüşeceğini net şekilde bilir",
+          "Yapılan her görüşme sisteme işlenir",
+          "Talepler, notlar ve aksiyonlar kayıt altına alınır",
+          "Fuar bittiğinde elinizde takip edilebilir bir iş listesi olur",
+          "Sonrasında firmalarla iletişiminizi sürdürür, fırsatları kazanca dönüştürürsünüz"
+        ]
+      },
+      "result": {
+        "title": "Sonuç",
+        "text": "Müstakil Connect ile fuar süreciniz daha organize ilerler, ekipleriniz ne yapacağını daha net bilir, önemli görüşmeler kaybolmaz, fuar sonrasında aksiyonlar gecikmez ve daha fazla fırsat güçlü bir takip yapısıyla değerlendirilir.",
+        "bold": "Kısacası, fuara sadece katılmış olmazsınız; fuarı yönetmiş olursunuz."
+      }
+    },
+    "cta": {
+      "title": "Müstakil Connect ile fuar yatırımınızı büyütün",
+      "desc": "Görüşmelerinizi planlayın, programınızı netleştirin, B2B görüşmelerinizi takip edin ve fuar sonrasında da ticari süreci devam ettirin. Tek hedefimiz, fuar için yaptığınız zaman ve bütçe yatırımını katlanarak geri kazanmanıza yardımcı olmaktır.",
+      "primary": "Demo Talep Et",
+      "secondary": "İletişime Geç"
+    }
   },
   "travel": {
     "hero": {
