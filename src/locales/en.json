@@ -84,19 +84,7 @@
         "title": "Travel information",
         "links": [
           {
-            "label": "Visa support",
-            "to": "/travel"
-          },
-          {
-            "label": "Rules of entry to the Russian Federation",
-            "to": "/travel"
-          },
-          {
-            "label": "Accommodation and transfers",
-            "to": "/travel"
-          },
-          {
-            "label": "Tours",
+            "label": "Travel information",
             "to": "/travel"
           }
         ]
@@ -105,11 +93,11 @@
         "title": "About Us",
         "links": [
           {
-            "label": "Company leadership",
+            "label": "Global Network & Strategic Partners",
             "to": "/about"
           },
           {
-            "label": "Business partners",
+            "label": "Our International Exhibition Expertise",
             "to": "/about"
           }
         ]

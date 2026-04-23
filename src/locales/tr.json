@@ -84,19 +84,7 @@
         "title": "Seyahat bilgileri",
         "links": [
           {
-            "label": "Vize desteği",
-            "to": "/travel"
-          },
-          {
-            "label": "Rusya Federasyonu'na giriş kuralları",
-            "to": "/travel"
-          },
-          {
-            "label": "Konaklama ve transferler",
-            "to": "/travel"
-          },
-          {
-            "label": "Geziler",
+            "label": "Seyahat bilgileri",
             "to": "/travel"
           }
         ]
@@ -105,11 +93,11 @@
         "title": "Hakkımızda",
         "links": [
           {
-            "label": "Şirket liderliği",
+            "label": "Küresel Ağ ve Stratejik Ortaklar",
             "to": "/about"
           },
           {
-            "label": "İş ortakları",
+            "label": "Uluslararası Fuarcılık Yetkinliğimiz",
             "to": "/about"
           }
         ]

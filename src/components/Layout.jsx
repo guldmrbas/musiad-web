@@ -130,16 +130,6 @@ function Footer() {
             ))}
           </div>
 
-          <a
-            className="back-top"
-            href="#top"
-            onClick={(event) => {
-              event.preventDefault();
-              window.scrollTo({ top: 0, behavior: "smooth" });
-            }}
-          >
-            ▲
-          </a>
         </div>
       </div>
 
