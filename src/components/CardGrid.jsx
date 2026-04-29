@@ -45,21 +45,25 @@ function BaseCard({ item, mutedLink, linkTarget = "#" }) {
       {descriptions.map((paragraph) => (
         <p key={paragraph}>{paragraph}</p>
       ))}
-      {item.date ? <div className="card-date">{item.date}</div> : null}
-      {item.location ? <div className="card-location">{item.location}</div> : null}
-      {item.link ? (
-        <a
-          className="card-location"
-          href={externalLink}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {item.link}
-        </a>
-      ) : null}
       {item.hideReadMore ? null : (
         <CardLink mutedLink={mutedLink} to={linkTarget} text={t("actions.readMore")} />
       )}
+      {(item.date || item.location || item.link) ? (
+        <div className="card-footer">
+          {item.date ? <div className="card-date">{item.date}</div> : null}
+          {item.location ? <div className="card-location">{item.location}</div> : null}
+          {item.link ? (
+            <a
+              className="card-location"
+              href={externalLink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {item.link}
+            </a>
+          ) : null}
+        </div>
+      ) : null}
     </article>
   );
 }

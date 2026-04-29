@@ -1609,7 +1609,7 @@ a.card-location:hover {
 .about-page .page-hero::before {
   background:
     linear-gradient(180deg, rgba(9, 16, 34, 0.28), rgba(9, 16, 34, 0.28)),
-    url("/images/MÜSİAD Genel Merkez_5066.jpg.webp") center center / cover no-repeat;
+    url("/images/about-hero.webp") center center / cover no-repeat;
 }
 
 .about-page .photo-block {
@@ -1802,16 +1802,27 @@ a.card-location:hover {
   margin: 0 0 14px;
 }
 
+.events-page .event-card .card-footer,
+.home-page .event-card .card-footer {
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 1px solid rgba(42, 100, 199, 0.15);
+}
+
 .events-page .event-card .card-date,
 .home-page .event-card .card-date {
-  font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: var(--brand);
+  margin-bottom: 4px;
 }
 
 .events-page .event-card .card-location,
 .home-page .event-card .card-location {
-  font-size: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #8a8f9a;
 }
 
 .events-page .cards-grid .event-card:nth-child(odd) .card-bar::before {

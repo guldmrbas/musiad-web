@@ -143,8 +143,7 @@ function Footer() {
               <a href={socialLinks.youtube} target="_blank" rel="noreferrer" aria-label={messages.ui?.youtube ?? "YouTube"} className="footer-bottom-icon">▶</a>
             </div>
             <div className="footer-bottom-brand">{messages.meta?.siteName ?? "MÜSTAKİL FUAR/ORGANİZASYON"}</div>
-            <div className="footer-bottom-legal">{bottom.legal}</div>
-            <div className="footer-bottom-copy">{bottom.copyright}</div>
+<div className="footer-bottom-copy">{bottom.copyright}</div>
             <div className="footer-bottom-policies">
               {bottom.policies.map((item, i) => (
                 <span key={item}>

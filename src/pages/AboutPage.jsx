@@ -1,6 +1,7 @@
 import SectionHeading from "../components/SectionHeading";
 import { AssociationCard } from "../components/CardGrid";
 import { useI18n } from "../i18n/I18nProvider";
+import PreloadImage from "../components/PreloadImage";
 
 function PageHero({ title, className = "" }) {
   return (
@@ -18,6 +19,7 @@ export default function AboutPage() {
 
   return (
     <main>
+      <PreloadImage href="/images/about-hero.webp" />
       <PageHero {...about.hero} className="people" />
 
       <section className="page-layout">

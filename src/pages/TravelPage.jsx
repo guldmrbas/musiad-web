@@ -1,4 +1,5 @@
 import { useI18n } from "../i18n/I18nProvider";
+import PreloadImage from "../components/PreloadImage";
 
 function PageHero({ title, className = "" }) {
   return (
@@ -16,6 +17,7 @@ export default function TravelPage() {
 
   return (
     <main>
+      <PreloadImage href="/images/turkiye.webp" />
       <PageHero title={travel.hero.title} className="travel" />
 
       <section className="travel-intro-section">

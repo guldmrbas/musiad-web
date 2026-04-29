@@ -1,4 +1,5 @@
 import { useI18n } from "../i18n/I18nProvider";
+import PreloadImage from "../components/PreloadImage";
 
 function PageHero({ title, className = "" }) {
   return (
@@ -18,6 +19,7 @@ export default function ContactPage() {
 
   return (
     <main>
+      <PreloadImage href="/images/genel.webp" />
       <PageHero {...contact.hero} className="contact office" />
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="container">
@@ -41,10 +43,13 @@ export default function ContactPage() {
 
               <div className="contact-links">
                 <a href={`tel:${venue.phoneRaw ?? venue.phone}`}>{venue.phone}</a>
+                {venue.fax ? <span>{venue.fax}</span> : null}
                 <a href={`mailto:${venue.email}`}>{venue.email}</a>
-                <a href={venue.websiteUrl} rel="noreferrer" target="_blank">
-                  {venue.website}
-                </a>
+                {venue.website ? (
+                  <a href={venue.websiteUrl} rel="noreferrer" target="_blank">
+                    {venue.website}
+                  </a>
+                ) : null}
               </div>
             </article>
 

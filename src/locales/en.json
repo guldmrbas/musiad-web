@@ -124,7 +124,6 @@
       }
     ],
     "bottom": {
-      "legal": "THIS FAIR IS ORGANIZED UNDER THE SUPERVISION OF TOBB (UNION OF CHAMBERS AND COMMODITY EXCHANGES OF TURKEY) IN ACCORDANCE WITH LAW NO. 5174.",
       "copyright": "MÜSTAKİL FUARCILIK A.Ş. © 2026",
       "policies": [
         "Privacy Policy",
@@ -161,8 +160,39 @@
         "logoColor": "#2a64c7",
         "logoImage": "/images/MUSIAD_EXPO_2026_Logo.webp",
         "linkUrl": "https://musiadexpo.com",
-        "title": "",
+        "title": "MÜSİAD Expo",
         "description": "Through the programmes to be organised as part of MÜSİAD EXPO, we bring together thousands of business people and shape the present and future of trade by hosting a broad range of events from commercial diplomacy and B2B meetings to buyer delegations and international business forums.",
+        "link": "musiadexpo.com",
+        "date": "23–26 September 2026",
+        "location": "Istanbul, Istanbul Fair Center",
+        "activeBar": true
+      },
+      {
+        "logo": "IBF",
+        "logoColor": "#2a64c7",
+        "logoImage": "/images/ibf.webp",
+        "linkUrl": "https://ibforum.org",
+        "title": "International Business Forum",
+        "description": [
+          "International Business Forum (IBF) is a globally influential business development platform that brings together business people, investors and public representatives from around the world. With its B2B and B2G-focused structure, it contributes to the development of commercial relations between countries and the establishment of new partnerships.",
+          "Thanks to the international network offered by IBF, Müstakil Fuarcılık organisations gain an integrated structure that extends not only to local markets but to the global business world, creating sustainable and high value-added business opportunities for participating companies."
+        ],
+        "link": "ibforum.org",
+        "date": "23–26 September 2026",
+        "location": "Istanbul, Istanbul Fair Center",
+        "activeBar": true
+      },
+      {
+        "logo": "B2B",
+        "logoColor": "#2a64c7",
+        "logoImage": "/images/MUSIAD_EXPO_2026_Logo.webp",
+        "linkUrl": "https://musiadexpo.com",
+        "title": "MÜSİAD Expo B2B",
+        "description": [
+          "The B2B Organisation held within MÜSİAD EXPO provides companies with the opportunity to establish direct business connections. At the previous event, thousands of qualified meetings were held with a buyer delegation of 850 foreign business people, yielding concrete commercial outcomes for participants.",
+          "This year, broader participation and stronger business networks are targeted."
+        ],
+        "link": "musiadexpo.com",
         "date": "23–26 September 2026",
         "location": "Istanbul, Istanbul Fair Center",
         "activeBar": true
@@ -568,22 +598,23 @@
     },
     "venueSectionTitle": "Address and Map",
     "venue": {
-      "title": "Istanbul Fair Centre Contact Information",
+      "title": "MÜSİAD Contact Information",
       "address": [
-        "Yeşilköy Mah. Atatürk Cad. İstanbul Dünya Ticaret Merkezi No:10/1 A1 Blok",
-        "K:6 No:250 Bakırköy - İstanbul"
+        "Ataköy 7-8-9-10 Mah. Çobançeşme E5 Yanyol Cad. No:4",
+        "Bakırköy / Istanbul"
       ],
-      "phone": "+90 212 382 64 10",
-      "phoneRaw": "+902123826410",
-      "email": "info@musiadexpo.com",
-      "website": "www.mustakilfuarcilik.com",
-      "websiteUrl": "https://www.mustakilfuarcilik.com",
-      "mapUrl": "https://maps.google.com/?q=DTM+Istanbul+Fuar+Merkezi"
+      "phone": "+90 (212) 395 00 00",
+      "phoneRaw": "+902123950000",
+      "fax": "Fax: +90 (212) 395 00 01",
+      "email": "satis@mustakilfuarcilik.com",
+      "website": "www.musiad.org.tr",
+      "websiteUrl": "https://www.musiad.org.tr",
+      "mapUrl": "https://www.google.com/maps/dir//M%C3%9CS%C4%B0AD+%7C+M%C3%BCstakil+Sanayici+ve+%C4%B0%C5%9Fadamlar%C4%B1+Derne%C4%9Fi,+Atak%C3%B6y+7-8-9-10+Mah,+%C3%87oban%C3%A7e%C5%9Fme,+Yan+Yol+No:4,+34158+Bak%C4%B1rk%C3%B6y/@41.0142768,28.7689758,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14cab0b40f1dbae5:0x5f5fe2246ed1aa6e!2m2!1d28.8247199!2d40.9923081?entry=ttu&g_ep=EgoyMDI2MDQyNi4wIKXMDSoASAFQAw%3D%3D"
     },
     "mapCard": {
       "label": "Location",
-      "title": "Istanbul Fair Centre",
-      "text": "You can open the venue location on the map and confirm your visit plan directly with directions.",
+      "title": "MÜSİAD Headquarters",
+      "text": "You can open MÜSİAD Headquarters on the map and confirm your visit plan directly with directions.",
       "action": "Open on map"
     },
     "sales": {

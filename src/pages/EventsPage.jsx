@@ -1,5 +1,6 @@
 import { EventCard } from "../components/CardGrid";
 import { useI18n } from "../i18n/I18nProvider";
+import PreloadImage from "../components/PreloadImage";
 
 function PageHero({ title, className = "" }) {
   return (
@@ -17,11 +18,12 @@ export default function EventsPage() {
 
   return (
     <main>
+      <PreloadImage href="/images/msiad.webp" />
       <PageHero title={events.hero.title} className="events" />
       <section className="section">
         <div className="container">
           <div className="cards-grid">
-            {events.cards.slice(0, 1).map((item) => (
+            {events.cards.map((item) => (
               <EventCard key={item.title} item={item} mutedLink={false} />
             ))}
           </div>

@@ -124,7 +124,6 @@
       }
     ],
     "bottom": {
-      "legal": "يُنظَّم هذا المعرض تحت إشراف TOBB (اتحاد الغرف وبورصات السلع التركية) وفقاً للقانون رقم 5174.",
       "copyright": "MÜSTAKİL FUARCILIK A.Ş. © 2026",
       "policies": [
         "سياسة الخصوصية",
@@ -161,8 +160,39 @@
         "logoColor": "#2a64c7",
         "logoImage": "/images/MUSIAD_EXPO_2026_Logo.webp",
         "linkUrl": "https://musiadexpo.com",
-        "title": "",
+        "title": "MÜSİAD Expo",
         "description": "من خلال البرامج التي ستُنظم ضمن MÜSİAD EXPO، نجمع آلاف رجال الأعمال معاً ونسهم في تشكيل حاضر التجارة ومستقبلها عبر تنظيم مجموعة واسعة من الفعاليات تمتد من الدبلوماسية التجارية واجتماعات B2B إلى وفود الشراء والمنتديات الدولية للأعمال.",
+        "link": "musiadexpo.com",
+        "date": "23–26 سبتمبر 2026",
+        "location": "إسطنبول، مركز إسطنبول للمعارض",
+        "activeBar": true
+      },
+      {
+        "logo": "IBF",
+        "logoColor": "#2a64c7",
+        "logoImage": "/images/ibf.webp",
+        "linkUrl": "https://ibforum.org",
+        "title": "International Business Forum",
+        "description": [
+          "المنتدى الدولي للأعمال (IBF) منصة فعّالة لتطوير الأعمال على المستوى العالمي، تجمع رجال الأعمال والمستثمرين وممثلي القطاع العام من مختلف أنحاء العالم. ومن خلال هيكله الموجَّه نحو B2B وB2G، يُسهم في تطوير العلاقات التجارية بين الدول وتأسيس شراكات جديدة.",
+          "بفضل شبكة الاتصالات الدولية التي يوفرها IBF، تكتسب منظمات Müstakil Fuarcılık هيكلاً متكاملاً يمتد إلى ما هو أبعد من الأسواق المحلية ليشمل عالم الأعمال العالمي، مما يُتيح فرص أعمال مستدامة وذات قيمة مضافة عالية للشركات المشاركة."
+        ],
+        "link": "ibforum.org",
+        "date": "23–26 سبتمبر 2026",
+        "location": "إسطنبول، مركز إسطنبول للمعارض",
+        "activeBar": true
+      },
+      {
+        "logo": "B2B",
+        "logoColor": "#2a64c7",
+        "logoImage": "/images/MUSIAD_EXPO_2026_Logo.webp",
+        "linkUrl": "https://musiadexpo.com",
+        "title": "MÜSİAD Expo B2B",
+        "description": [
+          "يتيح تنظيم B2B المُقام في إطار MÜSİAD EXPO للشركات فرصة بناء علاقات أعمال مباشرة. وفي الدورة السابقة، أُجريت آلاف الاجتماعات المتخصصة مع وفد مشترين ضمّ 850 رجل أعمال أجنبي، ما أسفر عن مخرجات تجارية ملموسة للمشاركين.",
+          "وتستهدف هذه الدورة مشاركة أوسع وشبكات أعمال أكثر قوة."
+        ],
+        "link": "musiadexpo.com",
         "date": "23–26 سبتمبر 2026",
         "location": "إسطنبول، مركز إسطنبول للمعارض",
         "activeBar": true
@@ -568,22 +598,23 @@
     },
     "venueSectionTitle": "العنوان والخريطة",
     "venue": {
-      "title": "معلومات الاتصال بمركز إسطنبول للمعارض",
+      "title": "معلومات الاتصال بـ MÜSİAD",
       "address": [
-        "Yeşilköy Mah. Atatürk Cad. İstanbul Dünya Ticaret Merkezi No:10/1 A1 Blok",
-        "K:6 No:250 Bakırköy - İstanbul"
+        "Ataköy 7-8-9-10 Mah. Çobançeşme E5 Yanyol Cad. No:4",
+        "Bakırköy / İstanbul"
       ],
-      "phone": "+90 212 382 64 10",
-      "phoneRaw": "+902123826410",
-      "email": "info@musiadexpo.com",
-      "website": "www.mustakilfuarcilik.com",
-      "websiteUrl": "https://www.mustakilfuarcilik.com",
-      "mapUrl": "https://maps.google.com/?q=DTM+Istanbul+Fuar+Merkezi"
+      "phone": "+90 (212) 395 00 00",
+      "phoneRaw": "+902123950000",
+      "fax": "فاكس: +90 (212) 395 00 01",
+      "email": "satis@mustakilfuarcilik.com",
+      "website": "www.musiad.org.tr",
+      "websiteUrl": "https://www.musiad.org.tr",
+      "mapUrl": "https://www.google.com/maps/dir//M%C3%9CS%C4%B0AD+%7C+M%C3%BCstakil+Sanayici+ve+%C4%B0%C5%9Fadamlar%C4%B1+Derne%C4%9Fi,+Atak%C3%B6y+7-8-9-10+Mah,+%C3%87oban%C3%A7e%C5%9Fme,+Yan+Yol+No:4,+34158+Bak%C4%B1rk%C3%B6y/@41.0142768,28.7689758,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14cab0b40f1dbae5:0x5f5fe2246ed1aa6e!2m2!1d28.8247199!2d40.9923081?entry=ttu&g_ep=EgoyMDI2MDQyNi4wIKXMDSoASAFQAw%3D%3D"
     },
     "mapCard": {
       "label": "الموقع",
-      "title": "مركز إسطنبول للمعارض",
-      "text": "يمكنك فتح موقع مكان الفعالية على الخريطة وتحديد خطة زيارتك مباشرة عبر الاتجاهات.",
+      "title": "المقر الرئيسي لـ MÜSİAD",
+      "text": "يمكنك فتح موقع المقر الرئيسي لـ MÜSİAD على الخريطة وتحديد خطة زيارتك مباشرة عبر الاتجاهات.",
       "action": "افتح على الخريطة"
     },
     "sales": {
