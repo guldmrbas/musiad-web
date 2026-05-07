@@ -694,5 +694,48 @@
         "phone": "+91 11 0000 0000"
       }
     ]
+  },
+  "privacyPolicy": {
+    "hero": {
+      "title": "Gizlilik Politikası"
+    },
+    "intro": "Müstakil Fuarcılık A.Ş. olarak, web sitemizi ve mobil uygulamamızı kullanan ziyaretçi ve kullanıcılarımızın kişisel verilerini 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) başta olmak üzere yürürlükteki mevzuata uygun şekilde işliyoruz.",
+    "sections": [
+      {
+        "title": "1. Toplanan Veriler",
+        "paragraphs": [
+          "İletişim formları, etkinlik başvuruları ve mobil uygulama kayıt süreçleri kapsamında ad-soyad, e-posta, telefon, şirket bilgisi ve benzeri kimlik/iletişim verileri toplanabilir.",
+          "Teknik süreçlerde IP adresi, cihaz bilgisi, tarayıcı türü, oturum hareketleri ve çerez verileri gibi kullanım verileri işlenebilir."
+        ]
+      },
+      {
+        "title": "2. Verilerin Kullanım Amaçları",
+        "paragraphs": [
+          "Toplanan veriler; başvuru ve iletişim süreçlerini yürütmek, etkinlik ve organizasyon operasyonlarını yönetmek, kullanıcı deneyimini geliştirmek, teknik güvenliği sağlamak ve yasal yükümlülükleri yerine getirmek amacıyla işlenir."
+        ]
+      },
+      {
+        "title": "3. Verilerin Aktarılması",
+        "paragraphs": [
+          "Kişisel veriler, yalnızca hizmetin sunulması için gerekli olduğu ölçüde yetkili iş ortaklarına, teknik altyapı sağlayıcılarına ve mevzuat gereği yetkili kamu kurumlarına aktarılabilir.",
+          "Yurt dışına veri aktarımı gereken durumlarda, KVKK'nın ilgili maddelerine uygun güvenlik ve sözleşmesel tedbirler uygulanır."
+        ]
+      },
+      {
+        "title": "4. Saklama Süresi ve Güvenlik",
+        "paragraphs": [
+          "Kişisel veriler, işleme amacı için gerekli süre kadar ve ilgili mevzuatta öngörülen saklama süreleri boyunca muhafaza edilir.",
+          "Verilerin güvenliği için erişim kontrolü, şifreleme, yetkilendirme ve düzenli sistem denetimleri gibi teknik ve idari tedbirler uygulanır."
+        ]
+      },
+      {
+        "title": "5. Kullanıcı Hakları",
+        "paragraphs": [
+          "Kullanıcılar KVKK'nın 11. maddesi kapsamında kişisel verilerine ilişkin bilgi talep etme, düzeltme, silme, işleme itiraz etme ve aktarım hakkında bilgi alma haklarına sahiptir.",
+          "Bu talepler için satis@mustakilfuarcilik.com adresi üzerinden bizimle iletişime geçebilirsiniz."
+        ]
+      }
+    ],
+    "updatedAt": "Son güncelleme: 7 Mayıs 2026"
   }
 }

@@ -148,7 +148,7 @@ function Footer() {
               {bottom.policies.map((item, i) => (
                 <span key={item}>
                   {i > 0 && <span className="footer-bottom-sep"> | </span>}
-                  <a href="#">{item}</a>
+                  {i === 0 ? <NavLink to="/privacy-policy">{item}</NavLink> : <a href="#">{item}</a>}
                 </span>
               ))}
             </div>

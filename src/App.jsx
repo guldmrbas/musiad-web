@@ -6,6 +6,7 @@ import EventsPage from "./pages/EventsPage";
 import ConnectPage from "./pages/ConnectPage";
 import TravelPage from "./pages/TravelPage";
 import ContactPage from "./pages/ContactPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/connect" element={<ConnectPage />} />
         <Route path="/travel" element={<TravelPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
       </Route>
     </Routes>
   );

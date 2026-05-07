@@ -694,5 +694,48 @@
         "phone": "+91 11 0000 0000"
       }
     ]
+  },
+  "privacyPolicy": {
+    "hero": {
+      "title": "Privacy Policy"
+    },
+    "intro": "As Müstakil Fuarcılık A.Ş., we process personal data of users and visitors of our website and mobile application in line with applicable legislation, including the Turkish Personal Data Protection Law No. 6698 (KVKK).",
+    "sections": [
+      {
+        "title": "1. Data We Collect",
+        "paragraphs": [
+          "During contact forms, event applications, and mobile app registration processes, we may collect identity and contact data such as full name, email, phone number, and company information.",
+          "During technical operations, usage data such as IP address, device information, browser type, session activity, and cookie data may be processed."
+        ]
+      },
+      {
+        "title": "2. Purposes of Processing",
+        "paragraphs": [
+          "Collected data is processed to manage application and communication workflows, operate events and organization processes, improve user experience, maintain technical security, and fulfill legal obligations."
+        ]
+      },
+      {
+        "title": "3. Data Sharing",
+        "paragraphs": [
+          "Personal data may be shared only to the extent necessary with authorized business partners, technical infrastructure providers, and legally authorized public authorities.",
+          "Where international data transfer is required, security and contractual safeguards are applied in compliance with applicable KVKK provisions."
+        ]
+      },
+      {
+        "title": "4. Retention and Security",
+        "paragraphs": [
+          "Personal data is retained for as long as necessary for processing purposes and for the periods required by applicable law.",
+          "Technical and administrative measures such as access control, encryption, authorization, and regular system audits are implemented for data security."
+        ]
+      },
+      {
+        "title": "5. User Rights",
+        "paragraphs": [
+          "Under Article 11 of KVKK, users have rights to request information about their personal data, request correction or deletion, object to processing, and obtain information on transfers.",
+          "You can contact us at satis@mustakilfuarcilik.com for such requests."
+        ]
+      }
+    ],
+    "updatedAt": "Last update: May 7, 2026"
   }
 }
